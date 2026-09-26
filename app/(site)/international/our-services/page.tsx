@@ -95,10 +95,10 @@ export default function OurServicesPage() {
             <div className="order-2 md:order-1">
               <div className="grid grid-cols-2 gap-3">
                 {[
-                  "/assets/img/inter/02%20Services/02%20Hostel%20%26%20Residence/DSC09186.JPG",
-                  "/assets/img/inter/02%20Services/02%20Hostel%20%26%20Residence/DSC09192.JPG",
-                  "/assets/img/inter/02%20Services/02%20Hostel%20%26%20Residence/DSC09227.JPG",
-                  "/assets/img/inter/02%20Services/02%20Hostel%20%26%20Residence/DSC09272.JPG",
+                  "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790447447/sviet_assets/img/xu7kj15zrqpdxroffru6.jpg",
+                  "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790447445/sviet_assets/img/tqrvai1ctcnzh5wcbsa6.jpg",
+                  "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790447443/sviet_assets/img/n5c0j0vk6ukaelspzvhj.jpg",
+                  "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790447444/sviet_assets/img/enfartxnuvn9a3l99tua.jpg",
                 ].map((src, i) => (
                   <div
                     key={i}

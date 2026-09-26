@@ -592,10 +592,10 @@ export default function EntrepreneurshipPage() {
             <div>
               <div className="grid grid-cols-2 gap-3">
                 {[
-                  "/assets/img/inter/03%20Entrepreneurship%20%26%20Startup%20Support/05%20Beatbreakers/DSC09373.JPG",
-                  "/assets/img/inter/03%20Entrepreneurship%20%26%20Startup%20Support/05%20Beatbreakers/DSC09378.JPG",
-                  "/assets/img/inter/03%20Entrepreneurship%20%26%20Startup%20Support/05%20Beatbreakers/DSC09384.JPG",
-                  "/assets/img/inter/03%20Entrepreneurship%20%26%20Startup%20Support/05%20Beatbreakers/DSC09412.JPG",
+                  "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790447434/sviet_assets/img/c7ovcmsqmrpjgfpyyhiy.jpg",
+                  "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790447437/sviet_assets/img/o7xayic887vtkhxzmziv.jpg",
+                  "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790447433/sviet_assets/img/epi9pfozbkiprmtukrn5.jpg",
+                  "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790447436/sviet_assets/img/qb55hqckvfnoxmz3f6y7.jpg",
                 ].map((src, i) => (
                   <div
                     key={i}

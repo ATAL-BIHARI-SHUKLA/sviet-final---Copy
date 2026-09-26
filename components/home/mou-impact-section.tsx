@@ -52,7 +52,7 @@ const TAB_CARDS: MouCard[] = [
     name: "Codevision.io, Mohali",
     year: "2021",
     image:
-      "/assets/img/SVIET/SVIET%20Photos/Mou%20with%20HdWM%20%26%20IB/DSC03765.JPG",
+      "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790447425/sviet_assets/img/flyeewlqcxyefikmgwcu.jpg",
     type: "Technical Training",
     category: "Industry & IT",
   },
@@ -191,7 +191,7 @@ const TAB_CARDS: MouCard[] = [
     name: "Focus College, Canada",
     year: "2023",
     image:
-      "/assets/img/SVIET/SVIET%20Photos/Mou%20with%20HdWM%20%26%20IB/DSC03756.JPG",
+      "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790447423/sviet_assets/img/sucued6ta8swshbgtfly.jpg",
     type: "Student Exchange",
     category: "International",
   },
