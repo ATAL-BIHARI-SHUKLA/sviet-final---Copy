@@ -1,4 +1,4 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+﻿# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
 /node_modules
@@ -56,9 +56,205 @@ sviet-*.json
 
 # assets
 # Ignoring videos folder for now to send assets in two halves
-/public/assets/img/
 # /public/assets/videos/
+# /public/assets/img/
 
 # zip files
 *.zip
 sviet-media.zip
+
+# Ignored large media files (videos and >5MB images)
+*.mp4
+*.MP4
+*.mov
+*.MOV
+
+/public/assets/img/con1.JPG
+/public/assets/img/con2.JPG
+/public/assets/img/con3.JPG
+/public/assets/img/college/auditorium.png
+/public/assets/img/college/carrer.JPG
+/public/assets/img/college/main_gate.png
+/public/assets/img/college/management/ankur-sir.jpg
+/public/assets/img/college/management/ankurgupta.jpg
+/public/assets/img/college/management/ashok-sir.jpg
+/public/assets/img/college/management/ashwani-sir.jpg
+/public/assets/img/college/management/sahil-sir.jpg
+/public/assets/img/college/management/shubham-sir..jpg
+/public/assets/img/college/management/vishal-sir.jpg
+/public/assets/img/events/AI_Impact_Summit_2025/1.JPG
+/public/assets/img/events/AI_Impact_Summit_2025/2.JPG
+/public/assets/img/events/AI_Impact_Summit_2025/3.JPG
+/public/assets/img/events/AI_Impact_Summit_2025/4.JPG
+/public/assets/img/events/AI_Impact_Summit_2025/5.JPG
+/public/assets/img/events/AI_Impact_Summit_2025/6.JPG
+/public/assets/img/events/AI_Impact_Summit_2025/main.JPG
+/public/assets/img/events/BharatTech_Xperience_3.0/1.JPG
+/public/assets/img/events/BharatTech_Xperience_3.0/2.JPG
+/public/assets/img/events/BharatTech_Xperience_3.0/3.JPG
+/public/assets/img/events/BharatTech_Xperience_3.0/4.JPG
+/public/assets/img/events/BharatTech_Xperience_3.0/5.JPG
+/public/assets/img/events/BharatTech_Xperience_3.0/6.JPG
+/public/assets/img/events/BharatTech_Xperience_3.0/7.JPG
+/public/assets/img/events/BharatTech_Xperience_3.0/main.JPG
+/public/assets/img/events/Dev_fest/1.JPG
+/public/assets/img/events/Dev_fest/2.JPG
+/public/assets/img/events/Dev_fest/3.JPG
+/public/assets/img/events/Dev_fest/4.JPG
+/public/assets/img/events/Dev_fest/5.JPG
+/public/assets/img/events/Dev_fest/main.JPG
+/public/assets/img/events/Global_Futures_Summit_3.0/1.JPG
+/public/assets/img/events/Global_Futures_Summit_3.0/2.JPG
+/public/assets/img/events/Global_Futures_Summit_3.0/3.JPG
+/public/assets/img/events/Global_Futures_Summit_3.0/4.JPG
+/public/assets/img/events/Global_Futures_Summit_3.0/5.JPG
+/public/assets/img/events/Global_Futures_Summit_3.0/main.JPG
+/public/assets/img/events/Google_Ideate_3.0/1.JPG
+/public/assets/img/events/Google_Ideate_3.0/2.JPG
+/public/assets/img/events/Google_Ideate_3.0/3.JPG
+/public/assets/img/events/Google_Ideate_3.0/4.JPG
+/public/assets/img/events/Google_Ideate_3.0/5.JPG
+/public/assets/img/events/Google_Ideate_3.0/main.JPG
+/public/assets/img/events/ICMSRF/1.JPG
+/public/assets/img/events/ICMSRF/2.JPG
+/public/assets/img/events/ICMSRF/3.JPG
+/public/assets/img/events/ICMSRF/4.JPG
+/public/assets/img/events/ICMSRF/5.JPG
+/public/assets/img/events/ICMSRF/6.JPG
+/public/assets/img/events/ICMSRF/main.JPG
+/public/assets/img/events/Inkspire/1.JPG
+/public/assets/img/events/Inkspire/2.JPG
+/public/assets/img/events/Inkspire/3.JPG
+/public/assets/img/events/Inkspire/4.JPG
+/public/assets/img/events/Inkspire/5.JPG
+/public/assets/img/events/Inkspire/6.JPG
+/public/assets/img/events/Inkspire/main.JPG
+/public/assets/img/events/Lohri_2026/1.JPG
+/public/assets/img/events/Lohri_2026/2.JPG
+/public/assets/img/events/Lohri_2026/3.JPG
+/public/assets/img/events/Lohri_2026/4.JPG
+/public/assets/img/events/Lohri_2026/5.JPG
+/public/assets/img/events/Lohri_2026/main.JPG
+/public/assets/img/events/Spontania_2026/1.JPG
+/public/assets/img/events/Spontania_2026/2.JPG
+/public/assets/img/events/Spontania_2026/3.JPG
+/public/assets/img/events/Spontania_2026/4.JPG
+/public/assets/img/events/Spontania_2026/5.JPG
+/public/assets/img/events/Spontania_2026/6.JPG
+/public/assets/img/events/Spontania_2026/7.JPG
+/public/assets/img/events/Spontania_2026/8.JPG
+/public/assets/img/events/Spontania_2026/main.JPG
+/public/assets/img/events/Spontania_2026/tracer_band.JPG
+/public/assets/img/events/Sportiva_2026/1.JPG
+/public/assets/img/events/Sportiva_2026/2.JPG
+/public/assets/img/events/Sportiva_2026/3.JPG
+/public/assets/img/events/Sportiva_2026/4.JPG
+/public/assets/img/events/Sportiva_2026/5.JPG
+/public/assets/img/events/Sportiva_2026/main.JPG
+/public/assets/img/infrastructure/labs/1.JPG
+/public/assets/img/inter/INTERNATIONAL GLIMPSE 3 MIN.mp4
+/public/assets/img/inter/01 Collage, shubham sir, soni sir/Collage/Copy of DSC00050 (1).JPG
+/public/assets/img/inter/01 Collage, shubham sir, soni sir/Collage/DSC07057 (1).JPG
+/public/assets/img/inter/01 Collage, shubham sir, soni sir/Collage/DSC09384.JPG
+/public/assets/img/inter/01 Collage, shubham sir, soni sir/Collage/DSC09420.JPG
+/public/assets/img/inter/01 Collage, shubham sir, soni sir/Collage/IMG_1197.JPG
+/public/assets/img/inter/01 Collage, shubham sir, soni sir/Collage/IMG_3178.JPG
+/public/assets/img/inter/01 Collage, shubham sir, soni sir/Collage/IMG_8058.JPG
+/public/assets/img/inter/01 Collage, shubham sir, soni sir/Soni sir/DSC04598.JPG.jpeg
+/public/assets/img/inter/02 Services/01 STUDY IN INDIA PORTAL/apply-online-application-form-recruitment-concept.jpg
+/public/assets/img/inter/02 Services/02 Hostel & Residence/DSC09186.JPG
+/public/assets/img/inter/02 Services/02 Hostel & Residence/DSC09192.JPG
+/public/assets/img/inter/02 Services/02 Hostel & Residence/DSC09227.JPG
+/public/assets/img/inter/02 Services/02 Hostel & Residence/DSC09272.JPG
+/public/assets/img/inter/02 Services/04 Cultural Events & Activities/Christmas/IMG_2625.JPG
+/public/assets/img/inter/02 Services/04 Cultural Events & Activities/Football/IMG_8058.JPG
+/public/assets/img/inter/02 Services/04 Cultural Events & Activities/Football/IMG_8271.JPG
+/public/assets/img/inter/02 Services/04 Cultural Events & Activities/Football/IMG_8463.JPG
+/public/assets/img/inter/02 Services/04 Cultural Events & Activities/New folder/IMG_8134.JPG
+/public/assets/img/inter/02 Services/04 Cultural Events & Activities/New folder/IMG_8164.JPG
+/public/assets/img/inter/02 Services/04 Cultural Events & Activities/New folder/IMG_8178.JPG
+/public/assets/img/inter/02 Services/04 Cultural Events & Activities/New folder/IMG_8182.JPG
+/public/assets/img/inter/02 Services/04 Cultural Events & Activities/New folder/IMG_8189.JPG
+/public/assets/img/inter/02 Services/04 Cultural Events & Activities/New folder/IMG_8192.JPG
+/public/assets/img/inter/02 Services/04 Cultural Events & Activities/New folder/IMG_8195.JPG
+/public/assets/img/inter/02 Services/04 Cultural Events & Activities/ZIM Independence day/IMG_0829.JPG
+/public/assets/img/inter/02 Services/04 Cultural Events & Activities/ZIM Independence day/IMG_0871.JPG
+/public/assets/img/inter/02 Services/04 Cultural Events & Activities/ZIM Independence day/IMG_0874.JPG
+/public/assets/img/inter/02 Services/04 Cultural Events & Activities/ZIM Independence day/MVI_0809.MP4
+/public/assets/img/inter/02 Services/04 Cultural Events & Activities/ZIM Independence day/MVI_0811.MP4
+/public/assets/img/inter/02 Services/07 Academic Support & Assistance/IMG_2311.JPG
+/public/assets/img/inter/03 Entrepreneurship & Startup Support/01 Global Seed/3,A (Afro Masala)/GLOBAL SEED AFRO.mp4
+/public/assets/img/inter/03 Entrepreneurship & Startup Support/01 Global Seed/3,B (Salon)/GLOBAL SEED SALOON.mp4
+/public/assets/img/inter/03 Entrepreneurship & Startup Support/04 Faculty Exchange Program/LORENZ INTERN.mp4
+/public/assets/img/inter/03 Entrepreneurship & Startup Support/05 Beatbreakers/DSC09373.JPG
+/public/assets/img/inter/03 Entrepreneurship & Startup Support/05 Beatbreakers/DSC09378.JPG
+/public/assets/img/inter/03 Entrepreneurship & Startup Support/05 Beatbreakers/DSC09384.JPG
+/public/assets/img/inter/03 Entrepreneurship & Startup Support/05 Beatbreakers/DSC09412.JPG
+/public/assets/img/inter/Testimonies/WhatsApp Video 2026-06-08 at 11.13.59 AM.mp4
+/public/assets/img/inter/Testimonies/WhatsApp Video 2026-06-08 at 11.14.14 AM.mp4
+/public/assets/img/inter/Testimonies/WhatsApp Video 2026-06-08 at 11.14.35 AM.mp4
+/public/assets/img/inter/Testimonies/WhatsApp Video 2026-06-08 at 11.15.05 AM.mp4
+/public/assets/img/international/spotania-01.jpg
+/public/assets/img/international/zimfest-01.jpg
+/public/assets/img/international/zimfest-02.jpg
+/public/assets/img/section_card/AcademicSupportInternational.jpeg
+/public/assets/img/section_card/AlreadyJoin.JPG.jpeg
+/public/assets/img/section_card/AmanGupta.JPG.jpeg
+/public/assets/img/section_card/BharatTech.JPG.jpeg
+/public/assets/img/section_card/Convo.jpeg
+/public/assets/img/section_card/Convo2.jpeg
+/public/assets/img/section_card/Convo3.jpeg
+/public/assets/img/section_card/Cricket.jpeg
+/public/assets/img/section_card/Dev1.jpeg
+/public/assets/img/section_card/Dev3.jpeg
+/public/assets/img/section_card/Elevate.jpeg
+/public/assets/img/section_card/Elevate2.jpeg
+/public/assets/img/section_card/Elevate3.jpeg
+/public/assets/img/section_card/GFS3.JPG
+/public/assets/img/section_card/ISTE25.JPG.jpeg
+/public/assets/img/section_card/Kabbadi.jpeg
+/public/assets/img/section_card/Spont.jpeg
+/public/assets/img/section_card/Spont2.jpeg
+/public/assets/img/section_card/Spont3.jpeg
+/public/assets/img/section_card/Sportsmania.jpeg
+/public/assets/img/section_card/T&P MOU.jpeg
+/public/assets/img/section_card/TEDx.jpeg
+/public/assets/img/section_card/TEDx2.jpeg
+/public/assets/img/section_card/TEDx3.jpeg
+/public/assets/img/stu/Mantasha.png
+/public/assets/img/stu/Taniya.png
+/public/assets/img/SVCP/MOU Pics/Amicus Healthcare/20260116_21111PMByGPSMapCamera.jpg
+/public/assets/img/SVCP/MOU Pics/Amicus Healthcare/20260116_21119PMByGPSMapCamera.jpg
+/public/assets/img/SVCP/MOU Pics/Amicus Healthcare/ami.jpg
+/public/assets/img/SVCP/MOU Pics/Amicus Healthcare/GMC16012026_141016.jpg
+/public/assets/img/SVCP/MOU Pics/Amicus Healthcare/GMC16012026_141200.jpg
+/public/assets/img/SVCP/MOU Pics/Amicus Healthcare/GMC16012026_141203.jpg
+/public/assets/img/SVIET/SVIET Photos/Amcare/IMG_8485.JPG
+/public/assets/img/SVIET/SVIET Photos/Amcare/IMG_8497.JPG
+/public/assets/img/SVIET/SVIET Photos/Amcare/IMG_8501.JPG
+/public/assets/img/SVIET/SVIET Photos/Amcare/IMG_8508.JPG
+/public/assets/img/SVIET/SVIET Photos/Amcare/IMG_8513.JPG
+/public/assets/img/SVIET/SVIET Photos/Coder Roots/DSC00975.JPG
+/public/assets/img/SVIET/SVIET Photos/Coder Roots/DSC00985.JPG
+/public/assets/img/SVIET/SVIET Photos/Coder Roots/DSC00991.JPG
+/public/assets/img/SVIET/SVIET Photos/Coder Roots/DSC01037.JPG
+/public/assets/img/SVIET/SVIET Photos/Kreativan Technologies/DSC02285.JPG
+/public/assets/img/SVIET/SVIET Photos/Kreativan Technologies/DSC02286.JPG
+/public/assets/img/SVIET/SVIET Photos/Kreativan Technologies/DSC02314.JPG
+/public/assets/img/SVIET/SVIET Photos/Learning Roots/IMG_2002.JPG
+/public/assets/img/SVIET/SVIET Photos/Mou with HdWM & IB/DSC03756.JPG
+/public/assets/img/SVIET/SVIET Photos/Mou with HdWM & IB/DSC03765.JPG
+/public/assets/img/SVIET/SVIET Photos/Mou with HdWM & IB/DSC03777.JPG
+/public/assets/img/SVIET/SVIET Photos/Mou with HdWM & IB/DSC03785.JPG
+/public/assets/img/SVIET/SVIET Photos/Mou with HdWM & IB/DSC03789.JPG
+/public/assets/img/SVIET/SVIET Photos/MWIDM India Pvt. Ltd/DSC00221.JPG
+/public/assets/img/SVIET/SVIET Photos/MWIDM India Pvt. Ltd/DSC00262.JPG
+/public/assets/img/SVIET/SVIET Photos/MWIDM India Pvt. Ltd/DSC00285.JPG
+/public/assets/img/SVIET/SVIET Photos/MWIDM India Pvt. Ltd/DSC00326.JPG
+/public/assets/img/SVIET/SVIET Photos/MWIDM India Pvt. Ltd/DSC00342.JPG
+/public/assets/img/SVIET/SVIET Photos/MWIDM India Pvt. Ltd/DSC00367.JPG
+/public/assets/img/SVIET/SVIET Photos/Sortiq/DSC06587.JPG
+/public/assets/img/SVIET/SVIET Photos/Sortiq/DSC06601.JPG
+/public/assets/img/SVIET/SVIET Photos/Sortiq/DSC06639.JPG
+/public/assets/img/SVIET/SVIET Photos/Sortiq/DSC06648.JPG
+
