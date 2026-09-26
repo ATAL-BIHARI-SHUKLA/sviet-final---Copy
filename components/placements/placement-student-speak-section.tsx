@@ -7,21 +7,21 @@ import { useEffect, useRef, useState } from "react";
 const STUDENT_SPEAK_SLIDES = [
   {
     videoSrc:
-      "/assets/videos/byte/Another success story added to the legacy of SVGOI! Congratulations to our achievers for steppin.mp4",
+      "https://res.cloudinary.com/qbxjwpwp/video/upload/v1790446570/sviet_assets/rest/v2kaww7zjz4nxt1gtx4w.mp4",
     alt: "Student story: Aman Verma",
   },
   {
     videoSrc:
-      "/assets/videos/byte/Congratulations to all the students for securing placements in Grazitti Interactive, Step2gen &.mp4",
+      "https://res.cloudinary.com/qbxjwpwp/video/upload/v1790446576/sviet_assets/rest/sufrglohzhf3gd9z2syd.mp4",
     alt: "Student story: Nikhil Arora",
   },
   {
     videoSrc:
-      "/assets/videos/byte/Heartiest congratulations to Aryan, Pharmacy student, on securing his placement as Medical Repre.mp4",
+      "https://res.cloudinary.com/qbxjwpwp/video/upload/v1790446579/sviet_assets/rest/ilmpojvskmadfzcpl857.mp4",
     alt: "Student story: Riya Sharma",
   },
   {
-    videoSrc: "/assets/videos/byte/4.mp4",
+    videoSrc: "https://res.cloudinary.com/qbxjwpwp/video/upload/v1790446565/sviet_assets/rest/lxioovgbwbugzlvbzzdj.mp4",
     alt: "Student story: Simran Kaur",
   },
 ] as const;

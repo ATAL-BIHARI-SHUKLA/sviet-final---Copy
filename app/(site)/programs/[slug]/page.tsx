@@ -351,119 +351,119 @@ const SLUG_REDIRECTS: Record<string, string> = {
 
 const PROGRAM_HERO_IMAGES: Record<string, string> = {
   // Pharmacy
-  bpharmacy: "/assets/programs/pharmacy/pharm/Bpharma.jpg",
-  pharmad: "/assets/programs/pharmacy/pharmD/pharmd.jpg",
-  "mpharmacy-pharmaceutics": "/assets/programs/pharmacy/Mpharma/Mpharma.jpg",
-  "mpharmacy-pharmacology": "/assets/programs/pharmacy/Mpharma/Mpharma.jpg",
+  bpharmacy: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446537/sviet_assets/rest/j0j55brc2tytevyqqlmb.jpg",
+  pharmad: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446547/sviet_assets/rest/ybhjnzsaytp8yuhqfa4h.jpg",
+  "mpharmacy-pharmaceutics": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446534/sviet_assets/rest/jwsflovpeyzl6skdkcxc.jpg",
+  "mpharmacy-pharmacology": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446534/sviet_assets/rest/jwsflovpeyzl6skdkcxc.jpg",
   // Diploma
-  "diploma-in-pharmacy": "/assets/programs/pharmacy/diploma/Diploma.jpg",
-  "diploma-in-mechanical-engineering": "/assets/programs/diploma/me/me.jpg",
+  "diploma-in-pharmacy": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446529/sviet_assets/rest/gcv42guxihr1zjnylb5y.avif",
+  "diploma-in-mechanical-engineering": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446432/sviet_assets/rest/ah5nm4pvyppj716r7h24.jpg",
   "diploma-in-civil-engineering":
-    "/assets/programs/diploma/civil/civilheader.jpg",
-  "diploma-in-electrical-engineering": "/assets/programs/diploma/ee/ee.jpg",
+    "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446420/sviet_assets/rest/rybuxksorlw50h2wakx0.jpg",
+  "diploma-in-electrical-engineering": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446428/sviet_assets/rest/rdw1wmzbpmrtgr7z7awx.jpg",
   "diploma-computer-science-engineering":
-    "/assets/programs/diploma/cse/cse.jpg",
+    "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446423/sviet_assets/rest/ydweezeukwxrjsuakbty.jpg",
   "diploma-in-medical-lab-technology":
-    "/assets/programs/paramedical/DMLT/header.avif",
+    "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446503/sviet_assets/rest/e31prno30tkdogcyz5ls.avif",
   // B.Tech
-  "btech-civil-engineering": "/assets/programs/BTech/civil/CivilHeader.jpg",
+  "btech-civil-engineering": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446338/sviet_assets/rest/ybgfnxmczfgpgiyj4zhg.jpg",
   "btech-computer-science-engineering":
-    "/assets/programs/BTech/cse/CSEheader.jpg",
-  "btech-electrical-engineering": "/assets/programs/BTech/ee/EEheader.jpg",
+    "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446346/sviet_assets/rest/y6c9sgzd3onyxvvp8hyd.avif",
+  "btech-electrical-engineering": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446373/sviet_assets/rest/qb3kslby9pgfv0cmzrng.jpg",
   "btech-electronics-communication-engineering":
-    "/assets/programs/BTech/ece/Header.jpg",
-  "btech-mechanical-engineering": "/assets/programs/BTech/me/MEheader.jpg",
-  "btech-artificial-intelligence": "/assets/programs/BTech/cse/CSEheader.jpg",
+    "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446367/sviet_assets/rest/tcjjdnczabp8epjqhoix.avif",
+  "btech-mechanical-engineering": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446389/sviet_assets/rest/vqylqkwvmlz6ymnglzc5.jpg",
+  "btech-artificial-intelligence": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446346/sviet_assets/rest/y6c9sgzd3onyxvvp8hyd.avif",
   // M.Tech
-  "mtech-computer-science-engineering": "/assets/programs/MTech/cse/Header.jpg",
-  "mtech-mechanical-engineering": "/assets/programs/BTech/me/MEheader.jpg",
+  "mtech-computer-science-engineering": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446485/sviet_assets/rest/zgbr7kb25y03qmdti0xp.jpg",
+  "mtech-mechanical-engineering": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446389/sviet_assets/rest/vqylqkwvmlz6ymnglzc5.jpg",
   "mtech-electronics-communication-engineering":
-    "/assets/programs/MTech/ee/Header.jpg",
-  "mtech-civil-engineering": "/assets/programs/MTech/civil/header.avif",
+    "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446489/sviet_assets/rest/aomtv6odg4m9hilwlsqe.jpg",
+  "mtech-civil-engineering": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446480/sviet_assets/rest/wbibvyn6qam52mrzevs7.avif",
   // Computer Applications
   "master-of-computer-applications":
-    "/assets/programs/ComputerApp/MCA/software.avif",
+    "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446415/sviet_assets/rest/fnbg7zkrqzzpvjngbfge.avif",
   "bachelor-of-computer-applications":
-    "/assets/programs/ComputerApp/BCA/data.jpg",
+    "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446407/sviet_assets/rest/g9dcvjg39hfeiibueqlo.jpg",
   "post-graduate-diploma-in-computer-application":
-    "/assets/programs/ComputerApp/pgdca/programmer.avif",
+    "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446417/sviet_assets/rest/bsinga8zt7slln2isomg.avif",
   "bsc-information-technology":
-    "/assets/programs/ComputerApp/BscIt/software.jpg",
+    "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446412/sviet_assets/rest/vdnich2wbs1k5lyrzku2.jpg",
   "bachelor-of-arts-computer-science":
-    "/assets/programs/Education/Arts/tech.avif",
+    "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446437/sviet_assets/rest/z5e3oswqqgpzudzvclft.avif",
   // Management
-  "master-of-business-administration": "/assets/programs/Business/MBA/mba.jpg",
+  "master-of-business-administration": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446404/sviet_assets/rest/natuu0bauptuihbu3afi.avif",
   "bachelor-of-business-administration":
-    "/assets/programs/Business/BBA/bbaHeader.jpg",
+    "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446393/sviet_assets/rest/c0bp6n53y16av0qtm6dn.jpg",
   // Commerce
-  "master-of-commerce": "/assets/programs/Business/commerce/mcom.jpg",
-  "bachelor-of-commerce": "/assets/programs/Business/commerce/commerce.jpg",
+  "master-of-commerce": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446400/sviet_assets/rest/oruvy8hjygf3yemhhh4q.jpg",
+  "bachelor-of-commerce": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446397/sviet_assets/rest/wohhzpm1874iwfb1cnbr.avif",
   // Hotel Management
   "bachelor-of-hotel-management-catering-technology":
-    "/assets/programs/HM/catering/catering.jpg",
+    "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446458/sviet_assets/rest/uwjwmuotsmdrhehurux4.jpg",
   "master-of-hotel-management-catering-technology":
-    "/assets/programs/HM/mhmct/Mhmct.jpg",
-  "bvoc-hotel-management-catering": "/assets/programs/HM/BVoc/Bvoc.jpg",
-  "bsc-honors-in-nutrition-and-dietetics": "/assets/programs/HM/Bsc/header.jpg",
+    "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446473/sviet_assets/rest/ufs7r1qn3dhqk6xizzal.jpg",
+  "bvoc-hotel-management-catering": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446454/sviet_assets/rest/egv1bpos7dkknaiod06w.jpg",
+  "bsc-honors-in-nutrition-and-dietetics": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446449/sviet_assets/rest/ly64btgvfeaqrhavpgdj.jpg",
   // Medical Sciences & Allied Health
-  "bsc-medical-lab-sciences": "/assets/programs/paramedical/Lab/header.avif",
+  "bsc-medical-lab-sciences": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446507/sviet_assets/rest/eez0dp16h8dagctjproi.avif",
   "bsc-radiology-imaging-technology":
-    "/assets/programs/paramedical/Radiology/radiology.jpg",
-  "bsc-operation-theater-technology": "/assets/programs/paramedical/OT/ot.jpg",
+    "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446527/sviet_assets/rest/mnj62stxbfullm4ntwvb.jpg",
+  "bsc-operation-theater-technology": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446519/sviet_assets/rest/hzpnfodaiur0d9et4kjq.avif",
   "bsc-cardiac-care-technology":
-    "/assets/programs/paramedical/Cardiac/header.avif",
+    "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446500/sviet_assets/rest/sewokkzvmesxc0nfnkyy.avif",
   "bsc-hons-operation-theatre-technology":
-    "/assets/programs/paramedical/OT/ot.jpg",
+    "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446519/sviet_assets/rest/hzpnfodaiur0d9et4kjq.avif",
   "bsc-hons-anesthesia-technology":
-    "/assets/programs/paramedical/Anesthesia/anestehsia.jpg",
-  "bsc-hons-optometry": "/assets/programs/paramedical/Optometry/header.avif",
+    "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446493/sviet_assets/rest/efr1bhkpslq0ymbdi2io.jpg",
+  "bsc-hons-optometry": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446515/sviet_assets/rest/cardvojgsl9nifngbeie.avif",
   "msc-medical-lab-science-clinical-biochemistry":
-    "/assets/programs/paramedical/MLS/mls.jpg",
+    "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446512/sviet_assets/rest/phjufkzrazyt08di1kxj.jpg",
   "msc-anesthesia-operation-theater-technology":
-    "/assets/programs/paramedical/Anasthesia/anasthesia.jpg",
+    "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446491/sviet_assets/rest/cqg3kh2y2oylywzdhzmt.jpg",
   "bachelor-of-physiotherapy":
-    "/assets/programs/paramedical/Physiotherapy/header.avif",
+    "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446521/sviet_assets/rest/lv0jyivndt5ouzb2uvi8.avif",
   "msc-cardiac-care-technology":
-    "/assets/programs/paramedical/Cardiac/header.avif",
-  "msc-medical-microbiology": "/assets/programs/paramedical/Lab/header.avif",
+    "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446500/sviet_assets/rest/sewokkzvmesxc0nfnkyy.avif",
+  "msc-medical-microbiology": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446507/sviet_assets/rest/eez0dp16h8dagctjproi.avif",
   "msc-radiology-and-imaging-technology":
-    "/assets/programs/paramedical/Radiology/radiology.jpg",
+    "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446527/sviet_assets/rest/mnj62stxbfullm4ntwvb.jpg",
   "bachelor-in-hospital-administration":
-    "/assets/programs/paramedical/Lab/header.avif",
+    "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446507/sviet_assets/rest/eez0dp16h8dagctjproi.avif",
   "diploma-in-nursing-assistant":
-    "/assets/programs/paramedical/Lab/header.avif",
+    "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446507/sviet_assets/rest/eez0dp16h8dagctjproi.avif",
   // Science
-  "msc-physics": "/assets/programs/Science/Physics/header.avif",
-  "msc-math": "/assets/programs/Science/Maths/header.avif",
-  "msc-chemistry": "/assets/programs/Science/Chemistry/header.avif",
-  "bsc-non-medical": "/assets/programs/Science/Non-medical/header.avif",
+  "msc-physics": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446561/sviet_assets/rest/af47ipnkwshzmbwrf3au.avif",
+  "msc-math": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446553/sviet_assets/rest/bjbiyfnfqadoyzvtudvl.avif",
+  "msc-chemistry": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446551/sviet_assets/rest/lfghx2vgr4fly7jg04di.avif",
+  "bsc-non-medical": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446557/sviet_assets/rest/xqaqr2swt6fltenmhgwg.avif",
   // Arts & Education
-  "bachelor-of-arts": "/assets/programs/Education/BA/cultural.avif",
+  "bachelor-of-arts": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446439/sviet_assets/rest/ccy1yzxfnnxjnfm8sgxy.avif",
   "ba-journalism-and-mass-communication":
-    "/assets/programs/Education/BA/comms.avif",
-  "bachelor-in-education": "/assets/programs/Education/Bachelor/research.jpg",
-  "ma-education": "/assets/programs/Education/Masters/header.avif",
-  "masters-in-education": "/assets/programs/Education/Masters/header.avif",
+    "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446438/sviet_assets/rest/qrhnil80rlo6baftcw0f.avif",
+  "bachelor-in-education": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446441/sviet_assets/rest/nfjqlokjo7ywch4n3s5y.jpg",
+  "ma-education": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446443/sviet_assets/rest/kbccq27s2eulkrca4unz.avif",
+  "masters-in-education": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446443/sviet_assets/rest/kbccq27s2eulkrca4unz.avif",
   // Law
-  llb: "/assets/programs/Law/LLB/header.avif",
-  "b-a-l-l-b": "/assets/programs/Law/Bachelors/header.avif",
-  "ba-llb": "/assets/programs/Law/Bachelors/header.avif",
+  llb: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446479/sviet_assets/rest/vbobetbav3hln5ufl6ya.avif",
+  "b-a-l-l-b": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446478/sviet_assets/rest/vmt5we3d5kagktejkdi6.avif",
+  "ba-llb": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446478/sviet_assets/rest/vmt5we3d5kagktejkdi6.avif",
   // SVFTM variants (same images as main programs)
   "bachelor-of-computer-applications-svftm":
-    "/assets/programs/ComputerApp/BCA/data.jpg",
+    "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446407/sviet_assets/rest/g9dcvjg39hfeiibueqlo.jpg",
   "bachelor-of-business-administration-svftm":
-    "/assets/programs/Business/BBA/bbaHeader.jpg",
+    "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446393/sviet_assets/rest/c0bp6n53y16av0qtm6dn.jpg",
   "bsc-medical-lab-sciences-svftm":
-    "/assets/programs/paramedical/Lab/header.avif",
+    "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446507/sviet_assets/rest/eez0dp16h8dagctjproi.avif",
   "bsc-operation-theatre-technology-svftm":
-    "/assets/programs/paramedical/OT/ot.jpg",
+    "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446519/sviet_assets/rest/hzpnfodaiur0d9et4kjq.avif",
   "bsc-radiology-svftm":
-    "/assets/programs/paramedical/Radiology/radiology.jpg",
+    "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446527/sviet_assets/rest/mnj62stxbfullm4ntwvb.jpg",
   // SVCMT variants (same images as main programs)
   "bachelor-of-computer-applications-svcmt":
-    "/assets/programs/ComputerApp/BCA/data.jpg",
+    "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446407/sviet_assets/rest/g9dcvjg39hfeiibueqlo.jpg",
   "bachelor-of-business-administration-svcmt":
-    "/assets/programs/Business/BBA/bbaHeader.jpg",
+    "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446393/sviet_assets/rest/c0bp6n53y16av0qtm6dn.jpg",
 };
 
 // ─── Per-program content overrides ───────────────────────────────────────────

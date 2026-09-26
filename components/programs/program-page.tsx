@@ -49,8 +49,8 @@ type ProgramDetailPageProps = {
 // ─── Document links ───────────────────────────────────────────────────────────
 
 const DOCS = {
-  brochure: "/assets/docs/SVIET-Brochure-2025.pdf",
-  feeStructure: "/assets/docs/Fee_Structure2026.pdf",
+  brochure: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446666/sviet_assets/rest/tbrrwwco73t8etc08eho.pdf",
+  feeStructure: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446641/sviet_assets/rest/heppswjedfnzioqs7l8t.pdf",
   placementReport: "/assets/docs/placement-report.pdf",
 } as const;
 

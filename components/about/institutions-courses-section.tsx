@@ -37,11 +37,11 @@ const INSTITUTION_DOCUMENTS: Record<string, { label: string; href: string }[]> =
   svcmt: [
     {
       label: "Mandatory Disclosure",
-      href: "/assets/docs/Mandatory%20Disclosure%20SVCMT.pdf",
+      href: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446643/sviet_assets/rest/pkitegda2ocakvmgjt1y.pdf",
     },
     {
       label: "Committees",
-      href: "/assets/docs/Committees.pdf",
+      href: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446639/sviet_assets/rest/qw6qvspbi3vwv352g4ml.pdf",
     },
   ],
 };

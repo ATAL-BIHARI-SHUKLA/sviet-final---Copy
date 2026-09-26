@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 
-const VIDEO_SRC = "/assets/videos/sviet_vedio.mp4";
+const VIDEO_SRC = "https://res.cloudinary.com/qbxjwpwp/video/upload/v1790446633/sviet_assets/rest/pqqwxfeipfumqdosbo7o.mp4";
 
 export function AboutHeroVideoBackground() {
   const videoRef = useRef<HTMLVideoElement>(null);

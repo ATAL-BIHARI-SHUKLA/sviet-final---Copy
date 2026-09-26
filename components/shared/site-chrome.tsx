@@ -1423,7 +1423,7 @@ export function SiteFooter() {
                   { label: "SVGOI in your town", href: "/svgoi-in-town" },
                   {
                     label: "E-Brochure",
-                    href: "/assets/docs/SVIET-Brochure-2025.pdf",
+                    href: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446666/sviet_assets/rest/tbrrwwco73t8etc08eho.pdf",
                   },
                   {
                     label: "How to Apply",
