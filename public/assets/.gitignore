@@ -1,0 +1,906 @@
+# Ignore all currently existing legacy media files (now on Cloudinary)
+# But DO NOT ignore any new files added by developers
+
+/docs/Committees.pdf
+/docs/Fee_Structure2026.pdf
+/docs/Mandatory Disclosure SVCMT.pdf
+/docs/placement-report.pdf
+/docs/SVIET-Brochure-2025.pdf
+/img/accred/aicte.jpg
+/img/accred/ncte.jpg
+/img/accred/ugc.jpg
+/img/affliation/IKGPTU.webp
+/img/affliation/MRSPTU.webp
+/img/affliation/NCVT.webp
+/img/affliation/PSBTE.png
+/img/affliation/Punjabi_University.avif
+/img/ap_logs/1.png
+/img/ap_logs/4.png
+/img/ap_logs/8.png
+/img/ap_logs/bci.png
+/img/ap_logs/iste.jpg
+/img/ap_logs/NAAC.png
+/img/ap_logs/pci.png
+/img/awards/1st Runner-Up at Mrs. Himachal 2025 A.jpg
+/img/awards/1st Runner-Up at Mrs. Himachal 2025 B.jpg
+/img/awards/29th Elets World Education Summit 2024 AWARD.jpg
+/img/awards/2F RecognitionLetter.pdf
+/img/awards/3rd World Education & Business Conclave & Awards 2024/487032404_1125118346325857_811749101722748028_n.jpg
+/img/awards/3rd World Education & Business Conclave & Awards 2024/487072008_1125118556325836_2110804648108613286_n.jpg
+/img/awards/3rd World Education & Business Conclave & Awards 2024/487102853_1125118166325875_4343211062320838162_n.jpg
+/img/awards/3rd World Education & Business Conclave & Awards 2024/487508050_1125118249659200_7786513424327507524_n.jpg
+/img/awards/3rd World Education & Business Conclave & Awards 2024/487858134_1125118349659190_4886269811933456607_n.jpg
+/img/awards/Autonomous Letter.pdf
+/img/awards/Autonomous post.jpg
+/img/awards/Best Actor Award 1.jpg
+/img/awards/Best Actor Award 2.jpg
+/img/awards/Best Campus for Placement in North India.jpg
+/img/awards/Best Institution in North India.jpg
+/img/awards/CSR Ranking 2025.pdf
+/img/awards/DIGII100 Summit.pdf
+/img/awards/Educator Leader at the Educators Conclave.jpg
+/img/awards/Gold Medal.jpg
+/img/awards/International Academic Excellence Award 2025.pdf
+/img/awards/International Young Researcher Award.pdf
+/img/awards/ISO.pdf
+/img/awards/ISTE Best Faculty Chapter Award - SVIET 2025.jpg
+/img/awards/ISTE Best Student Award 2024.jpg
+/img/awards/ISTE Best Teacher award 2024.jpg
+/img/awards/ISTE North Zone Best Teacher award 2024.jpg
+/img/awards/ISTE Section Best Teacher Award 2025 A.jpeg
+/img/awards/ISTE Section Best Teacher Award 2025 B.jpg
+/img/awards/List of Awards, Rankings and Recognitions.xlsx
+/img/awards/Mr. Vishal Garg, Director Secretariat, receives prestigious recognition at the 35th Elets World Education Summit 2026, Dubai..jpg
+/img/awards/MSME Certificate.pdf
+/img/awards/NAAC Accreditation Certificate.jpg
+/img/awards/National Award for Best ISTE Chapter Chairman.jpg
+/img/awards/NPTEL Certificate.pdf
+/img/awards/Outstanding position in the Virtual Labs Ranking 1.jpg
+/img/awards/Overall Winner Trophy Youth Festival.jpg
+/img/awards/Permanent Affiliation by IKGPTU.pdf
+/img/awards/Ph.D. Course Work Approval (IKGPTU).pdf
+/img/awards/Prof. Ankur Gill.jpg
+/img/awards/SWAYAM NPTEL.jpeg
+/img/awards/UGC 2(f) Recognition.jpg
+/img/awards/Virtual Labs.jpeg
+/img/banner/accred.jpeg
+/img/banner/AddmissionBanner.jpeg
+/img/banner/awardsbanner.jpeg
+/img/banner/bannerplace.jpeg
+/img/banner/banner_home_place.jpeg
+/img/banner/banner_home_place2.jpeg
+/img/banner/eventbanner.jpeg
+/img/banner/international.jpeg
+/img/banner/interplay.jpeg
+/img/banner/leadership.jpeg
+/img/banner/processform.png
+/img/banner/s60.jpeg
+/img/banner/sviet-tag.jpeg
+/img/banner/uniq11.jpg
+/img/bg.png
+/img/block1.webp
+/img/block2.webp
+/img/block3.webp
+/img/campus-life/audi.png
+/img/campus-life/image1.png
+/img/campus-life/image2.png
+/img/campus-life/image3.png
+/img/campus-life/image4.png
+/img/campus-life/r1c1.png
+/img/campus-life/r1c2.png
+/img/campus-life/r2c1.png
+/img/campus-life/r2c2.png
+/img/campus-life/r2c3.png
+/img/campus-life/r3c1.png
+/img/campus-life/r3c2.png
+/img/club/cc.png
+/img/club/GDGC.png
+/img/club/gfg.jpg
+/img/club/IEEE.jpg
+/img/club/mlsa.webp
+/img/college/1st.png
+/img/college/4th.png
+/img/college/8th.png
+/img/college/admin.png
+/img/college/auditorium.png
+/img/college/banner_95.png
+/img/college/carrer.JPG
+/img/college/dl.png
+/img/college/Dr_Ashok.jpg
+/img/college/Dr_Damit.jpg
+/img/college/Dr_Meenakshi.jpg
+/img/college/Dr_Swikriti.jpg
+/img/college/elets.png
+/img/college/faculty.JPG
+/img/college/global_recognition.png
+/img/college/guests/aman_gupta.png
+/img/college/guests/anand_kumar_sir.png
+/img/college/guests/ashneer_groveer.png
+/img/college/guests/pkdesaisir.jpeg
+/img/college/guests/rajeev_ahuja_sir.jpg.jpeg
+/img/college/guests/susheel_mital_sir.jpg.jpeg
+/img/college/lab.jpeg
+/img/college/main.jpeg
+/img/college/main_gate.png
+/img/college/management/ankur-sir.jpg
+/img/college/management/ankurgupta.jpg
+/img/college/management/ashok-sir.jpg
+/img/college/management/ashwani-sir.jpg
+/img/college/management/sahil-sir.jpg
+/img/college/management/shubham-sir..jpg
+/img/college/management/vishal-sir.jpg
+/img/college/Ms_Eshna.jpg
+/img/college/scholarship.png
+/img/companies/accenture.png
+/img/companies/amazon.png
+/img/companies/Bajaj_Auto_Ltd_logo.svg.png
+/img/companies/bebo.png
+/img/companies/boa.webp
+/img/companies/cc.png
+/img/companies/chetu.png
+/img/companies/credflow-logo.png
+/img/companies/dabur.png
+/img/companies/escalon.png
+/img/companies/fisco.png
+/img/companies/grazetti.jpg
+/img/companies/HDFC.webp
+/img/companies/jio_digital.png
+/img/companies/mamsys.png
+/img/companies/park-hospital-logo.webp
+/img/companies/pysoft_logo.jpg
+/img/companies/rapoido logo.png
+/img/companies/reliance.webp
+/img/companies/sopra.png
+/img/companies/tata.webp
+/img/companies/wipro.png
+/img/con1.JPG
+/img/con2.JPG
+/img/con3.JPG
+/img/contact.jpg
+/img/corporate connect/cc-3.jpg
+/img/corporate connect/cc-4.jpg
+/img/corporate connect/cc-5.jpg
+/img/corporate connect/corp2.jpg
+/img/corporate connect/corporate_connect.jpg
+/img/corporate connect/corporate_connect1.jpg
+/img/events/AI_Impact_Summit_2025/1.JPG
+/img/events/AI_Impact_Summit_2025/2.JPG
+/img/events/AI_Impact_Summit_2025/3.JPG
+/img/events/AI_Impact_Summit_2025/4.JPG
+/img/events/AI_Impact_Summit_2025/5.JPG
+/img/events/AI_Impact_Summit_2025/6.JPG
+/img/events/AI_Impact_Summit_2025/main.JPG
+/img/events/BharatTech_Xperience_3.0/1.JPG
+/img/events/BharatTech_Xperience_3.0/2.JPG
+/img/events/BharatTech_Xperience_3.0/3.JPG
+/img/events/BharatTech_Xperience_3.0/4.JPG
+/img/events/BharatTech_Xperience_3.0/5.JPG
+/img/events/BharatTech_Xperience_3.0/6.JPG
+/img/events/BharatTech_Xperience_3.0/7.JPG
+/img/events/BharatTech_Xperience_3.0/main.JPG
+/img/events/Dev_fest/1.JPG
+/img/events/Dev_fest/2.JPG
+/img/events/Dev_fest/3.JPG
+/img/events/Dev_fest/4.JPG
+/img/events/Dev_fest/5.JPG
+/img/events/Dev_fest/main.JPG
+/img/events/Global_Futures_Summit_3.0/1.JPG
+/img/events/Global_Futures_Summit_3.0/2.JPG
+/img/events/Global_Futures_Summit_3.0/3.JPG
+/img/events/Global_Futures_Summit_3.0/4.JPG
+/img/events/Global_Futures_Summit_3.0/5.JPG
+/img/events/Global_Futures_Summit_3.0/main.JPG
+/img/events/Google_Ideate_3.0/1.JPG
+/img/events/Google_Ideate_3.0/2.JPG
+/img/events/Google_Ideate_3.0/3.JPG
+/img/events/Google_Ideate_3.0/4.JPG
+/img/events/Google_Ideate_3.0/5.JPG
+/img/events/Google_Ideate_3.0/main.JPG
+/img/events/ICMSRF/1.JPG
+/img/events/ICMSRF/2.JPG
+/img/events/ICMSRF/3.JPG
+/img/events/ICMSRF/4.JPG
+/img/events/ICMSRF/5.JPG
+/img/events/ICMSRF/6.JPG
+/img/events/ICMSRF/main.JPG
+/img/events/Inkspire/1.JPG
+/img/events/Inkspire/2.JPG
+/img/events/Inkspire/3.JPG
+/img/events/Inkspire/4.JPG
+/img/events/Inkspire/5.JPG
+/img/events/Inkspire/6.JPG
+/img/events/Inkspire/main.JPG
+/img/events/Lohri_2026/1.JPG
+/img/events/Lohri_2026/2.JPG
+/img/events/Lohri_2026/3.JPG
+/img/events/Lohri_2026/4.JPG
+/img/events/Lohri_2026/5.JPG
+/img/events/Lohri_2026/main.JPG
+/img/events/Spontania_2026/1.JPG
+/img/events/Spontania_2026/2.JPG
+/img/events/Spontania_2026/3.JPG
+/img/events/Spontania_2026/4.JPG
+/img/events/Spontania_2026/5.JPG
+/img/events/Spontania_2026/6.JPG
+/img/events/Spontania_2026/7.JPG
+/img/events/Spontania_2026/8.JPG
+/img/events/Spontania_2026/main.JPG
+/img/events/Spontania_2026/tracer_band.JPG
+/img/events/Sportiva_2026/1.JPG
+/img/events/Sportiva_2026/2.JPG
+/img/events/Sportiva_2026/3.JPG
+/img/events/Sportiva_2026/4.JPG
+/img/events/Sportiva_2026/5.JPG
+/img/events/Sportiva_2026/main.JPG
+/img/fest.jpg
+/img/flags/Flag-Cameroon.webp
+/img/flags/Flag-Cote-dIvoire.webp
+/img/flags/Flag-Guinea.webp
+/img/flags/Flag-Malawi.webp
+/img/flags/Flag-Zimbabwe.webp
+/img/flags/Flag_of_Austria.webp
+/img/flags/Flag_of_Egypt.svg
+/img/flags/Flag_of_Ghana.svg
+/img/flags/Flag_of_Kenya.webp
+/img/flags/Flag_of_Lesotho.png
+/img/flags/Flag_of_Liberia.png
+/img/flags/Flag_of_Mali.png
+/img/flags/Flag_of_Mozambique.svg
+/img/flags/Flag_of_Nigeria.png
+/img/flags/Flag_of_Rwanda.png
+/img/flags/Flag_of_South_Sudan.png
+/img/flags/Flag_of_Sudan.png
+/img/flags/Flag_of_Tanzania.webp
+/img/flags/Flag_of_Thailand_(CMYK).png
+/img/flags/Flag_of_Uganda.png
+/img/flags/Flag_of_Yemen.png
+/img/flags/Flag_of_Zambia.png
+/img/impunjab.png
+/img/infrastructure/buildings/admin.jpg
+/img/infrastructure/buildings/audi.jpg
+/img/infrastructure/buildings/canteen.jpg
+/img/infrastructure/buildings/civil labs.jpg
+/img/infrastructure/buildings/coorporate_in_campus.jpg
+/img/infrastructure/buildings/cse.jpg
+/img/infrastructure/buildings/hostel.jpg
+/img/infrastructure/buildings/mechanical_eng.jpg
+/img/infrastructure/buildings/pharmacy_block.jpg
+/img/infrastructure/labs/1.JPG
+/img/infrastructure/labs/lab2.jpg
+/img/infrastructure/labs/the_unique.jpg
+/img/inter/01 Collage, shubham sir, soni sir/Collage/Copy of DSC00050 (1).JPG
+/img/inter/01 Collage, shubham sir, soni sir/Collage/DSC07057 (1).JPG
+/img/inter/01 Collage, shubham sir, soni sir/Collage/DSC09384.JPG
+/img/inter/01 Collage, shubham sir, soni sir/Collage/DSC09420.JPG
+/img/inter/01 Collage, shubham sir, soni sir/Collage/IMG_1197.JPG
+/img/inter/01 Collage, shubham sir, soni sir/Collage/IMG_3178.JPG
+/img/inter/01 Collage, shubham sir, soni sir/Collage/IMG_4007.HEIC
+/img/inter/01 Collage, shubham sir, soni sir/Collage/IMG_4039.HEIC
+/img/inter/01 Collage, shubham sir, soni sir/Collage/IMG_4048.HEIC
+/img/inter/01 Collage, shubham sir, soni sir/Collage/IMG_5203.JPG
+/img/inter/01 Collage, shubham sir, soni sir/Collage/IMG_6766.HEIC
+/img/inter/01 Collage, shubham sir, soni sir/Collage/IMG_8058.JPG
+/img/inter/01 Collage, shubham sir, soni sir/Collage/WhatsApp Image 2025-12-05 at 10.08.19_39ccc263.jpg
+/img/inter/01 Collage, shubham sir, soni sir/Collage/WhatsApp Image 2025-12-05 at 10.08.21_ccb679bd.jpg
+/img/inter/01 Collage, shubham sir, soni sir/Collage/WhatsApp Image 2025-12-05 at 10.08.22_1c27c32f.jpg
+/img/inter/01 Collage, shubham sir, soni sir/Collage/WhatsApp Image 2025-12-06 at 10.24.50_11a6d279.jpg
+/img/inter/01 Collage, shubham sir, soni sir/Collage/WhatsApp Image 2025-12-06 at 10.24.50_1f52fdb5.jpg
+/img/inter/01 Collage, shubham sir, soni sir/Shubham sir/SHUBHAM SIR.jpeg
+/img/inter/01 Collage, shubham sir, soni sir/Soni sir/DSC04598.JPG.jpeg
+/img/inter/01 Collage, shubham sir, soni sir/Soni sir/soni sir.jpg
+/img/inter/02 Services/01 STUDY IN INDIA PORTAL/apply-online-application-form-recruitment-concept.jpg
+/img/inter/02 Services/01 STUDY IN INDIA PORTAL/image.webp
+/img/inter/02 Services/02 Hostel & Residence/DSC09186.JPG
+/img/inter/02 Services/02 Hostel & Residence/DSC09192.JPG
+/img/inter/02 Services/02 Hostel & Residence/DSC09227.JPG
+/img/inter/02 Services/02 Hostel & Residence/DSC09272.JPG
+/img/inter/02 Services/03 FRRO Registration/ChatGPT Image Jun 6, 2026, 12_28_23 PM.png
+/img/inter/02 Services/03 FRRO Registration/ChatGPT Image Jun 6, 2026, 12_31_48 PM.png
+/img/inter/02 Services/04 Cultural Events & Activities/Christmas/IMG_2625.JPG
+/img/inter/02 Services/04 Cultural Events & Activities/Christmas/WhatsApp_Image_2026-06-06_at_2.14.20_PM.jpeg
+/img/inter/02 Services/04 Cultural Events & Activities/Christmas/WhatsApp_Image_2026-06-06_at_2.14.22_PM.jpeg
+/img/inter/02 Services/04 Cultural Events & Activities/Christmas/WhatsApp_Image_2026-06-06_at_2.14.23_PM.jpeg
+/img/inter/02 Services/04 Cultural Events & Activities/Football/IMG_8058.JPG
+/img/inter/02 Services/04 Cultural Events & Activities/Football/IMG_8271.JPG
+/img/inter/02 Services/04 Cultural Events & Activities/Football/IMG_8463.JPG
+/img/inter/02 Services/04 Cultural Events & Activities/New folder/IMG_8134.JPG
+/img/inter/02 Services/04 Cultural Events & Activities/New folder/IMG_8164.JPG
+/img/inter/02 Services/04 Cultural Events & Activities/New folder/IMG_8178.JPG
+/img/inter/02 Services/04 Cultural Events & Activities/New folder/IMG_8182.JPG
+/img/inter/02 Services/04 Cultural Events & Activities/New folder/IMG_8189.JPG
+/img/inter/02 Services/04 Cultural Events & Activities/New folder/IMG_8192.JPG
+/img/inter/02 Services/04 Cultural Events & Activities/New folder/IMG_8195.JPG
+/img/inter/02 Services/04 Cultural Events & Activities/ZIM Independence day/IMG_0829.JPG
+/img/inter/02 Services/04 Cultural Events & Activities/ZIM Independence day/IMG_0871.JPG
+/img/inter/02 Services/04 Cultural Events & Activities/ZIM Independence day/IMG_0874.JPG
+/img/inter/02 Services/04 Cultural Events & Activities/ZIM Independence day/MVI_0809.MP4
+/img/inter/02 Services/04 Cultural Events & Activities/ZIM Independence day/MVI_0811.MP4
+/img/inter/02 Services/05 Travel Assistance/WhatsApp Image 2026-04-29 at 1.39.33 PM.jpeg
+/img/inter/02 Services/05 Travel Assistance/WhatsApp Image 2026-05-04 at 5.51.07 PM.jpeg
+/img/inter/02 Services/05 Travel Assistance/WhatsApp Image 2026-05-16 at 6.06.09 PM.jpeg
+/img/inter/02 Services/06 Students Welfare/0.png
+/img/inter/02 Services/07 Academic Support & Assistance/IMG_2311.JPG
+/img/inter/02 Services/07 Academic Support & Assistance/IMG_4042.HEIC
+/img/inter/02 Services/07 Academic Support & Assistance/IMG_4045.HEIC
+/img/inter/03 Entrepreneurship & Startup Support/01 Global Seed/3,A (Afro Masala)/GLOBAL_SEED_AFRO.mp4
+/img/inter/03 Entrepreneurship & Startup Support/01 Global Seed/3,A (Afro Masala)/WhatsApp_Image_2026-05-06_at_11.0.49_AM.jpeg
+/img/inter/03 Entrepreneurship & Startup Support/01 Global Seed/3,A (Afro Masala)/WhatsApp_Image_2026-05-06_at_11.10..jpeg
+/img/inter/03 Entrepreneurship & Startup Support/01 Global Seed/3,A (Afro Masala)/WhatsApp_Image_2026-05-06_at_11.10.4.jpeg
+/img/inter/03 Entrepreneurship & Startup Support/01 Global Seed/3,A (Afro Masala)/WhatsApp_Image_2026-05-06_at_11.10.46_AM.jpeg
+/img/inter/03 Entrepreneurship & Startup Support/01 Global Seed/3,A (Afro Masala)/WhatsApp_Image_2026-05-06_at_11.10.47_.jpeg
+/img/inter/03 Entrepreneurship & Startup Support/01 Global Seed/3,A (Afro Masala)/WhatsApp_Image_2026-05-06_at_11.10.47_AM.jpeg
+/img/inter/03 Entrepreneurship & Startup Support/01 Global Seed/3,A (Afro Masala)/WhatsApp_Image_2026-05-06_at_11.10.50_.jpeg
+/img/inter/03 Entrepreneurship & Startup Support/01 Global Seed/3,A (Afro Masala)/WhatsApp_Image_2026-05-06_at_11.10.50_AM.jpeg
+/img/inter/03 Entrepreneurship & Startup Support/01 Global Seed/3,A (Afro Masala)/WhatsApp_Image_2026-05-06_at_11.10.51_AM.jpeg
+/img/inter/03 Entrepreneurship & Startup Support/01 Global Seed/3,B (Salon)/GLOBAL_SEED_SALOON.mp4
+/img/inter/03 Entrepreneurship & Startup Support/01 Global Seed/3,B (Salon)/WhatsApp_Image_2026-05-06_at_11.10.26_AM.jpeg
+/img/inter/03 Entrepreneurship & Startup Support/01 Global Seed/3,B (Salon)/WhatsApp_Image_2026-05-06_at_11.10.27_AM.jpeg
+/img/inter/03 Entrepreneurship & Startup Support/01 Global Seed/3,B (Salon)/WhatsApp_Image_2026-05-06_at_11.10.27_AM_1_.jpeg
+/img/inter/03 Entrepreneurship & Startup Support/01 Global Seed/3,B (Salon)/WhatsApp_Image_2026-05-06_at_11.10.27_AM_2_.jpeg
+/img/inter/03 Entrepreneurship & Startup Support/01 Global Seed/3,B (Salon)/WhatsApp_Image_2026-05-06_at_11.10.27_AM_3_.jpeg
+/img/inter/03 Entrepreneurship & Startup Support/01 Global Seed/3,B (Salon)/WhatsApp_Image_2026-05-06_at_11.10.28_AM.jpeg
+/img/inter/03 Entrepreneurship & Startup Support/01 Global Seed/3,B (Salon)/WhatsApp_Image_2026-05-06_at_11.10.28_AM_1_.jpeg
+/img/inter/03 Entrepreneurship & Startup Support/01 Global Seed/3,B (Salon)/WhatsApp_Image_2026-05-06_at_11.10.29_AM.jpeg
+/img/inter/03 Entrepreneurship & Startup Support/01 Global Seed/3,B (Salon)/WhatsApp_Image_2026-05-06_at_11.10.29_AM_1_.jpeg
+/img/inter/03 Entrepreneurship & Startup Support/01 Global Seed/3,B (Salon)/WhatsApp_Image_2026-05-06_at_11.10.29_AM_2_.jpeg
+/img/inter/03 Entrepreneurship & Startup Support/01 Global Seed/3,B (Salon)/WhatsApp_Image_2026-05-06_at_11.10.30_AM.jpeg
+/img/inter/03 Entrepreneurship & Startup Support/01 Global Seed/3,B (Salon)/WhatsApp_Image_2026-05-06_at_11.10.30_AM_1_.jpeg
+/img/inter/03 Entrepreneurship & Startup Support/01 Global Seed/3,B (Salon)/WhatsApp_Image_2026-05-06_at_11.10.30_AM_2_.jpeg
+/img/inter/03 Entrepreneurship & Startup Support/01 Global Seed/3,B (Salon)/WhatsApp_Image_2026-05-06_at_11.10.31_AM.jpeg
+/img/inter/03 Entrepreneurship & Startup Support/01 Global Seed/3,B (Salon)/WhatsApp_Image_2026-05-06_at_11.10.31_AM_1_.jpeg
+/img/inter/03 Entrepreneurship & Startup Support/01 Global Seed/3,B (Salon)/WhatsApp_Image_2026-05-06_at_11.10.31_AM_2_.jpeg
+/img/inter/03 Entrepreneurship & Startup Support/01 Global Seed/3,B (Salon)/WhatsApp_Image_2026-05-06_at_11.10.32_AM.jpeg
+/img/inter/03 Entrepreneurship & Startup Support/01 Global Seed/3,B (Salon)/WhatsApp_Image_2026-05-06_at_11.10.32_AM_1_.jpeg
+/img/inter/03 Entrepreneurship & Startup Support/01 Global Seed/3,B (Salon)/WhatsApp_Image_2026-05-06_at_11.10.32_AM_2_.jpeg
+/img/inter/03 Entrepreneurship & Startup Support/01 Global Seed/3,B (Salon)/WhatsApp_Image_2026-05-06_at_11.10.32_AM_3_.jpeg
+/img/inter/03 Entrepreneurship & Startup Support/01 Global Seed/3,B (Salon)/WhatsApp_Image_2026-05-06_at_11.10.33_AM.jpeg
+/img/inter/03 Entrepreneurship & Startup Support/01 Global Seed/GLOBAL_SEED_LOGO.png
+/img/inter/03 Entrepreneurship & Startup Support/02 Earn while learn/Earn_while_Learn.png
+/img/inter/03 Entrepreneurship & Startup Support/02 Earn while learn/IMG_9762.jpg
+/img/inter/03 Entrepreneurship & Startup Support/02 Earn while learn/IMG_9782.jpg
+/img/inter/03 Entrepreneurship & Startup Support/02 Earn while learn/WhatsApp_Image_2026-06-06_at_2.14.17_PM.jpeg
+/img/inter/03 Entrepreneurship & Startup Support/02 Earn while learn/WhatsApp_Image_2026-06-06_at_2.14.19_PM.jpeg
+/img/inter/03 Entrepreneurship & Startup Support/03 INTERVENTS/._OWEN.jpg
+/img/inter/03 Entrepreneurship & Startup Support/03 INTERVENTS/._WhatsApp Image 2026-06-08 at 10.31.08 AM.jpeg
+/img/inter/03 Entrepreneurship & Startup Support/03 INTERVENTS/._WhatsApp Image 2026-06-08 at 10.31.09 AM (1).jpeg
+/img/inter/03 Entrepreneurship & Startup Support/03 INTERVENTS/._WhatsApp Image 2026-06-08 at 10.31.09 AM (2).jpeg
+/img/inter/03 Entrepreneurship & Startup Support/03 INTERVENTS/._WhatsApp Image 2026-06-08 at 10.31.09 AM.jpeg
+/img/inter/03 Entrepreneurship & Startup Support/03 INTERVENTS/._WhatsApp Image 2026-06-08 at 10.31.10 AM (1).jpeg
+/img/inter/03 Entrepreneurship & Startup Support/03 INTERVENTS/._WhatsApp Image 2026-06-08 at 10.31.10 AM.jpeg
+/img/inter/03 Entrepreneurship & Startup Support/03 INTERVENTS/intervents-removebg-preview.png
+/img/inter/03 Entrepreneurship & Startup Support/03 INTERVENTS/OWEN.jpg
+/img/inter/03 Entrepreneurship & Startup Support/03 INTERVENTS/WhatsApp_Image_2026-06-08_at_10.31.08_AM.jpeg
+/img/inter/03 Entrepreneurship & Startup Support/03 INTERVENTS/WhatsApp_Image_2026-06-08_at_10.31.09_AM.jpeg
+/img/inter/03 Entrepreneurship & Startup Support/03 INTERVENTS/WhatsApp_Image_2026-06-08_at_10.31.09_AM_1_.jpeg
+/img/inter/03 Entrepreneurship & Startup Support/03 INTERVENTS/WhatsApp_Image_2026-06-08_at_10.31.09_AM_2_.jpeg
+/img/inter/03 Entrepreneurship & Startup Support/03 INTERVENTS/WhatsApp_Image_2026-06-08_at_10.31.10_AM.jpeg
+/img/inter/03 Entrepreneurship & Startup Support/03 INTERVENTS/WhatsApp_Image_2026-06-08_at_10.31.10_AM_1_.jpeg
+/img/inter/03 Entrepreneurship & Startup Support/04 Faculty Exchange Program/01Refrance_image.png
+/img/inter/03 Entrepreneurship & Startup Support/04 Faculty Exchange Program/481282101_1103452121825813_5481451174076530903_n.jpg
+/img/inter/03 Entrepreneurship & Startup Support/04 Faculty Exchange Program/482225338_1106414794862879_466762468571305345_n.jpg
+/img/inter/03 Entrepreneurship & Startup Support/04 Faculty Exchange Program/486406024_1120487196788972_3655098940765369689_n.jpg
+/img/inter/03 Entrepreneurship & Startup Support/04 Faculty Exchange Program/LORENZ_INTERN.mp4
+/img/inter/03 Entrepreneurship & Startup Support/04 Faculty Exchange Program/WhatsApp_Image_2025-12-05_at_10.08.17_b406bc4b.jpg
+/img/inter/03 Entrepreneurship & Startup Support/04 Faculty Exchange Program/WhatsApp_Image_2025-12-05_at_10.08.17_c375b45e.jpg
+/img/inter/03 Entrepreneurship & Startup Support/04 Faculty Exchange Program/WhatsApp_Image_2025-12-05_at_10.08.20_81461307.jpg
+/img/inter/03 Entrepreneurship & Startup Support/04 Faculty Exchange Program/WhatsApp_Image_2025-12-05_at_11.04.59_36b1253b.jpg
+/img/inter/03 Entrepreneurship & Startup Support/04 Faculty Exchange Program/WhatsApp_Image_2025-12-05_at_11.04.59_5b38970b.jpg
+/img/inter/03 Entrepreneurship & Startup Support/04 Faculty Exchange Program/WhatsApp_Image_2025-12-05_at_11.04.59_a3ff2f51.jpg
+/img/inter/03 Entrepreneurship & Startup Support/04 Faculty Exchange Program/WhatsApp_Image_2025-12-05_at_11.05.00_b25aa715.jpg
+/img/inter/03 Entrepreneurship & Startup Support/04 Faculty Exchange Program/WhatsApp_Image_2025-12-05_at_11.05.11_0036a178.jpg
+/img/inter/03 Entrepreneurship & Startup Support/04 Faculty Exchange Program/WhatsApp_Image_2025-12-06_at_10.52.02_0476a8fd.jpg
+/img/inter/03 Entrepreneurship & Startup Support/05 Beatbreakers/beat_breakers-removebg-preview.png
+/img/inter/03 Entrepreneurship & Startup Support/05 Beatbreakers/DSC09373.JPG
+/img/inter/03 Entrepreneurship & Startup Support/05 Beatbreakers/DSC09378.JPG
+/img/inter/03 Entrepreneurship & Startup Support/05 Beatbreakers/DSC09384.JPG
+/img/inter/03 Entrepreneurship & Startup Support/05 Beatbreakers/DSC09412.JPG
+/img/inter/INTERNATIONAL GLIMPSE 3 MIN.mp4
+/img/inter/Testimonies/WhatsApp Video 2026-06-08 at 11.13.59 AM.mp4
+/img/inter/Testimonies/WhatsApp Video 2026-06-08 at 11.14.14 AM.mp4
+/img/inter/Testimonies/WhatsApp Video 2026-06-08 at 11.14.35 AM.mp4
+/img/inter/Testimonies/WhatsApp Video 2026-06-08 at 11.15.05 AM.mp4
+/img/international/afro-masala-01.jpg
+/img/international/afro-masala-02.jpg
+/img/international/curacion-01.jpg
+/img/international/girls-volleyball-01.jpg
+/img/international/README_IMAGES.md
+/img/international/salon-01.jpg
+/img/international/spotania-01.jpg
+/img/international/zimfest-01.jpg
+/img/international/zimfest-02.jpg
+/img/investpunjab.png
+/img/library.jpeg
+/img/line_vector.png
+/img/maingate.jpg
+/img/Mockup-19.png
+/img/mou/agcl_technologies_logo.jpg
+/img/mou/anviam.png
+/img/mou/butterfly_labs.png
+/img/mou/Codevision.io.webp
+/img/mou/Dharmayu_Wellness.jpg
+/img/mou/DS_Cosmeceuticals.avif
+/img/mou/ellocent_labs_logo.jpg
+/img/mou/Focus_College.png
+/img/mou/GautamCollegeofPharmacy.png
+/img/mou/IIT_Bombay_SINE.png
+/img/mou/Ion_Healthcare.png
+/img/mou/krisa-healthcare.webp
+/img/mou/mindcodelab.jpg
+/img/mou/Ominnos_Technologies.png
+/img/mou/Paras_Healthcare.svg
+/img/mou/Philadelphia_Hospital.png
+/img/mou/Solitaire_Infosys.png
+/img/mou/svtechnoogy.png
+/img/mou/TalentOMind.png
+/img/NAAC-Logo.jpg
+/img/nav1.jpeg
+/img/nav2.jpeg
+/img/NCTE.jpg
+/img/Pic-14.jpeg
+/img/ranking/12th.png
+/img/ranking/48th.png
+/img/ranking/5th.png
+/img/re.jpg
+/img/research.jpg
+/img/s60/batch_8.0_h3ycn5.jpg
+/img/s60/blog_1765605754312.jpg
+/img/s60/one-DakvQVQ8.jpg
+/img/s60/P_ncagda.jpg
+/img/s60/Third-ChX5EUkj.jpg
+/img/s60.jpg
+/img/s60.png
+/img/section_card/AcademicSupportInternational.jpeg
+/img/section_card/AlreadyJoin.JPG.jpeg
+/img/section_card/AmanGupta.JPG.jpeg
+/img/section_card/BharatTech.JPG.jpeg
+/img/section_card/Convo.jpeg
+/img/section_card/Convo2.jpeg
+/img/section_card/Convo3.jpeg
+/img/section_card/Cricket.jpeg
+/img/section_card/Dev1.jpeg
+/img/section_card/Dev2.jpeg
+/img/section_card/Dev3.jpeg
+/img/section_card/Elevate.jpeg
+/img/section_card/Elevate2.jpeg
+/img/section_card/Elevate3.jpeg
+/img/section_card/GFS.JPG
+/img/section_card/GFS2.JPG
+/img/section_card/GFS3.JPG
+/img/section_card/group-img-1.png
+/img/section_card/group-img-2.png
+/img/section_card/group-img-3.png
+/img/section_card/group-img-4.png
+/img/section_card/group-img-5.png
+/img/section_card/Hostels.jpeg
+/img/section_card/HowToJoin.jpeg
+/img/section_card/Industrial Visit.jpeg
+/img/section_card/ISTE25.JPG.jpeg
+/img/section_card/Kabbadi.jpeg
+/img/section_card/Labo.jpeg
+/img/section_card/Library.jpeg
+/img/section_card/LifetimeMemory.jpeg
+/img/section_card/Playground.jpeg
+/img/section_card/ResearchCenter.jpeg
+/img/section_card/Spont.jpeg
+/img/section_card/Spont2.jpeg
+/img/section_card/Spont3.jpeg
+/img/section_card/Sportsmania.jpeg
+/img/section_card/StillThinking.jpeg
+/img/section_card/T&P_MOU.jpeg
+/img/section_card/TEDx.jpeg
+/img/section_card/TEDx2.jpeg
+/img/section_card/TEDx3.jpeg
+/img/section_card/WhySVIET.jpeg
+/img/show.jpg
+/img/show2.jpg
+/img/show3.jpg
+/img/stand_up.jpg
+/img/startip_india.png
+/img/stu/Anam.png
+/img/stu/Kshiti.png
+/img/stu/Mantasha.png
+/img/stu/Muntaha.png
+/img/stu/Naveen.png
+/img/stu/Pallavi.png
+/img/stu/Parveen.png
+/img/stu/Parvesh.png
+/img/stu/Prateek.png
+/img/stu/Priyanshi.png
+/img/stu/Shikha.png
+/img/stu/Taniya.png
+/img/stu/Utkarsh.png
+/img/students/1.png
+/img/students/11.png
+/img/students/22.png
+/img/students/33.png
+/img/students/aman-student-speak.jpeg
+/img/students/broucher.jpeg
+/img/students/curriculum.jpg
+/img/students/image (1).png
+/img/students/image (2).png
+/img/students/moon_mandal.png
+/img/students/NIKHIL-student-speak.jpeg
+/img/students/Placement-Mockup-1.png
+/img/students/pppp.png
+/img/students/riya-student-speak.jpeg
+/img/students/simran-student-speak.jpeg
+/img/students/slider-img-1.png
+/img/students/stu1.png
+/img/students/stu2.png
+/img/students/stu3.png
+/img/students/stu4.png
+/img/students/stu5.png
+/img/students/taks.png
+/img/students_placement/Anam Rashid.png
+/img/students_placement/CIVIL/Adarsh Anand.png
+/img/students_placement/CIVIL/Yash bindal ..png
+/img/students_placement/CSE/Abhishek Saini.jpeg
+/img/students_placement/CSE/Aditya Jadon.jpg
+/img/students_placement/CSE/Aman Kapri.jpeg
+/img/students_placement/CSE/Amber Afreen Hashmi.JPG
+/img/students_placement/CSE/Anmol Sharma 2021BTCS091.jpg
+/img/students_placement/CSE/Manisha Kumari.jpg
+/img/students_placement/CSE/Muskan Kumari.jpg
+/img/students_placement/CSE/Navleen Kaur B.tech CSE 7th sem.jpeg
+/img/students_placement/CSE/Prateek Kumar (Byju's).jpeg
+/img/students_placement/CSE/Shubham Kumar.jpeg
+/img/students_placement/CSE/Vikramjeet.jpg
+/img/students_placement/CSE/Wahiduzzama Azad.jpg
+/img/students_placement/Deepak Kumar Jha.jpeg
+/img/students_placement/Kshitij Raj.jpeg
+/img/students_placement/laxmi.jpeg
+/img/students_placement/Mantasha.jpeg
+/img/students_placement/MBA/Ashish Marwaha.jpg
+/img/students_placement/MBA/Ashwani kedia.jpeg
+/img/students_placement/MBA/Gurleen Kaur.jpeg
+/img/students_placement/MBA/Pallavi sharma.jpeg
+/img/students_placement/MBA/Priyanshi kapoor.jpeg
+/img/students_placement/MBA/Tanush Mangla.jpeg
+/img/students_placement/MBA/Thumbs.db
+/img/students_placement/MBA/Utkarsh Kumar.png
+/img/students_placement/MCA/Parvesh Sharma.png
+/img/students_placement/MCA/Thumbs.db
+/img/students_placement/Muntaha Tabassum.jpg
+/img/students_placement/Naveen Jaiswal.jpeg
+/img/students_placement/Parveen Jaiswal.jpeg
+/img/students_placement/Pharmacy/Giles Mary Basumatary.jpg
+/img/students_placement/recent/chetu.png
+/img/students_placement/recent/Fahad Shabir.png
+/img/students_placement/recent/Prashant Kumar.png
+/img/students_placement/recent/Priyanshu Kumar.png
+/img/students_placement/Ronit Jai Prakash.png
+/img/students_placement/Shikha singh.jpeg
+/img/students_placement/Taniya Singh.jpeg
+/img/students_placement/vaishnavi.jpeg
+/img/SVCP/MOU Pics/Amicus Healthcare/20260116_21111PMByGPSMapCamera.jpg
+/img/SVCP/MOU Pics/Amicus Healthcare/20260116_21119PMByGPSMapCamera.jpg
+/img/SVCP/MOU Pics/Amicus Healthcare/ami.jpg
+/img/SVCP/MOU Pics/Amicus Healthcare/GMC16012026_141016.jpg
+/img/SVCP/MOU Pics/Amicus Healthcare/GMC16012026_141031.jpg
+/img/SVCP/MOU Pics/Amicus Healthcare/GMC16012026_141200.jpg
+/img/SVCP/MOU Pics/Amicus Healthcare/GMC16012026_141203.jpg
+/img/SVCP/MOU Pics/Dharmayu Wellness/557957729_1194380212521938_8455484508856805271_n.jpg
+/img/SVCP/MOU Pics/Dharmayu Wellness/558109701_1194380205855272_7387256740285227281_n.jpg
+/img/SVCP/MOU Pics/Dharmayu Wellness/558209171_1194380219188604_2004800617618689522_n.jpg
+/img/SVCP/MOU Pics/Dharmayu Wellness/558236780_1194380215855271_556118848646828800_n.jpg
+/img/SVCP/MOU Pics/Dharmayu Wellness/560388113_1194380209188605_3888123109907661442_n.jpg
+/img/SVCP/MOU Pics/Dharmayu Wellness/dharmayu.jpg
+/img/SVCP/MOU Pics/DS Comoceuticals/ds.jpeg
+/img/SVCP/MOU Pics/DS Comoceuticals/WhatsApp Image 2025-12-12 at 1.56.37 PM.jpeg
+/img/SVCP/MOU Pics/DS Comoceuticals/WhatsApp Image 2025-12-12 at 1.56.39 PM (1).jpeg
+/img/SVCP/MOU Pics/DS Comoceuticals/WhatsApp Image 2025-12-12 at 1.56.40 PM (2).jpeg
+/img/SVCP/MOU Pics/DS Comoceuticals/WhatsApp Image 2025-12-12 at 1.56.42 PM.jpeg
+/img/SVCP/MOU Pics/DS Comoceuticals/WhatsApp Image 2025-12-12 at 1.56.45 PM.jpeg
+/img/SVCP/MOU Pics/DS Comoceuticals/WhatsApp Image 2025-12-12 at 1.56.51 PM (2).jpeg
+/img/SVCP/MOU Pics/DS Comoceuticals/WhatsApp Image 2025-12-12 at 1.56.51 PM.jpeg
+/img/SVCP/MOU Pics/Gautam College of Pharmacy/gautam.jpeg
+/img/SVCP/MOU Pics/Gautam College of Pharmacy/WhatsApp Image 2025-11-17 at 4.20.21 PM.jpeg
+/img/SVCP/MOU Pics/Gautam College of Pharmacy/WhatsApp Image 2025-11-17 at 4.20.22 PM (2).jpeg
+/img/SVCP/MOU Pics/Gautam College of Pharmacy/WhatsApp Image 2025-11-17 at 4.20.23 PM (1).jpeg
+/img/SVCP/MOU Pics/Gautam College of Pharmacy/WhatsApp Image 2025-11-17 at 4.20.24 PM.jpeg
+/img/SVCP/MOU Pics/Paras Pharma/559123212_1197183238908302_7702935883636893618_n.jpg
+/img/SVCP/MOU Pics/Paras Pharma/559442678_1197183235574969_1667742516166226256_n.jpg
+/img/SVCP/MOU Pics/Paras Pharma/559961972_1197183242241635_8347532131443638689_n (1).jpg
+/img/SVCP/MOU Pics/Paras Pharma/560102014_1197183232241636_1022891001368875493_n.jpg
+/img/SVCP/MOU Pics/Paras Pharma/564123054_1197183245574968_8686573834002639992_n (1).jpg
+/img/SVCP/MOU Pics/Paras Pharma/564123054_1197183245574968_8686573834002639992_n.jpg
+/img/SVCP/MOU Pics/Paras Pharma/paras.jpg
+/img/SVIET/SVIET Photos/Amcare/IMG_8485.JPG
+/img/SVIET/SVIET Photos/Amcare/IMG_8497.JPG
+/img/SVIET/SVIET Photos/Amcare/IMG_8501.JPG
+/img/SVIET/SVIET Photos/Amcare/IMG_8508.JPG
+/img/SVIET/SVIET Photos/Amcare/IMG_8513.JPG
+/img/SVIET/SVIET Photos/Coder Roots/DSC00975.JPG
+/img/SVIET/SVIET Photos/Coder Roots/DSC00985.JPG
+/img/SVIET/SVIET Photos/Coder Roots/DSC00991.JPG
+/img/SVIET/SVIET Photos/Coder Roots/DSC01017.JPG
+/img/SVIET/SVIET Photos/Coder Roots/DSC01025.JPG
+/img/SVIET/SVIET Photos/Coder Roots/DSC01037.JPG
+/img/SVIET/SVIET Photos/Kreativan Technologies/DSC02285.JPG
+/img/SVIET/SVIET Photos/Kreativan Technologies/DSC02286.JPG
+/img/SVIET/SVIET Photos/Kreativan Technologies/DSC02314.JPG
+/img/SVIET/SVIET Photos/Learning Roots/Copy of IMG_1615.JPG
+/img/SVIET/SVIET Photos/Learning Roots/Copy of IMG_1624.JPG
+/img/SVIET/SVIET Photos/Learning Roots/IMG_2002.JPG
+/img/SVIET/SVIET Photos/Mou with HdWM & IB/DSC03756.JPG
+/img/SVIET/SVIET Photos/Mou with HdWM & IB/DSC03765.JPG
+/img/SVIET/SVIET Photos/Mou with HdWM & IB/DSC03777.JPG
+/img/SVIET/SVIET Photos/Mou with HdWM & IB/DSC03785.JPG
+/img/SVIET/SVIET Photos/Mou with HdWM & IB/DSC03789.JPG
+/img/SVIET/SVIET Photos/MWIDM India Pvt. Ltd/DSC00221.JPG
+/img/SVIET/SVIET Photos/MWIDM India Pvt. Ltd/DSC00262.JPG
+/img/SVIET/SVIET Photos/MWIDM India Pvt. Ltd/DSC00285.JPG
+/img/SVIET/SVIET Photos/MWIDM India Pvt. Ltd/DSC00326.JPG
+/img/SVIET/SVIET Photos/MWIDM India Pvt. Ltd/DSC00342.JPG
+/img/SVIET/SVIET Photos/MWIDM India Pvt. Ltd/DSC00367.JPG
+/img/SVIET/SVIET Photos/Placement/WhatsApp Image 2025-05-21 at 6.34.07 AM.jpeg
+/img/SVIET/SVIET Photos/Placement/WhatsApp Image 2025-05-21 at 6.37.10 AM (1).jpeg
+/img/SVIET/SVIET Photos/Placement/WhatsApp Image 2025-05-21 at 6.37.10 AM (2).jpeg
+/img/SVIET/SVIET Photos/Sortiq/DSC06587.JPG
+/img/SVIET/SVIET Photos/Sortiq/DSC06601.JPG
+/img/SVIET/SVIET Photos/Sortiq/DSC06639.JPG
+/img/SVIET/SVIET Photos/Sortiq/DSC06648.JPG
+/img/svietofficial_qr.png
+/img/sviet_white.png
+/img/training_cell.jpeg
+/img/UGC_India_Logo.png
+/img/uniques/32.JPG
+/img/uniques/IMG_1412.JPG
+/img/uniques/Screenshot 2025-03-28 001048.png
+/img/uniques/Screenshot 2025-03-28 001431.png
+/img/uniques/Screenshot 2025-03-28 001908.png
+/img/uniques_logo.png
+/img/vl.jpeg
+/programs/BTech/civil/civil.png
+/programs/BTech/civil/CivilHeader.jpg
+/programs/BTech/civil/construction.png
+/programs/BTech/civil/environment.png
+/programs/BTech/civil/lab/environmental.jpg
+/programs/BTech/civil/lab/geometrical.jpg
+/programs/BTech/civil/lab/structural.jpg
+/programs/BTech/civil/lab/transport.jpg
+/programs/BTech/civil/transport.png
+/programs/BTech/cse/CSEheader.jpg
+/programs/BTech/cse/data.jpg
+/programs/BTech/cse/lab/database.jpg
+/programs/BTech/cse/lab/development.jpg
+/programs/BTech/cse/lab/networking.jpg
+/programs/BTech/cse/network.jpg
+/programs/BTech/cse/system.jpg
+/programs/BTech/cse/web.jpg
+/programs/BTech/ece/Communication.jpg
+/programs/BTech/ece/electronic.jpg
+/programs/BTech/ece/Embe.jpg
+/programs/BTech/ece/Header.jpg
+/programs/BTech/ece/lab/electron.jpg
+/programs/BTech/ece/lab/process.jpg
+/programs/BTech/ece/lab/signal.jpg
+/programs/BTech/ece/lab/system.jpg
+/programs/BTech/ece/signal.jpg
+/programs/BTech/ee/conslt.png
+/programs/BTech/ee/EEheader.jpg
+/programs/BTech/ee/electronics.jpg
+/programs/BTech/ee/lab/Electronics.jpg
+/programs/BTech/ee/lab/energy.jpg
+/programs/BTech/ee/lab/Power.jpg
+/programs/BTech/ee/power.jpg
+/programs/BTech/ee/project.jpg
+/programs/BTech/me/image.png
+/programs/BTech/me/lab/machine.jpg
+/programs/BTech/me/lab/robotics.jpg
+/programs/BTech/me/lab/thermo.jpg
+/programs/BTech/me/mec.png
+/programs/BTech/me/MEheader.jpg
+/programs/BTech/me/prd.png
+/programs/BTech/me/quality.png
+/programs/Business/BBA/bba.jpg
+/programs/Business/BBA/bbaHeader.jpg
+/programs/Business/BBA/enter.jpg
+/programs/Business/BBA/man.jpg
+/programs/Business/BBA/operation.jpg
+/programs/Business/commerce/advance.jpg
+/programs/Business/commerce/commerce.jpg
+/programs/Business/commerce/corporate.jpg
+/programs/Business/commerce/finance.jpg
+/programs/Business/commerce/mcom.jpg
+/programs/Business/MBA/entrepreneur.jpg
+/programs/Business/MBA/human.jpg
+/programs/Business/MBA/marketing.jpg
+/programs/Business/MBA/mba.jpg
+/programs/Business/MBA/operations.jpg
+/programs/CA/data.avif
+/programs/CA/sd.avif
+/programs/ComputerApp/BCA/data.jpg
+/programs/ComputerApp/BCA/network.avif
+/programs/ComputerApp/BCA/web.avif
+/programs/ComputerApp/BscIt/cyber.avif
+/programs/ComputerApp/BscIt/data.avif
+/programs/ComputerApp/BscIt/network.avif
+/programs/ComputerApp/BscIt/software.jpg
+/programs/ComputerApp/MCA/cloud.avif
+/programs/ComputerApp/MCA/data.avif
+/programs/ComputerApp/MCA/network.avif
+/programs/ComputerApp/MCA/software.avif
+/programs/ComputerApp/pgdca/consultant.avif
+/programs/ComputerApp/pgdca/programmer.avif
+/programs/ComputerApp/pgdca/security.avif
+/programs/diploma/civil/civil.jpg
+/programs/diploma/civil/civilheader.jpg
+/programs/diploma/civil/construction.jpg
+/programs/diploma/civil/site.jpg
+/programs/diploma/civil/survey.jpg
+/programs/diploma/cse/cse.jpg
+/programs/diploma/cse/database.jpg
+/programs/diploma/cse/netwok.jpg
+/programs/diploma/cse/Software.jpg
+/programs/diploma/cse/system.jpg
+/programs/diploma/ee/control.jpg
+/programs/diploma/ee/ee.jpg
+/programs/diploma/ee/elect.jpg
+/programs/diploma/ee/electro.jpg
+/programs/diploma/ee/power.jpg
+/programs/diploma/me/design.jpg
+/programs/diploma/me/me.jpg
+/programs/diploma/me/mechanical.jpg
+/programs/diploma/me/mt.jpg
+/programs/diploma/me/quality.jpg
+/programs/Education/Arts/curriculum.avif
+/programs/Education/Arts/mastery.avif
+/programs/Education/Arts/tech.avif
+/programs/Education/BA/comms.avif
+/programs/Education/BA/cultural.avif
+/programs/Education/BA/thinking.avif
+/programs/Education/Bachelor/expertise.avif
+/programs/Education/Bachelor/research.jpg
+/programs/Education/Bachelor/training.avif
+/programs/Education/Masters/counselling.avif
+/programs/Education/Masters/header.avif
+/programs/Education/Masters/leadership.jpg
+/programs/Education/Masters/research.avif
+/programs/Education/Masters/teaching.avif
+/programs/HM/Bsc/Bsc.jpg
+/programs/HM/Bsc/diet.jpg
+/programs/HM/Bsc/food.jpg
+/programs/HM/Bsc/header.jpg
+/programs/HM/Bsc/lab/community.jpg
+/programs/HM/Bsc/lab/nutrition.jpg
+/programs/HM/Bsc/lab/science.jpg
+/programs/HM/Bsc/nutri.jpg
+/programs/HM/Bsc/sales.jpg
+/programs/HM/BVoc/Bvoc.jpg
+/programs/HM/BVoc/coordinator.jpg
+/programs/HM/BVoc/entrepreneur.jpg
+/programs/HM/BVoc/hospitality.jpg
+/programs/HM/BVoc/housekeeping.avif
+/programs/HM/catering/catering.jpg
+/programs/HM/catering/chef.jpg
+/programs/HM/catering/food.jpg
+/programs/HM/catering/hospitality.jpg
+/programs/HM/catering/lab/bakery.jpg
+/programs/HM/catering/lab/kitchen.jpg
+/programs/HM/catering/lab/office.jpg
+/programs/HM/catering/lab/training.jpg
+/programs/HM/catering/manager.jpg
+/programs/HM/mhmct/chef.avif
+/programs/HM/mhmct/event.jpg
+/programs/HM/mhmct/food.jpg
+/programs/HM/mhmct/hospitality.jpg
+/programs/HM/mhmct/lab/arts.jpg
+/programs/HM/mhmct/lab/management.jpg
+/programs/HM/mhmct/lab/planning.jpg
+/programs/HM/mhmct/man.jpg
+/programs/HM/mhmct/Mhmct.jpg
+/programs/Law/Bachelors/advisor.jpg
+/programs/Law/Bachelors/analyst.jpg
+/programs/Law/Bachelors/attorney.avif
+/programs/Law/Bachelors/cyberl.jpg
+/programs/Law/Bachelors/header.avif
+/programs/Law/LLB/header.avif
+/programs/MTech/civil/geo.jpg
+/programs/MTech/civil/header.avif
+/programs/MTech/civil/manager.avif
+/programs/MTech/civil/structural.avif
+/programs/MTech/civil/transport.jpg
+/programs/MTech/cse/cybersecurity.avif
+/programs/MTech/cse/data.jpg
+/programs/MTech/cse/Header.jpg
+/programs/MTech/cse/intelligence.avif
+/programs/MTech/cse/research.jpg
+/programs/MTech/ee/comms.jpg
+/programs/MTech/ee/electronics.jpg
+/programs/MTech/ee/Header.jpg
+/programs/MTech/ee/research.jpg
+/programs/MTech/ee/vlsi.jpg
+/programs/paramedical/Anasthesia/anasthesia.jpg
+/programs/paramedical/Anasthesia/assistant.jpg
+/programs/paramedical/Anasthesia/header.avif
+/programs/paramedical/Anesthesia/anestehsia.jpg
+/programs/paramedical/Anesthesia/emergency.jpg
+/programs/paramedical/Anesthesia/experience.jpg
+/programs/paramedical/Anesthesia/operation.jpg
+/programs/paramedical/Anesthesia/technologist.jpg
+/programs/paramedical/Cardiac/cardiac.avif
+/programs/paramedical/Cardiac/ecg.jpg
+/programs/paramedical/Cardiac/header.avif
+/programs/paramedical/Cardiac/sales.jpg
+/programs/paramedical/DMLT/analyst.jpg
+/programs/paramedical/DMLT/header.avif
+/programs/paramedical/DMLT/healthcare.jpg
+/programs/paramedical/DMLT/technician.jpg
+/programs/paramedical/DMLT/technologist.avif
+/programs/paramedical/Lab/header.avif
+/programs/paramedical/Lab/scientist.avif
+/programs/paramedical/Lab/supervisor.jpg
+/programs/paramedical/Lab/teacher.avif
+/programs/paramedical/MLS/clinic.jpg
+/programs/paramedical/MLS/educator.jpg
+/programs/paramedical/MLS/mls.jpg
+/programs/paramedical/MLS/professional.jpg
+/programs/paramedical/MLS/research.jpg
+/programs/paramedical/Optometry/assistant.jpg
+/programs/paramedical/Optometry/header.avif
+/programs/paramedical/Optometry/optician.jpg
+/programs/paramedical/Optometry/optometrist.jpg
+/programs/paramedical/Optometry/refractionist.jpg
+/programs/paramedical/OT/manager.jpg
+/programs/paramedical/OT/ot.jpg
+/programs/paramedical/OT/research.jpg
+/programs/paramedical/OT/technician.jpg
+/programs/paramedical/Physiotherapy/header.avif
+/programs/paramedical/Physiotherapy/neuro.jpg
+/programs/paramedical/Physiotherapy/orthopedic.jpg
+/programs/paramedical/Physiotherapy/physio.jpg
+/programs/paramedical/Physiotherapy/sports.avif
+/programs/paramedical/Radiology/educator.jpg
+/programs/paramedical/Radiology/image.jpg
+/programs/paramedical/Radiology/radiology.jpg
+/programs/paramedical/Radiology/research.jpg
+/programs/paramedical/Radiology/technician.jpg
+/programs/pharmacy/diploma/Diploma.jpg
+/programs/pharmacy/diploma/hospital.jpg
+/programs/pharmacy/diploma/retail.jpg
+/programs/pharmacy/diploma/store.jpg
+/programs/pharmacy/diploma/technician.jpg
+/programs/pharmacy/Mpharma/clinical.jpg
+/programs/pharmacy/Mpharma/corporate.jpg
+/programs/pharmacy/Mpharma/Mpharma.jpg
+/programs/pharmacy/Mpharma/research.jpg
+/programs/pharmacy/Mpharma/tech.jpg
+/programs/pharmacy/pharm/Bpharma.jpg
+/programs/pharmacy/pharm/drug.jpg
+/programs/pharmacy/pharm/lab/cehmistry.jpg
+/programs/pharmacy/pharm/lab/practical.jpg
+/programs/pharmacy/pharm/lab/QA.jpg
+/programs/pharmacy/pharm/lab/researchLab.jpg
+/programs/pharmacy/pharm/pharma.jpg
+/programs/pharmacy/pharm/qua.jpg
+/programs/pharmacy/pharm/rd.jpg
+/programs/pharmacy/pharmD/academic.jpg
+/programs/pharmacy/pharmD/inspector.jpg
+/programs/pharmacy/pharmD/pharmd.jpg
+/programs/pharmacy/pharmD/retails.jpg
+/programs/pharmacy/pharmD/writer.jpg
+/programs/Science/Chemistry/chemical.jpg
+/programs/Science/Chemistry/expertise.jpg
+/programs/Science/Chemistry/header.avif
+/programs/Science/Chemistry/seminars.jpg
+/programs/Science/Maths/expertise.avif
+/programs/Science/Maths/header.avif
+/programs/Science/Maths/research.jpg
+/programs/Science/Maths/solving.jpg
+/programs/Science/Non-medical/app.jpg
+/programs/Science/Non-medical/header.avif
+/programs/Science/Non-medical/operations.avif
+/programs/Science/Non-medical/problem.jpg
+/programs/Science/Non-medical/research.jpg
+/programs/Science/Physics/experiments.jpg
+/programs/Science/Physics/header.avif
+/programs/Science/Physics/research.avif
+/programs/Science/Physics/theory.avif
+/README.md
+/videos/byte/4.mp4
+/videos/byte/Another success story added to the legacy of SVGOI! Congratulations to our achievers for steppin.mp4
+/videos/byte/Congratulations to all the students for securing placements in Grazitti Interactive, Step2gen &.mp4
+/videos/byte/Heartiest congratulations to Aryan, Pharmacy student, on securing his placement as Medical Repre.mp4
+/videos/hero_vedio.mp4
+/videos/sviet_vedio.mp4

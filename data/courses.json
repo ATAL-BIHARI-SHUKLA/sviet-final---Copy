@@ -2287,7 +2287,7 @@
       {
         "title": "Cybersecurity Analyst",
         "desc": "M.Tech CSE graduates can work as systems architects, designing and overseeing the development of complex computer systems and networks.",
-        "image": "/assets/programs/Mtech/cse/cybersecurity.avif"
+        "image": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446483/sviet_assets/rest/dmnscaw2y73kbbshj46l.avif"
       }
     ],
     "facilities": [
@@ -2371,7 +2371,7 @@
         {
           "title": "Cybersecurity Analyst",
           "desc": "M.Tech CSE graduates can work as systems architects, designing and overseeing the development of complex computer systems and networks.",
-          "image": "/assets/programs/Mtech/cse/cybersecurity.avif"
+          "image": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446483/sviet_assets/rest/dmnscaw2y73kbbshj46l.avif"
         }
       ],
       "labs": [
@@ -4340,22 +4340,22 @@
       {
         "title": "Radiology Technician",
         "desc": "Acquire skills to perform radiological procedures and operate imaging equipment.",
-        "image": "/assets/programs/paramedical/radiology/technician.jpg"
+        "image": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446528/sviet_assets/rest/mzfyugyvlcwupx2ufomh.jpg"
       },
       {
         "title": "Imaging Specialist",
         "desc": "Specialize in various imaging modalities such as X-ray, Sonography, CT Scan, and MRI.",
-        "image": "/assets/programs/paramedical/radiology/image.jpg"
+        "image": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446526/sviet_assets/rest/ozdr0zzqwlwtr006zy3u.jpg"
       },
       {
         "title": "Researcher in Radio Imaging Technology",
         "desc": "Conduct research in the field of radio imaging technology and contribute to advancements in the field.",
-        "image": "/assets/programs/paramedical/radiology/research.jpg"
+        "image": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446527/sviet_assets/rest/qcmbq9fy04uum4yfcnpt.jpg"
       },
       {
         "title": " Radiology Educator",
         "desc": "Develop expertise to educate and train future radiology technicians, imaging specialists, and researchers, facilitating the dissemination of knowledge and skills in radiological procedures and imaging technologies.",
-        "image": "/assets/programs/paramedical/radiology/educator.jpg"
+        "image": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446525/sviet_assets/rest/wmyfri7dciqceovosg81.jpg"
       }
     ],
     "facilities": null,
@@ -4375,7 +4375,7 @@
       "header": {
         "title": "B.Sc. IN RADIO IMAGING TECHNOLOGY",
         "subtitle": "ELEVATING RADIOLOGY EXPERTISE",
-        "background_image": "/assets/programs/paramedical/radiology/radiology.jpg"
+        "background_image": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446527/sviet_assets/rest/mnj62stxbfullm4ntwvb.jpg"
       },
       "affiliation": {
         "affiliated_to": "Affiliated To Swami Vivekanand Paramedical College",
@@ -4402,22 +4402,22 @@
         {
           "title": "Radiology Technician",
           "desc": "Acquire skills to perform radiological procedures and operate imaging equipment.",
-          "image": "/assets/programs/paramedical/radiology/technician.jpg"
+          "image": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446528/sviet_assets/rest/mzfyugyvlcwupx2ufomh.jpg"
         },
         {
           "title": "Imaging Specialist",
           "desc": "Specialize in various imaging modalities such as X-ray, Sonography, CT Scan, and MRI.",
-          "image": "/assets/programs/paramedical/radiology/image.jpg"
+          "image": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446526/sviet_assets/rest/ozdr0zzqwlwtr006zy3u.jpg"
         },
         {
           "title": "Researcher in Radio Imaging Technology",
           "desc": "Conduct research in the field of radio imaging technology and contribute to advancements in the field.",
-          "image": "/assets/programs/paramedical/radiology/research.jpg"
+          "image": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446527/sviet_assets/rest/qcmbq9fy04uum4yfcnpt.jpg"
         },
         {
           "title": " Radiology Educator",
           "desc": "Develop expertise to educate and train future radiology technicians, imaging specialists, and researchers, facilitating the dissemination of knowledge and skills in radiological procedures and imaging technologies.",
-          "image": "/assets/programs/paramedical/radiology/educator.jpg"
+          "image": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446525/sviet_assets/rest/wmyfri7dciqceovosg81.jpg"
         }
       ],
       "labs": null
@@ -5178,22 +5178,22 @@
       {
         "title": "Cardiac Care Technologist",
         "desc": "Gain expertise in providing advanced cardiac care and support in clinical settings.",
-        "image": "/assets/programs/paramedical/radiology/technician.jpg"
+        "image": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446528/sviet_assets/rest/mzfyugyvlcwupx2ufomh.jpg"
       },
       {
         "title": "Cardiac Diagnostics Specialist",
         "desc": "Develop skills in diagnosing cardiac conditions using advanced diagnostic equipment.",
-        "image": "/assets/programs/paramedical/radiology/educator.jpg"
+        "image": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446525/sviet_assets/rest/wmyfri7dciqceovosg81.jpg"
       },
       {
         "title": "Interventional Cardiology Technologist",
         "desc": "Learn to assist in interventional cardiology procedures and cardiac catheterization.",
-        "image": "/assets/programs/paramedical/radiology/image.jpg"
+        "image": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446526/sviet_assets/rest/ozdr0zzqwlwtr006zy3u.jpg"
       },
       {
         "title": "Cardiac Rehabilitation Specialist",
         "desc": "Acquire expertise in designing and implementing cardiac rehabilitation programs.",
-        "image": "/assets/programs/paramedical/radiology/image.jpg"
+        "image": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446526/sviet_assets/rest/ozdr0zzqwlwtr006zy3u.jpg"
       }
     ],
     "facilities": null,
@@ -5213,7 +5213,7 @@
       "header": {
         "title": "MASTER OF SCIENCE IN CARDIAC CARE TECHNOLOGY ",
         "subtitle": "EXPERTS IN CARDIAC CARE",
-        "background_image": "/assets/programs/paramedical/radiology/radiology.jpg"
+        "background_image": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446527/sviet_assets/rest/mnj62stxbfullm4ntwvb.jpg"
       },
       "affiliation": {
         "affiliated_to": "Affiliated To MRSPTU, Bathinda",
@@ -5242,22 +5242,22 @@
         {
           "title": "Cardiac Care Technologist",
           "desc": "Gain expertise in providing advanced cardiac care and support in clinical settings.",
-          "image": "/assets/programs/paramedical/radiology/technician.jpg"
+          "image": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446528/sviet_assets/rest/mzfyugyvlcwupx2ufomh.jpg"
         },
         {
           "title": "Cardiac Diagnostics Specialist",
           "desc": "Develop skills in diagnosing cardiac conditions using advanced diagnostic equipment.",
-          "image": "/assets/programs/paramedical/radiology/educator.jpg"
+          "image": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446525/sviet_assets/rest/wmyfri7dciqceovosg81.jpg"
         },
         {
           "title": "Interventional Cardiology Technologist",
           "desc": "Learn to assist in interventional cardiology procedures and cardiac catheterization.",
-          "image": "/assets/programs/paramedical/radiology/image.jpg"
+          "image": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446526/sviet_assets/rest/ozdr0zzqwlwtr006zy3u.jpg"
         },
         {
           "title": "Cardiac Rehabilitation Specialist",
           "desc": "Acquire expertise in designing and implementing cardiac rehabilitation programs.",
-          "image": "/assets/programs/paramedical/radiology/image.jpg"
+          "image": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446526/sviet_assets/rest/ozdr0zzqwlwtr006zy3u.jpg"
         }
       ],
       "labs": null
@@ -6063,22 +6063,22 @@
       {
         "title": "Application Development Skills",
         "desc": "Develop skills in application development for computer systems.",
-        "image": "/assets/programs/Science/Non-Medical/app.jpg"
+        "image": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446556/sviet_assets/rest/v3vajg759ezukfnqqvn2.jpg"
       },
       {
         "title": "Computer Operations Proficiency",
         "desc": "Gain proficiency in computer operations and system management.",
-        "image": "/assets/programs/Science/Non-Medical/operations.avif"
+        "image": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446558/sviet_assets/rest/fx020bzeldmjxbu4nqee.avif"
       },
       {
         "title": "Problem-solving Abilities",
         "desc": "Enhance problem-solving abilities through mathematical and scientific principles.",
-        "image": "/assets/programs/Science/Non-Medical/problem.jpg"
+        "image": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446559/sviet_assets/rest/qw4txdqhbla4a7mkkqo6.jpg"
       },
       {
         "title": "Research and Analysis Skills",
         "desc": "Acquire research and analysis skills for exploring advancements in computer applications.",
-        "image": "/assets/programs/Science/Non-Medical/research.jpg"
+        "image": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446559/sviet_assets/rest/h0ycofyc5aypdtmteavh.jpg"
       }
     ],
     "facilities": [],
@@ -6098,7 +6098,7 @@
       "header": {
         "title": "B.Sc. IN NON-MEDICAL",
         "subtitle": "EXPLORING COMPUTER APPLICATIONS AND SERVICES",
-        "background_image": "/assets/programs/Science/Non-Medical/header.avif"
+        "background_image": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446557/sviet_assets/rest/xqaqr2swt6fltenmhgwg.avif"
       },
       "affiliation": {
         "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
@@ -6126,22 +6126,22 @@
         {
           "title": "Application Development Skills",
           "desc": "Develop skills in application development for computer systems.",
-          "image": "/assets/programs/Science/Non-Medical/app.jpg"
+          "image": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446556/sviet_assets/rest/v3vajg759ezukfnqqvn2.jpg"
         },
         {
           "title": "Computer Operations Proficiency",
           "desc": "Gain proficiency in computer operations and system management.",
-          "image": "/assets/programs/Science/Non-Medical/operations.avif"
+          "image": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446558/sviet_assets/rest/fx020bzeldmjxbu4nqee.avif"
         },
         {
           "title": "Problem-solving Abilities",
           "desc": "Enhance problem-solving abilities through mathematical and scientific principles.",
-          "image": "/assets/programs/Science/Non-Medical/problem.jpg"
+          "image": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446559/sviet_assets/rest/qw4txdqhbla4a7mkkqo6.jpg"
         },
         {
           "title": "Research and Analysis Skills",
           "desc": "Acquire research and analysis skills for exploring advancements in computer applications.",
-          "image": "/assets/programs/Science/Non-Medical/research.jpg"
+          "image": "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790446559/sviet_assets/rest/h0ycofyc5aypdtmteavh.jpg"
         }
       ],
       "labs": []

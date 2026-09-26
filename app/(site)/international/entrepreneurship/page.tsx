@@ -92,8 +92,8 @@ export default function EntrepreneurshipPage() {
             </div>
             <div className="grid grid-cols-2 gap-3">
               {[
-                "/assets/img/inter/01%20Collage,%20shubham%20sir,%20soni%20sir/Collage/DSC07057%20(1).JPG",
-                "/assets/img/inter/01%20Collage,%20shubham%20sir,%20soni%20sir/Collage/DSC09384.JPG",
+                "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445288/sviet_assets/inter/01%20Collage%2C%20shubham%20sir%2C%20soni%20sir/Collage/DSC07057_1.jpg",
+                "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445286/sviet_assets/inter/01%20Collage%2C%20shubham%20sir%2C%20soni%20sir/Collage/DSC09384.jpg",
                 "/assets/img/inter/01%20Collage,%20shubham%20sir,%20soni%20sir/Collage/IMG_1197.JPG",
                 "/assets/img/inter/01%20Collage,%20shubham%20sir,%20soni%20sir/Collage/IMG_3178.JPG",
               ].map((src, i) => (
