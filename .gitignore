@@ -1,4 +1,4 @@
-﻿# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
 /node_modules
@@ -56,8 +56,8 @@ sviet-*.json
 
 # assets
 # Ignoring videos folder for now to send assets in two halves
-# /public/assets/videos/
-# /public/assets/img/
+/public/assets/videos/
+/public/assets/img/
 
 # zip files
 *.zip

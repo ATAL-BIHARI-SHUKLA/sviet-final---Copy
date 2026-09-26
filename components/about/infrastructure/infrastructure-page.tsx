@@ -45,7 +45,7 @@ const FACILITY_ITEMS: FacilityItem[] = [
       "Clear departmental zoning",
       "Student-first accessibility",
     ],
-    imageSrc: "/assets/img/college/main_gate.png",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445141/sviet_assets/college/main_gate.jpg",
     imageAlt: "SVGOI campus academic zone and entry corridor",
   },
   {

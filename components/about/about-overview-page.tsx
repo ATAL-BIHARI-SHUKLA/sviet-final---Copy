@@ -86,7 +86,7 @@ const LEADERSHIP_DESK: Leader[] = [
     socialLinks: [
       { label: "Facebook", href: "https://www.facebook.com/ChairmanSVGOI" },
     ],
-    imageSrc: "/assets/img/college/management/ashwani-sir.jpg",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445217/sviet_assets/college/management/ashwani-sir.jpg",
     imageAlt: "Mr. Ashwani Garg",
   },
   {
@@ -167,7 +167,7 @@ const LEADERSHIP_DESK: Leader[] = [
   //     },
   //     { label: "Facebook", href: "https://www.facebook.com/sahil.garg.58910" },
   //   ],
-  //   imageSrc: "/assets/img/college/management/sahil-sir.jpg",
+  //   imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445215/sviet_assets/college/management/sahil-sir.jpg",
   //   imageAlt: "Mr. Sahil Garg",
   // },
   // {
@@ -316,7 +316,7 @@ const INFRASTRUCTURE = [
     title: "Smart Classroom",
     description:
       "Another hands-on learning environment supporting demonstrations and focused practice.",
-    imageSrc: "/assets/img/infrastructure/labs/1.JPG",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445144/sviet_assets/infrastructure/labs/1.jpg",
     imageAlt: "Smart classroom at SVGOI",
     spanClassName: "xl:col-span-3 xl:row-span-2",
   },

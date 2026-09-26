@@ -23,10 +23,10 @@ const STATIC_EVENTS: CurriculumEvent[] = [
       title: "Sportsmania 2025",
       description:
         "The annual sports festival of SVGOI brings together students in a vibrant display of athleticism, teamwork and competitive spirit across events like football, basketball, and more.",
-      image: "/assets/img/section_card/Sportsmania.jpeg",
+      image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445123/sviet_assets/section_card/Sportsmania.jpg",
     },
-    stats: [{ image: "/assets/img/section_card/Cricket.jpeg", label: "October 17–18, 2025" }],
-    videos: [{ image: "/assets/img/section_card/Kabbadi.jpeg", label: "SVGOI Campus" }],
+    stats: [{ image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445133/sviet_assets/section_card/Cricket.jpg", label: "October 17–18, 2025" }],
+    videos: [{ image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445124/sviet_assets/section_card/Kabbadi.jpg", label: "SVGOI Campus" }],
   },
   {
     id: 2,
@@ -36,10 +36,10 @@ const STATIC_EVENTS: CurriculumEvent[] = [
       title: "Elevate 2.0",
       description:
         "A flagship cultural & innovation fest bringing together creative minds, performances, workshops and peer-networking celebrating innovation, student talent and campus life.",
-      image: "/assets/img/section_card/Elevate.jpeg",
+      image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445130/sviet_assets/section_card/Elevate.jpg",
     },
-    stats: [{ image: "/assets/img/section_card/Elevate2.jpeg", label: "September 11–13, 2025" }],
-    videos: [{ image: "/assets/img/section_card/Elevate3.jpeg", label: "SVGOI Campus" }],
+    stats: [{ image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445127/sviet_assets/section_card/Elevate2.jpg", label: "September 11–13, 2025" }],
+    videos: [{ image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445129/sviet_assets/section_card/Elevate3.jpg", label: "SVGOI Campus" }],
   },
   {
     id: 3,
@@ -49,10 +49,10 @@ const STATIC_EVENTS: CurriculumEvent[] = [
       title: "TEDx SVIET",
       description:
         "TEDx SVIET 2025, under the theme 'The Power of One', featured thoughtful talks and inspiring conversations aimed at spreading ideas worth sharing.",
-      image: "/assets/img/section_card/TEDx.jpeg",
+      image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445120/sviet_assets/section_card/TEDx.jpg",
     },
-    stats: [{ image: "/assets/img/section_card/TEDx2.jpeg", label: "August 23, 2025" }],
-    videos: [{ image: "/assets/img/section_card/TEDx3.jpeg", label: "SVGOI Campus" }],
+    stats: [{ image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445118/sviet_assets/section_card/TEDx2.jpg", label: "August 23, 2025" }],
+    videos: [{ image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445122/sviet_assets/section_card/TEDx3.jpg", label: "SVGOI Campus" }],
   },
   {
     id: 4,
@@ -75,10 +75,10 @@ const STATIC_EVENTS: CurriculumEvent[] = [
       title: "Graduation Ceremony 2025",
       description:
         "The Graduation Ceremony 2025 marked a proud milestone for graduating batches, celebrating years of dedication, learning, and achievement with esteemed dignitaries.",
-      image: "/assets/img/section_card/Convo.jpeg",
+      image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445138/sviet_assets/section_card/Convo.jpg",
     },
-    stats: [{ image: "/assets/img/section_card/Convo2.jpeg", label: "May 2025" }],
-    videos: [{ image: "/assets/img/section_card/Convo3.jpeg", label: "Chief Guest: Dr. Gurpreet Kaur Mann" }],
+    stats: [{ image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445134/sviet_assets/section_card/Convo2.jpg", label: "May 2025" }],
+    videos: [{ image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445132/sviet_assets/section_card/Convo3.jpg", label: "Chief Guest: Dr. Gurpreet Kaur Mann" }],
   },
   {
     id: 6,

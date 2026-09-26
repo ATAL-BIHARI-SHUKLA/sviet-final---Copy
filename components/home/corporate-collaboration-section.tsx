@@ -8,37 +8,37 @@ const CORPORATE_PARTNERS = [
   {
     name: "Infosys",
     logoSrc: "/assets/img/companies/infosys.png",
-    mouImage: "/assets/img/section_card/T&P MOU.jpeg",
+    mouImage: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445117/sviet_assets/section_card/T_P_MOU.jpg",
   },
   {
     name: "TCS",
     logoSrc: "/assets/img/companies/tcs.png",
-    mouImage: "/assets/img/section_card/T&P MOU.jpeg",
+    mouImage: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445117/sviet_assets/section_card/T_P_MOU.jpg",
   },
   {
     name: "Wipro",
     logoSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443449/sviet_assets/companies/wipro.png",
-    mouImage: "/assets/img/section_card/T&P MOU.jpeg",
+    mouImage: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445117/sviet_assets/section_card/T_P_MOU.jpg",
   },
   {
     name: "Amazon",
     logoSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443461/sviet_assets/companies/amazon.png",
-    mouImage: "/assets/img/section_card/T&P MOU.jpeg",
+    mouImage: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445117/sviet_assets/section_card/T_P_MOU.jpg",
   },
   {
     name: "Deloitte",
     logoSrc: "/assets/img/companies/deloitte.png",
-    mouImage: "/assets/img/section_card/T&P MOU.jpeg",
+    mouImage: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445117/sviet_assets/section_card/T_P_MOU.jpg",
   },
   {
     name: "Jio Digital",
     logoSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443455/sviet_assets/companies/jio_digital.png",
-    mouImage: "/assets/img/section_card/T&P MOU.jpeg",
+    mouImage: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445117/sviet_assets/section_card/T_P_MOU.jpg",
   },
   {
     name: "Dabur",
     logoSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443457/sviet_assets/companies/dabur.png",
-    mouImage: "/assets/img/section_card/T&P MOU.jpeg",
+    mouImage: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445117/sviet_assets/section_card/T_P_MOU.jpg",
   },
 ] as const;
 

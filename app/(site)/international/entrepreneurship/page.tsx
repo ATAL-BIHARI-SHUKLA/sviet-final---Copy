@@ -43,7 +43,7 @@ export default function EntrepreneurshipPage() {
             <div>
               <div className="relative mb-6 h-20 w-auto max-w-xs">
                 <Image
-                  src="/assets/img/inter/03%20Entrepreneurship%20%26%20Startup%20Support/01%20Global%20Seed/GLOBAL%20SEED%20LOGO.png"
+                  src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445481/sviet_assets/misc/czxzmzfpltoanqratsnq.png"
                   alt="SVGOI Global Seed logo"
                   fill
                   sizes="320px"
@@ -136,10 +136,10 @@ export default function EntrepreneurshipPage() {
 
           <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {[
-              "/assets/img/inter/03%20Entrepreneurship%20%26%20Startup%20Support/01%20Global%20Seed/3%2CA%20(Afro%20Masala)/WhatsApp%20Image%202026-05-06%20at%2011.0.49%20AM.jpeg",
-              "/assets/img/inter/03%20Entrepreneurship%20%26%20Startup%20Support/01%20Global%20Seed/3%2CA%20(Afro%20Masala)/WhatsApp%20Image%202026-05-06%20at%2011.10..jpeg",
-              "/assets/img/inter/03%20Entrepreneurship%20%26%20Startup%20Support/01%20Global%20Seed/3%2CA%20(Afro%20Masala)/WhatsApp%20Image%202026-05-06%20at%2011.10.46%20AM.jpeg",
-              "/assets/img/inter/03%20Entrepreneurship%20%26%20Startup%20Support/01%20Global%20Seed/3%2CA%20(Afro%20Masala)/WhatsApp%20Image%202026-05-06%20at%2011.10.47%20AM.jpeg",
+              "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445537/sviet_assets/misc/efmce4wmixzpbbzdaf7n.jpg",
+              "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445535/sviet_assets/misc/e05i97fyhghs30l0goek.jpg",
+              "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445534/sviet_assets/misc/f6qs4ch77uyhbnziwrcx.jpg",
+              "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445531/sviet_assets/misc/qaypfciek0yscnufnvfj.jpg",
             ].map((src, i) => (
               <div
                 key={i}
@@ -164,7 +164,7 @@ export default function EntrepreneurshipPage() {
             </p>
             <div className="max-w-2xl overflow-hidden border border-black/10 bg-black">
               <video
-                src="/assets/img/inter/03%20Entrepreneurship%20%26%20Startup%20Support/01%20Global%20Seed/3%2CA%20(Afro%20Masala)/GLOBAL%20SEED%20AFRO.mp4"
+                src="https://res.cloudinary.com/qbxjwpwp/video/upload/v1790445547/sviet_assets/misc/bcspik89i5zgldlkli0d.mp4"
                 controls
                 preload="metadata"
                 playsInline
@@ -199,10 +199,10 @@ export default function EntrepreneurshipPage() {
 
           <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {[
-              "/assets/img/inter/03%20Entrepreneurship%20%26%20Startup%20Support/01%20Global%20Seed/3%2CB%20(Salon)/WhatsApp%20Image%202026-05-06%20at%2011.10.26%20AM.jpeg",
-              "/assets/img/inter/03%20Entrepreneurship%20%26%20Startup%20Support/01%20Global%20Seed/3%2CB%20(Salon)/WhatsApp%20Image%202026-05-06%20at%2011.10.27%20AM.jpeg",
-              "/assets/img/inter/03%20Entrepreneurship%20%26%20Startup%20Support/01%20Global%20Seed/3%2CB%20(Salon)/WhatsApp%20Image%202026-05-06%20at%2011.10.28%20AM.jpeg",
-              "/assets/img/inter/03%20Entrepreneurship%20%26%20Startup%20Support/01%20Global%20Seed/3%2CB%20(Salon)/WhatsApp%20Image%202026-05-06%20at%2011.10.29%20AM.jpeg",
+              "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445563/sviet_assets/misc/souxvcr6dtxhk7cjkprg.jpg",
+              "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445559/sviet_assets/misc/wkbdyj1qfg9hybabwwxq.jpg",
+              "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445560/sviet_assets/misc/qpx3tmymulailuhxxi9e.jpg",
+              "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445554/sviet_assets/misc/skgtew9cuvf5kxr2ol9x.jpg",
             ].map((src, i) => (
               <div
                 key={i}
@@ -248,7 +248,7 @@ export default function EntrepreneurshipPage() {
             <div>
               <div className="relative mb-5 h-16 w-auto max-w-xs">
                 <Image
-                  src="/assets/img/inter/03%20Entrepreneurship%20%26%20Startup%20Support/02%20Earn%20while%20learn/Earn%20while%20Learn.png"
+                  src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445463/sviet_assets/misc/cvlgip5vi2pqec7vyol4.png"
                   alt="Earn While Learn programme logo"
                   fill
                   sizes="320px"
@@ -295,10 +295,10 @@ export default function EntrepreneurshipPage() {
             </div>
             <div className="grid grid-cols-2 gap-3">
               {[
-                "/assets/img/inter/03%20Entrepreneurship%20%26%20Startup%20Support/02%20Earn%20while%20learn/IMG_9762.jpg",
-                "/assets/img/inter/03%20Entrepreneurship%20%26%20Startup%20Support/02%20Earn%20while%20learn/IMG_9782.jpg",
-                "/assets/img/inter/03%20Entrepreneurship%20%26%20Startup%20Support/02%20Earn%20while%20learn/WhatsApp%20Image%202026-06-06%20at%202.14.17%20PM.jpeg",
-                "/assets/img/inter/03%20Entrepreneurship%20%26%20Startup%20Support/02%20Earn%20while%20learn/WhatsApp%20Image%202026-06-06%20at%202.14.19%20PM.jpeg",
+                "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445464/sviet_assets/misc/fdmyx4hs7pkkremd3upf.jpg",
+                "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445466/sviet_assets/misc/pqsitcfp4svoycqtunle.jpg",
+                "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445462/sviet_assets/misc/wq5pzx1teos2zu9crrmm.jpg",
+                "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445461/sviet_assets/misc/xmj750lzrcf53yydrwjq.jpg",
               ].map((src, i) => (
                 <div
                   key={i}
@@ -326,7 +326,7 @@ export default function EntrepreneurshipPage() {
             <div>
               <div className="relative mb-5 h-16 w-auto max-w-xs">
                 <Image
-                  src="/assets/img/inter/03%20Entrepreneurship%20%26%20Startup%20Support/03%20INTERVENTS/intervents-removebg-preview.png"
+                  src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445513/sviet_assets/misc/vdfumgnpxkcqm9vh3rwo.png"
                   alt="InterVents logo"
                   fill
                   sizes="320px"
@@ -362,7 +362,7 @@ export default function EntrepreneurshipPage() {
                 <div className="mt-3 flex items-start gap-4">
                   <div className="relative h-20 w-20 shrink-0 overflow-hidden border border-black/10">
                     <Image
-                      src="/assets/img/inter/03%20Entrepreneurship%20%26%20Startup%20Support/03%20INTERVENTS/OWEN.jpg"
+                      src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445512/sviet_assets/misc/ui6sfny1gherelu8effi.jpg"
                       alt="Owen — InterVents success story"
                       fill
                       sizes="80px"
@@ -393,10 +393,10 @@ export default function EntrepreneurshipPage() {
               <div className="flex flex-wrap gap-5">
                 {[
                  
-                  "/assets/img/inter/03%20Entrepreneurship%20%26%20Startup%20Support/03%20INTERVENTS/WhatsApp%20Image%202026-06-08%20at%2010.31.09%20AM.jpeg",
-                  "/assets/img/inter/03%20Entrepreneurship%20%26%20Startup%20Support/03%20INTERVENTS/WhatsApp%20Image%202026-06-08%20at%2010.31.09%20AM%20(1).jpeg",
-                  "/assets/img/inter/03%20Entrepreneurship%20%26%20Startup%20Support/03%20INTERVENTS/WhatsApp%20Image%202026-06-08%20at%2010.31.10%20AM.jpeg",
-                  "/assets/img/inter/03%20Entrepreneurship%20%26%20Startup%20Support/03%20INTERVENTS/WhatsApp%20Image%202026-06-08%20at%2010.31.10%20AM%20(1).jpeg",
+                  "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445506/sviet_assets/misc/py9id3nqj6nexgucamuw.jpg",
+                  "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445510/sviet_assets/misc/k3qfsbbnfvt5n3xumb6s.jpg",
+                  "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445505/sviet_assets/misc/bkzuiod7wxrbiq3iok6w.jpg",
+                  "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445505/sviet_assets/misc/ld5edvmjzysr5qmxtxws.jpg",
                 ].map((src, i) => (
                   <div key={i} className="flex flex-col items-center gap-2">
                     <div className="relative h-20 w-20 overflow-hidden rounded-full border-2 border-[#f7941d]/40 shadow-md">
@@ -496,9 +496,9 @@ export default function EntrepreneurshipPage() {
             {/* Gallery */}
             <div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
               {[
-                "/assets/img/inter/03%20Entrepreneurship%20%26%20Startup%20Support/04%20Faculty%20Exchange%20Program/481282101_1103452121825813_5481451174076530903_n.jpg",
-                "/assets/img/inter/03%20Entrepreneurship%20%26%20Startup%20Support/04%20Faculty%20Exchange%20Program/482225338_1106414794862879_466762468571305345_n.jpg",
-                "/assets/img/inter/03%20Entrepreneurship%20%26%20Startup%20Support/04%20Faculty%20Exchange%20Program/486406024_1120487196788972_3655098940765369689_n.jpg",
+                "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445481/sviet_assets/misc/ibxdj5cfhzz2hzn24fnm.jpg",
+                "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445483/sviet_assets/misc/xhb1dcai52gd47dtfpxs.jpg",
+                "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445472/sviet_assets/misc/qcovuw2o76u5dperaqlr.jpg",
               ].map((src, i) => (
                 <div
                   key={i}
@@ -524,7 +524,7 @@ export default function EntrepreneurshipPage() {
             </p>
             <div className="max-w-2xl overflow-hidden border border-black/10 bg-black">
               <video
-                src="/assets/img/inter/03%20Entrepreneurship%20%26%20Startup%20Support/04%20Faculty%20Exchange%20Program/LORENZ%20INTERN.mp4"
+                src="https://res.cloudinary.com/qbxjwpwp/video/upload/v1790445479/sviet_assets/misc/wrdwf0jzspd4iorsgtrr.mp4"
                 controls
                 preload="metadata"
                 playsInline
@@ -545,7 +545,7 @@ export default function EntrepreneurshipPage() {
             <div>
               <div className="relative mb-5 h-16 w-auto max-w-xs">
                 <Image
-                  src="/assets/img/inter/03%20Entrepreneurship%20%26%20Startup%20Support/05%20Beatbreakers/beat_breakers-removebg-preview.png"
+                  src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445501/sviet_assets/misc/wiqywkl7m3sqcrvi5at8.png"
                   alt="Beat Breakers logo"
                   fill
                   sizes="320px"

@@ -2,19 +2,19 @@ import Image from "next/image";
 
 const PREVIEW_TILES = [
   {
-    image: "/assets/img/section_card/Sportsmania.jpeg",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445123/sviet_assets/section_card/Sportsmania.jpg",
     label: "Sportsmania 2025 Highlights",
   },
   {
-    image: "/assets/img/section_card/Elevate.jpeg",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445130/sviet_assets/section_card/Elevate.jpg",
     label: "Elevate 2.0 — Cultural Fest",
   },
   {
-    image: "/assets/img/section_card/TEDx.jpeg",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445120/sviet_assets/section_card/TEDx.jpg",
     label: "TEDx SVIET — Power of One",
   },
   {
-    image: "/assets/img/section_card/Convo.jpeg",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445138/sviet_assets/section_card/Convo.jpg",
     label: "Graduation Ceremony 2025",
   },
 ];

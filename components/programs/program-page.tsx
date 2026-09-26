@@ -289,12 +289,12 @@ const ACTIVITIES_POOL: Record<string, ActivityPool> = {
       {
         title: "ISTE Convention 2025",
         description: "National summit for engineering educators and innovators",
-        image: "/assets/img/section_card/ISTE25.JPG.jpeg",
+        image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445126/sviet_assets/section_card/ISTE25.JPG.jpg",
       },
       {
         title: "TEDx SVIET",
         description: "Ideas worth spreading — campus TED experience",
-        image: "/assets/img/section_card/TEDx.jpeg",
+        image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445120/sviet_assets/section_card/TEDx.jpg",
       },
     ],
     featured: {
@@ -310,7 +310,7 @@ const ACTIVITIES_POOL: Record<string, ActivityPool> = {
         title: "Elevate — Leadership Meet",
         description:
           "Industry leaders share insights on strategy and leadership",
-        image: "/assets/img/section_card/Elevate.jpeg",
+        image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445130/sviet_assets/section_card/Elevate.jpg",
       },
       {
         title: "Global Finance Summit",
@@ -367,7 +367,7 @@ const ACTIVITIES_POOL: Record<string, ActivityPool> = {
       {
         title: "Elevate — Leadership Meet",
         description: "Grooming future leaders in tourism and hotel management",
-        image: "/assets/img/section_card/Elevate2.jpeg",
+        image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445127/sviet_assets/section_card/Elevate2.jpg",
       },
       {
         title: "Campus Life",
@@ -388,7 +388,7 @@ const ACTIVITIES_POOL: Record<string, ActivityPool> = {
         title: "Convocation Ceremony",
         description:
           "Annual celebration of academic excellence and achievement",
-        image: "/assets/img/section_card/Convo.jpeg",
+        image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445138/sviet_assets/section_card/Convo.jpg",
       },
       {
         title: "Industry Interaction",
@@ -400,7 +400,7 @@ const ACTIVITIES_POOL: Record<string, ActivityPool> = {
         title: "TEDx SVIET",
         description:
           "Thought leadership talks covering justice, policy, and law",
-        image: "/assets/img/section_card/TEDx3.jpeg",
+        image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445122/sviet_assets/section_card/TEDx3.jpg",
       },
     ],
     featured: {
@@ -415,7 +415,7 @@ const ACTIVITIES_POOL: Record<string, ActivityPool> = {
       {
         title: "TEDx SVIET",
         description: "Ideas worth spreading — campus TED experience",
-        image: "/assets/img/section_card/TEDx.jpeg",
+        image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445120/sviet_assets/section_card/TEDx.jpg",
       },
       {
         title: "Industrial Visit",
@@ -426,7 +426,7 @@ const ACTIVITIES_POOL: Record<string, ActivityPool> = {
       {
         title: "Elevate — Leadership Meet",
         description: "Industry leaders share insights on strategy and careers",
-        image: "/assets/img/section_card/Elevate.jpeg",
+        image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445130/sviet_assets/section_card/Elevate.jpg",
       },
     ],
     featured: {

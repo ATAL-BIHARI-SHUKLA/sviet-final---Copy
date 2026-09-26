@@ -129,7 +129,7 @@ export function CampusLifeFestsConvocationSection() {
           <div className="grid grid-cols-2 gap-2 rounded-xl bg-white p-2">
             <div className="col-span-2 overflow-hidden rounded-lg">
               <Image
-                src="/assets/img/con1.JPG"
+                src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445115/sviet_assets/con1.jpg"
                 alt="Convocation ceremony"
                 width={900}
                 height={500}
@@ -138,7 +138,7 @@ export function CampusLifeFestsConvocationSection() {
             </div>
             <div className="overflow-hidden rounded-lg">
               <Image
-                src="/assets/img/con2.JPG"
+                src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445114/sviet_assets/con2.jpg"
                 alt="Convocation graduates"
                 width={500}
                 height={500}
@@ -147,7 +147,7 @@ export function CampusLifeFestsConvocationSection() {
             </div>
             <div className="overflow-hidden rounded-lg">
               <Image
-                src="/assets/img/con3.JPG"
+                src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445112/sviet_assets/con3.jpg"
                 alt="Convocation celebration"
                 width={500}
                 height={500}

@@ -229,10 +229,10 @@ export default function OurServicesPage() {
             </p>
             <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
               {[
-                "/assets/img/inter/02%20Services/04%20Cultural%20Events%20%26%20Activities/Christmas/IMG_2625.JPG",
-                "/assets/img/inter/02%20Services/04%20Cultural%20Events%20%26%20Activities/Christmas/WhatsApp%20Image%202026-06-06%20at%202.14.20%20PM.jpeg",
-                "/assets/img/inter/02%20Services/04%20Cultural%20Events%20%26%20Activities/Christmas/WhatsApp%20Image%202026-06-06%20at%202.14.22%20PM.jpeg",
-                "/assets/img/inter/02%20Services/04%20Cultural%20Events%20%26%20Activities/Christmas/WhatsApp%20Image%202026-06-06%20at%202.14.23%20PM.jpeg",
+                "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445658/sviet_assets/misc/e3tv9jqvlh44rn0rcdx9.jpg",
+                "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445654/sviet_assets/misc/e7w1cenyj6hbhhl1ps2l.jpg",
+                "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445655/sviet_assets/misc/hgpjwso7baktjuydskui.jpg",
+                "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445621/sviet_assets/misc/jpbe6izjptqhuypksbbb.jpg",
               ].map((src, i) => (
                 <div
                   key={i}
@@ -258,9 +258,9 @@ export default function OurServicesPage() {
             </p>
             <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
               {[
-                "/assets/img/inter/02%20Services/04%20Cultural%20Events%20%26%20Activities/Football/IMG_8058.JPG",
-                "/assets/img/inter/02%20Services/04%20Cultural%20Events%20%26%20Activities/Football/IMG_8271.JPG",
-                "/assets/img/inter/02%20Services/04%20Cultural%20Events%20%26%20Activities/Football/IMG_8463.JPG",
+                "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445596/sviet_assets/misc/hs5ckqdex5abcckyg5j0.jpg",
+                "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445582/sviet_assets/misc/xeot6gfodokken13mblk.jpg",
+                "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445568/sviet_assets/misc/gouewtpn8wift4zpnzrr.jpg",
               ].map((src, i) => (
                 <div
                   key={i}
@@ -286,9 +286,9 @@ export default function OurServicesPage() {
             </p>
             <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
               {[
-                "/assets/img/inter/02%20Services/04%20Cultural%20Events%20%26%20Activities/ZIM%20Independence%20day/IMG_0829.JPG",
-                "/assets/img/inter/02%20Services/04%20Cultural%20Events%20%26%20Activities/ZIM%20Independence%20day/IMG_0871.JPG",
-                "/assets/img/inter/02%20Services/04%20Cultural%20Events%20%26%20Activities/ZIM%20Independence%20day/IMG_0874.JPG",
+                "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445647/sviet_assets/misc/ta9ugie5s8rr1tcyzeth.jpg",
+                "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445652/sviet_assets/misc/nzsdqbrxcxackkzs2fmi.jpg",
+                "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445644/sviet_assets/misc/kbghyvlfm3yqyogbiay2.jpg",
               ].map((src, i) => (
                 <div
                   key={i}
@@ -314,9 +314,9 @@ export default function OurServicesPage() {
             </p>
             <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
               {[
-                "/assets/img/inter/02%20Services/04%20Cultural%20Events%20%26%20Activities/New%20folder/IMG_8134.JPG",
-                "/assets/img/inter/02%20Services/04%20Cultural%20Events%20%26%20Activities/New%20folder/IMG_8178.JPG",
-                "/assets/img/inter/02%20Services/04%20Cultural%20Events%20%26%20Activities/New%20folder/IMG_8182.JPG",
+                "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445599/sviet_assets/misc/jh0t9ucifk611nb6edud.jpg",
+                "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445605/sviet_assets/misc/pamjpzdnvtfmhsabbfji.jpg",
+                "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445609/sviet_assets/misc/jslswwtrb75ykhgshbx6.jpg",
               ].map((src, i) => (
                 <div
                   key={i}
@@ -495,7 +495,7 @@ export default function OurServicesPage() {
             </div>
             <div className="relative min-h-96 overflow-hidden border border-black/10">
               <Image
-                src="/assets/img/inter/02%20Services/07%20Academic%20Support%20%26%20Assistance/IMG_2311.JPG"
+                src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445509/sviet_assets/misc/vrjmzkcqdzpeunpsvjlz.jpg"
                 alt="Academic support and assistance"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"

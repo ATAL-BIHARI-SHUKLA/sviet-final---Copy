@@ -34,7 +34,7 @@ const CARDS: Card[] = [
     name: "Ms. Shivani Guleria",
     description:
       "As the Faculty Adviser of the ISTE SVIET Chapter, I am committed to fostering an environment that promotes innovation, creativity, and excellence in our students. Our mission is to equip students with the technical skills and practical knowledge required for successful careers, while also preparing them to contribute meaningfully to society. We aim to build future leaders who are not only proficient in their field but also conscious of the role they play in sustainable development.",
-    image: "/assets/img/college/management/ashwani-sir.jpg",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445217/sviet_assets/college/management/ashwani-sir.jpg",
   },
 ];
 

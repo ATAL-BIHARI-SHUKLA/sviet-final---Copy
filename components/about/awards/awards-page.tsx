@@ -146,11 +146,11 @@ const GALLERY = [
   "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443542/sviet_assets/awards/Best%20Actor%20Award%202.jpg",
   "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443536/sviet_assets/awards/Prof.%20Ankur%20Gill.jpg",
   "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443537/sviet_assets/awards/Overall%20Winner%20Trophy%20Youth%20Festival.jpg",
-  "/assets/img/awards/3rd World Education & Business Conclave & Awards 2024/487032404_1125118346325857_811749101722748028_n.jpg",
-  "/assets/img/awards/3rd World Education & Business Conclave & Awards 2024/487072008_1125118556325836_2110804648108613286_n.jpg",
-  "/assets/img/awards/3rd World Education & Business Conclave & Awards 2024/487102853_1125118166325875_4343211062320838162_n.jpg",
-  "/assets/img/awards/3rd World Education & Business Conclave & Awards 2024/487508050_1125118249659200_7786513424327507524_n.jpg",
-  "/assets/img/awards/3rd World Education & Business Conclave & Awards 2024/487858134_1125118349659190_4886269811933456607_n.jpg",
+  "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445439/sviet_assets/misc/p5clvtfnhtcgmy6pachr.jpg",
+  "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445436/sviet_assets/misc/mimgnkubbvwrxtmnnrkr.jpg",
+  "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445437/sviet_assets/misc/wazre5f3adwtzyd7bk1q.jpg",
+  "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445435/sviet_assets/misc/pufucncr35cd0iitwqsl.jpg",
+  "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445438/sviet_assets/misc/rzbmr0visog44uuxyvk4.jpg",
 ];
 
 export function AwardsPage() {

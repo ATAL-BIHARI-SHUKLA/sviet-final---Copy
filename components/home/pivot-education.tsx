@@ -17,13 +17,13 @@ const educationPillars = [
     title: "Insights from Industry Leaders",
     description:
       "SVGOI has hosted renowned entrepreneurs like Aman Gupta and Ashneer Grover, offering students direct exposure to real-world business insights, leadership journeys, and startup ecosystems.",
-    image: "/assets/img/section_card/AmanGupta.JPG.jpeg",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445136/sviet_assets/section_card/AmanGupta.JPG.jpg",
   },
   {
     title: "Student Leadership & Professional Bodies",
     description:
       "With active chapters like ISTE, students take the lead in organizing technical events, workshops, and knowledge-driven sessions—building leadership alongside technical expertise.",
-    image: "/assets/img/section_card/ISTE25.JPG.jpeg",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445126/sviet_assets/section_card/ISTE25.JPG.jpg",
   },
 ];
 

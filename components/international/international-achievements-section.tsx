@@ -18,7 +18,7 @@ const ACHIEVERS = [
     program: "Cultural Exchange",
     description:
       "Spontania cultural meetup and community dining at campus cafe.",
-    imageSrc: "/assets/img/international/spotania-01.jpg",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445139/sviet_assets/international/spotania-01.jpg",
   },
   {
     name: "Curación Conference",

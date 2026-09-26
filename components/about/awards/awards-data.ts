@@ -148,10 +148,10 @@ export const AWARDS_RECORDS: AwardsRecord[] = [
     description:
       "Recognition received at the 3rd World Education & Business Conclave — highlights and trophies.",
     logoSrc:
-      "/assets/img/awards/3rd World Education & Business Conclave & Awards 2024/487032404_1125118346325857_811749101722748028_n.jpg",
+      "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445439/sviet_assets/misc/p5clvtfnhtcgmy6pachr.jpg",
     logoAlt: "World Education Awards 2024",
     assetSrc:
-      "/assets/img/awards/3rd World Education & Business Conclave & Awards 2024/487032404_1125118346325857_811749101722748028_n.jpg",
+      "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445439/sviet_assets/misc/p5clvtfnhtcgmy6pachr.jpg",
     assetType: "image",
     assetAlt: "World Education Awards 2024 image",
   },

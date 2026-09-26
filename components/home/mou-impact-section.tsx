@@ -44,7 +44,7 @@ const TAB_CARDS: MouCard[] = [
     name: "Solitaire Infosys Pvt. Ltd., Mohali",
     year: "2022",
     image:
-      "/assets/img/SVIET/SVIET%20Photos/MWIDM%20India%20Pvt.%20Ltd/DSC00221.JPG",
+      "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445225/sviet_assets/SVIET/SVIET%20Photos/MWIDM%20India%20Pvt.%20Ltd/DSC00221.jpg",
     type: "Training / Placement",
     category: "Industry & IT",
   },
@@ -73,7 +73,7 @@ const TAB_CARDS: MouCard[] = [
   {
     name: "Anvian Solutions Pvt. Ltd., Mohali",
     year: "2022",
-    image: "/assets/img/SVIET/SVIET%20Photos/Sortiq/DSC06587.JPG",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445233/sviet_assets/SVIET/SVIET%20Photos/Sortiq/DSC06587.jpg",
     type: "Training / Placement",
     category: "Industry & IT",
   },
@@ -88,7 +88,7 @@ const TAB_CARDS: MouCard[] = [
   {
     name: "Uproar ERP Pvt. Ltd., Mohali",
     year: "2018",
-    image: "/assets/img/SVIET/SVIET%20Photos/Sortiq/DSC06639.JPG",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445230/sviet_assets/SVIET/SVIET%20Photos/Sortiq/DSC06639.jpg",
     type: "Technical Training",
     category: "Industry & IT",
   },
@@ -215,7 +215,7 @@ const TAB_CARDS: MouCard[] = [
     name: "Quipr HR Services, Zirakpur",
     year: "2018",
     image:
-      "/assets/img/SVIET/SVIET%20Photos/MWIDM%20India%20Pvt.%20Ltd/DSC00285.JPG",
+      "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445222/sviet_assets/SVIET/SVIET%20Photos/MWIDM%20India%20Pvt.%20Ltd/DSC00285.jpg",
     type: "Training & Placement",
     category: "Placements",
   },
@@ -231,7 +231,7 @@ const TAB_CARDS: MouCard[] = [
     name: "Abroad Educare, Zirakpur",
     year: "2021",
     image:
-      "/assets/img/SVIET/SVIET%20Photos/Kreativan%20Technologies/DSC02286.JPG",
+      "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790445253/sviet_assets/SVIET/SVIET%20Photos/Kreativan%20Technologies/DSC02286.jpg",
     type: "Faculty Development",
     category: "Placements",
   },
