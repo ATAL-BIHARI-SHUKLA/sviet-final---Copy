@@ -50,7 +50,7 @@ export function CampusLifeTestimonialsSection() {
               </p>
               <div className="mt-4 flex items-center gap-3">
                 <Image
-                  src="/assets/img/campus-life/image3.png"
+                  src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443526/sviet_assets/campus-life/image3.png"
                   alt="Avatar"
                   width={64}
                   height={64}
@@ -66,8 +66,8 @@ export function CampusLifeTestimonialsSection() {
               <Image
                 src={
                   idx === 0
-                    ? "/assets/img/campus-life/image2.png"
-                    : "/assets/img/campus-life/image3.png"
+                    ? "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443528/sviet_assets/campus-life/image2.png"
+                    : "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443526/sviet_assets/campus-life/image3.png"
                 }
                 alt="Student speak"
                 width={1200}

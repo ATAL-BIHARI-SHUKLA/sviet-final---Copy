@@ -2,13 +2,13 @@ import Image from "next/image";
 import eventsData from "@/data/data/event";
 
 const eventImages = [
-  "/assets/img/campus-life/r1c1.png",
-  "/assets/img/campus-life/r1c2.png",
-  "/assets/img/campus-life/r2c1.png",
-  "/assets/img/campus-life/r2c2.png",
-  "/assets/img/campus-life/r2c3.png",
-  "/assets/img/campus-life/r3c1.png",
-  "/assets/img/campus-life/r3c2.png",
+  "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443526/sviet_assets/campus-life/r1c1.png",
+  "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443526/sviet_assets/campus-life/r1c2.png",
+  "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443526/sviet_assets/campus-life/r2c1.png",
+  "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443525/sviet_assets/campus-life/r2c2.png",
+  "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443523/sviet_assets/campus-life/r2c3.png",
+  "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443523/sviet_assets/campus-life/r3c1.png",
+  "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443523/sviet_assets/campus-life/r3c2.png",
 ];
 
 type CampusEvent = {

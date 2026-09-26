@@ -9,7 +9,7 @@ export function PlacementsHeroSection() {
       <section className="relative overflow-hidden bg-white">
         <div className="relative aspect-[16/11] min-h-56 w-full sm:aspect-video sm:min-h-80 md:aspect-16/7 md:min-h-130 lg:min-h-155">
           <Image
-            src="/assets/img/banner/bannerplace.jpeg"
+            src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443532/sviet_assets/banner/bannerplace.jpg"
             alt="SVGOI placements banner"
             fill
             priority

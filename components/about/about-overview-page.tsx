@@ -103,7 +103,7 @@ const LEADERSHIP_DESK: Leader[] = [
     socialLinks: [
       { label: "Facebook", href: "https://www.facebook.com/ashok.garg.566" },
     ],
-    imageSrc: "/assets/img/college/management/ashok-sir.jpg",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443864/sviet_assets/college/management/ashok-sir.jpg",
     imageAlt: "Mr. Ashok Garg",
   },
   {
@@ -127,7 +127,7 @@ const LEADERSHIP_DESK: Leader[] = [
         href: "https://www.facebook.com/vishal.garg.7921975",
       },
     ],
-    imageSrc: "/assets/img/college/management/vishal-sir.jpg",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443857/sviet_assets/college/management/vishal-sir.jpg",
     imageAlt: "Mr. Vishal Garg",
   },
   // {
@@ -146,7 +146,7 @@ const LEADERSHIP_DESK: Leader[] = [
   //       href: "https://www.linkedin.com/in/ankur-gupta-14278730/",
   //     },
   //   ],
-  //   imageSrc: "/assets/img/college/management/ankurgupta.jpg",
+  //   imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443877/sviet_assets/college/management/ankurgupta.jpg",
   //   imageAlt: "Mr. Ankur Gupta",
   // },
   // {
@@ -190,7 +190,7 @@ const LEADERSHIP_DESK: Leader[] = [
   //       href: "https://www.facebook.com/profile.php?id=100052235821482",
   //     },
   //   ],
-  //   imageSrc: "/assets/img/college/management/shubham-sir..jpg",
+  //   imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443858/sviet_assets/college/management/shubham-sir..jpg",
   //   imageAlt: "Mr. Shubham Garg",
   // },
   {
@@ -211,7 +211,7 @@ const LEADERSHIP_DESK: Leader[] = [
       },
       { label: "Facebook", href: "https://www.facebook.com/ankurgillofficial" },
     ],
-    imageSrc: "/assets/img/college/management/ankur-sir.jpg",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443875/sviet_assets/college/management/ankur-sir.jpg",
     imageAlt: "Mr. Ankur Gill",
   },
 ];
@@ -228,7 +228,7 @@ const INFRASTRUCTURE = [
     title: "Administrative Block",
     description:
       "The main academic and administrative core that anchors campus operations and student support.",
-    imageSrc: "/assets/img/infrastructure/buildings/admin.jpg",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443568/sviet_assets/infrastructure/buildings/admin.jpg",
     imageAlt: "Administrative block at SVGOI",
     spanClassName: "xl:col-span-5 xl:row-span-2",
   },
@@ -236,7 +236,7 @@ const INFRASTRUCTURE = [
     title: "Academic Auditorium",
     description:
       "A shared venue for lectures, seminars, cultural events, and institution-wide gatherings.",
-    imageSrc: "/assets/img/infrastructure/buildings/audi.jpg",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443568/sviet_assets/infrastructure/buildings/audi.jpg",
     imageAlt: "Academic auditorium at SVGOI",
     spanClassName: "xl:col-span-4 xl:row-span-1",
   },
@@ -244,7 +244,7 @@ const INFRASTRUCTURE = [
     title: "Campus Canteen",
     description:
       "A lively social space where students and staff connect between classes and activities.",
-    imageSrc: "/assets/img/infrastructure/buildings/canteen.jpg",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443568/sviet_assets/infrastructure/buildings/canteen.jpg",
     imageAlt: "Campus canteen at SVGOI",
     spanClassName: "xl:col-span-3 xl:row-span-1",
   },
@@ -252,7 +252,7 @@ const INFRASTRUCTURE = [
     title: "Civil Labs",
     description:
       "Hands-on spaces where students learn by testing, building, and observing practical outcomes.",
-    imageSrc: "/assets/img/infrastructure/buildings/civil labs.jpg",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443566/sviet_assets/infrastructure/buildings/civil%20labs.jpg",
     imageAlt: "Civil engineering laboratory facilities",
     spanClassName: "xl:col-span-4 xl:row-span-1",
   },
@@ -260,7 +260,7 @@ const INFRASTRUCTURE = [
     title: "Corporate Connect Space",
     description:
       "A professional setting for industry interactions, placement activity, and collaborative meetings.",
-    imageSrc: "/assets/img/infrastructure/buildings/coorporate_in_campus.jpg",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443568/sviet_assets/infrastructure/buildings/coorporate_in_campus.jpg",
     imageAlt: "Corporate interaction space inside campus",
     spanClassName: "xl:col-span-5 xl:row-span-2",
   },
@@ -268,7 +268,7 @@ const INFRASTRUCTURE = [
     title: "Computer Science Block",
     description:
       "Technology-focused learning spaces built to support programming, labs, and project work.",
-    imageSrc: "/assets/img/infrastructure/buildings/cse.jpg",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443562/sviet_assets/infrastructure/buildings/cse.jpg",
     imageAlt: "Computer science block at SVGOI",
     spanClassName: "xl:col-span-3 xl:row-span-1",
   },
@@ -276,7 +276,7 @@ const INFRASTRUCTURE = [
     title: "Hostel",
     description:
       "Residential infrastructure designed to support a comfortable and disciplined student life.",
-    imageSrc: "/assets/img/infrastructure/buildings/hostel.jpg",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443562/sviet_assets/infrastructure/buildings/hostel.jpg",
     imageAlt: "Student hostel at SVGOI",
     spanClassName: "xl:col-span-4 xl:row-span-1",
   },
@@ -284,7 +284,7 @@ const INFRASTRUCTURE = [
     title: "Mechanical Engineering Block",
     description:
       "Specialised academic infrastructure supporting design, fabrication, and practical engineering learning.",
-    imageSrc: "/assets/img/infrastructure/buildings/mechanical_eng.jpg",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443562/sviet_assets/infrastructure/buildings/mechanical_eng.jpg",
     imageAlt: "Mechanical engineering block at SVGOI",
     spanClassName: "xl:col-span-4 xl:row-span-2",
   },
@@ -292,7 +292,7 @@ const INFRASTRUCTURE = [
     title: "Pharmacy Block",
     description:
       "A dedicated environment for pharmacy instruction, labs, and discipline-specific study.",
-    imageSrc: "/assets/img/infrastructure/buildings/pharmacy_block.jpg",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443562/sviet_assets/infrastructure/buildings/pharmacy_block.jpg",
     imageAlt: "Pharmacy block at SVGOI",
     spanClassName: "xl:col-span-3 xl:row-span-1",
   },
@@ -300,7 +300,7 @@ const INFRASTRUCTURE = [
     title: "Innovation Lab",
     description:
       "A maker-style learning space for experimentation, group work, and practical discovery.",
-    imageSrc: "/assets/img/infrastructure/labs/the_unique.jpg",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443558/sviet_assets/infrastructure/labs/the_unique.jpg",
     imageAlt: "Innovation lab at SVGOI",
     spanClassName: "xl:col-span-5 xl:row-span-1",
   },
@@ -308,7 +308,7 @@ const INFRASTRUCTURE = [
     title: "Smart Lab",
     description:
       "A technical lab setup that supports applied learning, project builds, and skill development.",
-    imageSrc: "/assets/img/infrastructure/labs/lab2.jpg",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443558/sviet_assets/infrastructure/labs/lab2.jpg",
     imageAlt: "Smart laboratory at SVGOI",
     spanClassName: "xl:col-span-4 xl:row-span-1",
   },

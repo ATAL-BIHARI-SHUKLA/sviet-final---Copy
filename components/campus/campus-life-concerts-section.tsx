@@ -3,22 +3,22 @@ import Image from "next/image";
 const CONCERT_CARDS = [
   {
     title: "Anuv Jain live in concert",
-    image: "/assets/img/show.jpg",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790442923/sviet_assets/show.jpg",
     alt: "Anuv Jain live performance",
   },
   {
     title: "Supersonic EDM night",
-    image: "/assets/img/campus-life/r2c2.png",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443525/sviet_assets/campus-life/r2c2.png",
     alt: "EDM night stage",
   },
   {
     title: "Vishal Shekhar concert",
-    image: "/assets/img/show2.jpg",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790442918/sviet_assets/show2.jpg",
     alt: "Vishal Shekhar concert",
   },
   {
     title: "Bollywood fusion night",
-    image: "/assets/img/campus-life/r3c1.png",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443523/sviet_assets/campus-life/r3c1.png",
     alt: "Bollywood fusion music event",
   },
 ] as const;

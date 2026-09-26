@@ -5,7 +5,7 @@ export function EventsHeroSection() {
     <section className="w-full bg-[#f5f7fb]">
       <div className="relative w-full overflow-hidden">
         <Image
-          src="/assets/img/banner/eventbanner.jpeg"
+          src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443532/sviet_assets/banner/eventbanner.jpg"
           alt="SVGOI events banner"
           width={1600}
           draggable={false}

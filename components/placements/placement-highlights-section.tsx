@@ -2,32 +2,32 @@ import Image from "next/image";
 
 const PLACEMENT_HIGHLIGHT_CARDS = [
   {
-    imageSrc: "/assets/img/college/global_recognition.png",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443483/sviet_assets/college/global_recognition.png",
     imageAlt: "SVGOI ranked first in North India",
   },
   {
-    imageSrc: "/assets/img/college/global_recognition.png",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443483/sviet_assets/college/global_recognition.png",
     imageAlt: "SVGOI ranked fourth among top engineering colleges in Punjab",
   },
   {
-    imageSrc: "/assets/img/college/global_recognition.png",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443483/sviet_assets/college/global_recognition.png",
     imageAlt:
       "SVGOI ranked eighth among outstanding engineering colleges in India",
   },
   {
-    imageSrc: "/assets/img/college/global_recognition.png",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443483/sviet_assets/college/global_recognition.png",
     imageAlt: "Global recognition for excellence in education",
   },
   {
-    imageSrc: "/assets/img/college/global_recognition.png",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443483/sviet_assets/college/global_recognition.png",
     imageAlt: "Elets World Education Summit award",
   },
   {
-    imageSrc: "/assets/img/college/global_recognition.png",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443483/sviet_assets/college/global_recognition.png",
     imageAlt: "Digital learning recognition",
   },
   {
-    imageSrc: "/assets/img/college/global_recognition.png",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443483/sviet_assets/college/global_recognition.png",
     imageAlt: "SVGOI recognition banner",
   },
 ] as const;

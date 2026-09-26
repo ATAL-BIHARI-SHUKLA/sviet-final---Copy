@@ -124,7 +124,7 @@ export function PlacementStatsSection() {
             {/* Image fills the rest of the left column */}
             {/* <div className="relative h-56 w-full overflow-hidden md:h-72">
               <Image
-                src="/assets/img/banner/s60.jpeg"
+                src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443529/sviet_assets/banner/s60.jpg"
                 alt="SVGOI placement achievement — 60 LPA"
                 fill
                 sizes="(max-width: 768px) 100vw, 260px"

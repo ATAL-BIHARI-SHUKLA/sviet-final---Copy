@@ -8,7 +8,7 @@ const leaders = [
   {
     name: "Aman Gupta",
     role: "Co-Founder, boAt",
-    image: "/assets/img/college/guests/aman_gupta.png",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443884/sviet_assets/college/guests/aman_gupta.png",
     quote: "Build products that solve real problems",
     stars: 5,
     feedback:
@@ -17,7 +17,7 @@ const leaders = [
   {
     name: "Ashneer Grover",
     role: "Co-Founder, BharatPe",
-    image: "/assets/img/college/guests/ashneer_groveer.png",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443883/sviet_assets/college/guests/ashneer_groveer.png",
     quote: "Entrepreneurship is about creating value at scale",
     stars: 5,
     feedback:
@@ -26,7 +26,7 @@ const leaders = [
   {
     name: "Anand Kumar",
     role: "Distinguished Guest",
-    image: "/assets/img/college/guests/anand_kumar_sir.png",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443881/sviet_assets/college/guests/anand_kumar_sir.png",
     quote: "Education has the power to transform lives",
     stars: 5,
     feedback:
@@ -35,7 +35,7 @@ const leaders = [
   {
     name: "PK Desai",
     role: "Distinguished Guest",
-    image: "/assets/img/college/guests/pkdesaisir.jpeg",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443882/sviet_assets/college/guests/pkdesaisir.jpg",
     quote: "Discipline and consistency drive long-term success",
     stars: 5,
     feedback:
@@ -44,7 +44,7 @@ const leaders = [
   {
     name: "Rajeev Ahuja",
     role: "Distinguished Guest",
-    image: "/assets/img/college/guests/rajeev_ahuja_sir.jpg.jpeg",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443879/sviet_assets/college/guests/rajeev_ahuja_sir.jpg.jpg",
     quote: "Innovation begins when curiosity meets execution",
     stars: 5,
     feedback:
@@ -53,7 +53,7 @@ const leaders = [
   {
     name: "Susheel Mital",
     role: "Distinguished Guest",
-    image: "/assets/img/college/guests/susheel_mital_sir.jpg.jpeg",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443879/sviet_assets/college/guests/susheel_mital_sir.jpg.jpg",
     quote: "Leadership is about enabling others to excel",
     stars: 5,
     feedback:

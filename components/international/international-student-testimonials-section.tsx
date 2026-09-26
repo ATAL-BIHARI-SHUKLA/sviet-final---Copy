@@ -3,15 +3,15 @@ import { useEffect, useState } from "react";
 
 const VIDEO_TESTIMONIALS = [
   {
-    src: "/assets/img/inter/Testimonies/WhatsApp%20Video%202026-06-08%20at%2011.13.59%20AM.mp4",
+    src: "https://res.cloudinary.com/qbxjwpwp/video/upload/v1790443578/sviet_assets/inter/Testimonies/WhatsApp%20Video%202026-06-08%20at%2011.13.59%20AM.mp4",
     label: "International Student Testimonial",
   },
   {
-    src: "/assets/img/inter/Testimonies/WhatsApp%20Video%202026-06-08%20at%2011.14.14%20AM.mp4",
+    src: "https://res.cloudinary.com/qbxjwpwp/video/upload/v1790443578/sviet_assets/inter/Testimonies/WhatsApp%20Video%202026-06-08%20at%2011.14.14%20AM.mp4",
     label: "International Student Testimonial",
   },
   {
-    src: "/assets/img/inter/Testimonies/WhatsApp%20Video%202026-06-08%20at%2011.15.05%20AM.mp4",
+    src: "https://res.cloudinary.com/qbxjwpwp/video/upload/v1790443579/sviet_assets/inter/Testimonies/WhatsApp%20Video%202026-06-08%20at%2011.15.05%20AM.mp4",
     label: "International Student Testimonial",
   },
 ] as const;

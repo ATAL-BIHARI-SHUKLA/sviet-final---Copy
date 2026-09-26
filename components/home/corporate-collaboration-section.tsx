@@ -17,12 +17,12 @@ const CORPORATE_PARTNERS = [
   },
   {
     name: "Wipro",
-    logoSrc: "/assets/img/companies/wipro.png",
+    logoSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443449/sviet_assets/companies/wipro.png",
     mouImage: "/assets/img/section_card/T&P MOU.jpeg",
   },
   {
     name: "Amazon",
-    logoSrc: "/assets/img/companies/amazon.png",
+    logoSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443461/sviet_assets/companies/amazon.png",
     mouImage: "/assets/img/section_card/T&P MOU.jpeg",
   },
   {
@@ -32,12 +32,12 @@ const CORPORATE_PARTNERS = [
   },
   {
     name: "Jio Digital",
-    logoSrc: "/assets/img/companies/jio_digital.png",
+    logoSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443455/sviet_assets/companies/jio_digital.png",
     mouImage: "/assets/img/section_card/T&P MOU.jpeg",
   },
   {
     name: "Dabur",
-    logoSrc: "/assets/img/companies/dabur.png",
+    logoSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443457/sviet_assets/companies/dabur.png",
     mouImage: "/assets/img/section_card/T&P MOU.jpeg",
   },
 ] as const;

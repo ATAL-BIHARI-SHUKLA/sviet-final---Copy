@@ -2,28 +2,28 @@ import Image from "next/image";
 import Link from "next/link";
 
 const FLAGS = [
-  { src: "/assets/img/flags/Flag-Cameroon.webp", country: "Cameroon" },
-  { src: "/assets/img/flags/Flag-Cote-dIvoire.webp", country: "Côte d'Ivoire" },
-  { src: "/assets/img/flags/Flag-Guinea.webp", country: "Guinea" },
-  { src: "/assets/img/flags/Flag-Malawi.webp", country: "Malawi" },
-  { src: "/assets/img/flags/Flag-Zimbabwe.webp", country: "Zimbabwe" },
-  { src: "/assets/img/flags/Flag_of_Austria.webp", country: "Austria" },
-  { src: "/assets/img/flags/Flag_of_Egypt.svg", country: "Egypt" },
-  { src: "/assets/img/flags/Flag_of_Ghana.svg", country: "Ghana" },
-  { src: "/assets/img/flags/Flag_of_Kenya.webp", country: "Kenya" },
-  { src: "/assets/img/flags/Flag_of_Lesotho.png", country: "Lesotho" },
-  { src: "/assets/img/flags/Flag_of_Liberia.png", country: "Liberia" },
-  { src: "/assets/img/flags/Flag_of_Mali.png", country: "Mali" },
-  { src: "/assets/img/flags/Flag_of_Mozambique.svg", country: "Mozambique" },
-  { src: "/assets/img/flags/Flag_of_Nigeria.png", country: "Nigeria" },
-  { src: "/assets/img/flags/Flag_of_Rwanda.png", country: "Rwanda" },
-  { src: "/assets/img/flags/Flag_of_South_Sudan.png", country: "South Sudan" },
-  { src: "/assets/img/flags/Flag_of_Sudan.png", country: "Sudan" },
-  { src: "/assets/img/flags/Flag_of_Tanzania.webp", country: "Tanzania" },
-  { src: "/assets/img/flags/Flag_of_Thailand_(CMYK).png", country: "Thailand" },
-  { src: "/assets/img/flags/Flag_of_Uganda.png", country: "Uganda" },
-  { src: "/assets/img/flags/Flag_of_Yemen.png", country: "Yemen" },
-  { src: "/assets/img/flags/Flag_of_Zambia.png", country: "Zambia" },
+  { src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443416/sviet_assets/flags/Flag-Cameroon.webp", country: "Cameroon" },
+  { src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443416/sviet_assets/flags/Flag-Cote-dIvoire.webp", country: "Côte d'Ivoire" },
+  { src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443414/sviet_assets/flags/Flag-Guinea.webp", country: "Guinea" },
+  { src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443414/sviet_assets/flags/Flag-Malawi.webp", country: "Malawi" },
+  { src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443414/sviet_assets/flags/Flag-Zimbabwe.webp", country: "Zimbabwe" },
+  { src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443414/sviet_assets/flags/Flag_of_Austria.webp", country: "Austria" },
+  { src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443414/sviet_assets/flags/Flag_of_Egypt.svg", country: "Egypt" },
+  { src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443411/sviet_assets/flags/Flag_of_Ghana.svg", country: "Ghana" },
+  { src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443411/sviet_assets/flags/Flag_of_Kenya.webp", country: "Kenya" },
+  { src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443411/sviet_assets/flags/Flag_of_Lesotho.png", country: "Lesotho" },
+  { src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443411/sviet_assets/flags/Flag_of_Liberia.png", country: "Liberia" },
+  { src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443411/sviet_assets/flags/Flag_of_Mali.png", country: "Mali" },
+  { src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443409/sviet_assets/flags/Flag_of_Mozambique.svg", country: "Mozambique" },
+  { src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443409/sviet_assets/flags/Flag_of_Nigeria.png", country: "Nigeria" },
+  { src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443409/sviet_assets/flags/Flag_of_Rwanda.png", country: "Rwanda" },
+  { src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443409/sviet_assets/flags/Flag_of_South_Sudan.png", country: "South Sudan" },
+  { src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443409/sviet_assets/flags/Flag_of_Sudan.png", country: "Sudan" },
+  { src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443408/sviet_assets/flags/Flag_of_Tanzania.webp", country: "Tanzania" },
+  { src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443408/sviet_assets/flags/Flag_of_Thailand_%28CMYK%29.png", country: "Thailand" },
+  { src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443408/sviet_assets/flags/Flag_of_Uganda.png", country: "Uganda" },
+  { src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443408/sviet_assets/flags/Flag_of_Yemen.png", country: "Yemen" },
+  { src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443408/sviet_assets/flags/Flag_of_Zambia.png", country: "Zambia" },
 ];
 
 export function InternationalHeroIntroSection() {
@@ -113,7 +113,7 @@ export function InternationalHeroIntroSection() {
           <div className="grid items-center gap-6 md:grid-cols-[1fr_1fr]">
             <div className="relative min-h-52 overflow-hidden md:min-h-64">
               <Image
-                src="/assets/img/banner/international.jpeg"
+                src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443529/sviet_assets/banner/international.jpg"
                 alt="International students at SVGOI campus"
                 fill
                 sizes="(max-width: 968px) 100vw, 45vw"

@@ -28,7 +28,7 @@ const TAB_CARDS: MouCard[] = [
   {
     name: "Butterfly Labs Pvt. Ltd., Mohali",
     year: "2023",
-    image: "/assets/img/SVIET/SVIET%20Photos/Amcare/IMG_8485.JPG",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443997/sviet_assets/SVIET/SVIET%20Photos/Amcare/IMG_8485.jpg",
     type: "Seminar / Training",
     category: "Industry & IT",
   },
@@ -36,7 +36,7 @@ const TAB_CARDS: MouCard[] = [
     name: "Ellocent Lab IT Solution Pvt. Ltd., Mohali",
     year: "2023",
     image:
-      "/assets/img/SVIET/SVIET%20Photos/Kreativan%20Technologies/DSC02285.JPG",
+      "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443979/sviet_assets/SVIET/SVIET%20Photos/Kreativan%20Technologies/DSC02285.jpg",
     type: "Research Projects / Placement",
     category: "Industry & IT",
   },
@@ -59,14 +59,14 @@ const TAB_CARDS: MouCard[] = [
   {
     name: "MindCode Lab Pvt. Ltd., Mohali",
     year: "2019",
-    image: "/assets/img/SVIET/SVIET%20Photos/Coder%20Roots/DSC01017.JPG",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790444005/sviet_assets/SVIET/SVIET%20Photos/Coder%20Roots/DSC01017.jpg",
     type: "Summer Industrial Training",
     category: "Industry & IT",
   },
   {
     name: "SV Technologies, Chandigarh",
     year: "2019",
-    image: "/assets/img/SVIET/SVIET%20Photos/Learning%20Roots/IMG_2002.JPG",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443958/sviet_assets/SVIET/SVIET%20Photos/Learning%20Roots/IMG_2002.jpg",
     type: "Hardware & Network Training",
     category: "Industry & IT",
   },
@@ -81,7 +81,7 @@ const TAB_CARDS: MouCard[] = [
     name: "AGCL Technologies, Zirakpur",
     year: "2018",
     image:
-      "/assets/img/SVIET/SVIET%20Photos/Placement/WhatsApp%20Image%202025-05-21%20at%206.37.10%20AM%20(2).jpeg",
+      "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443929/sviet_assets/SVIET/SVIET%20Photos/Placement/WhatsApp%20Image%202025-05-21%20at%206.37.10%20AM%20%282%29.jpg",
     type: "Expert Lectures / Training",
     category: "Industry & IT",
   },
@@ -96,14 +96,14 @@ const TAB_CARDS: MouCard[] = [
   {
     name: "Paras Healthcare, Panchkula, Haryana",
     year: "2025",
-    image: "/assets/img/SVCP/MOU%20Pics/Paras%20Pharma/paras.jpg",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790444025/sviet_assets/SVCP/MOU%20Pics/Paras%20Pharma/paras.jpg",
     type: "Clinical Training",
     category: "Healthcare",
   },
   {
     name: "Amicus Healthcare Pvt. Ltd",
     year: "2026",
-    image: "/assets/img/SVCP/MOU%20Pics/Amicus%20Healthcare/ami.jpg",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790444043/sviet_assets/SVCP/MOU%20Pics/Amicus%20Healthcare/ami.jpg",
     type: "Industry Collaboration",
     category: "Healthcare",
   },
@@ -111,7 +111,7 @@ const TAB_CARDS: MouCard[] = [
     name: "Ion Healthcare, Baddi, HP",
     year: "2025",
     image:
-      "/assets/img/SVCP/MOU%20Pics/Paras%20Pharma/559961972_1197183242241635_8347532131443638689_n%20(1).jpg",
+      "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790444028/sviet_assets/SVCP/MOU%20Pics/Paras%20Pharma/559961972_1197183242241635_8347532131443638689_n%20%281%29.jpg",
     type: "Industry Collaboration",
     category: "Healthcare",
   },
@@ -119,7 +119,7 @@ const TAB_CARDS: MouCard[] = [
     name: "Philadelphia Hospital, Ambala",
     year: "2022",
     image:
-      "/assets/img/SVCP/MOU%20Pics/Amicus%20Healthcare/GMC16012026_141200.jpg",
+      "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790444037/sviet_assets/SVCP/MOU%20Pics/Amicus%20Healthcare/GMC16012026_141200.jpg",
     type: "Clinical Exposure",
     category: "Healthcare",
   },
@@ -127,7 +127,7 @@ const TAB_CARDS: MouCard[] = [
     name: "Krisa Healthcare, Baddi, HP",
     year: "2025",
     image:
-      "/assets/img/SVCP/MOU%20Pics/Dharmayu%20Wellness/558109701_1194380205855272_7387256740285227281_n.jpg",
+      "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790444033/sviet_assets/SVCP/MOU%20Pics/Dharmayu%20Wellness/558109701_1194380205855272_7387256740285227281_n.jpg",
     type: "Industry Collaboration",
     category: "Healthcare",
   },
@@ -135,7 +135,7 @@ const TAB_CARDS: MouCard[] = [
   {
     name: "Dharmayu Wellness, Derabassi, Punjab",
     year: "2025",
-    image: "/assets/img/SVCP/MOU%20Pics/Dharmayu%20Wellness/dharmayu.jpg",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790444031/sviet_assets/SVCP/MOU%20Pics/Dharmayu%20Wellness/dharmayu.jpg",
     type: "Wellness & Pharma",
     category: "Pharma",
   },
@@ -143,14 +143,14 @@ const TAB_CARDS: MouCard[] = [
     name: "Katherine & Kyoor Pharmaceuticals, Baddi, HP",
     year: "2025",
     image:
-      "/assets/img/SVCP/MOU%20Pics/Paras%20Pharma/559123212_1197183238908302_7702935883636893618_n.jpg",
+      "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790444028/sviet_assets/SVCP/MOU%20Pics/Paras%20Pharma/559123212_1197183238908302_7702935883636893618_n.jpg",
     type: "Pharmaceutical Collaboration",
     category: "Pharma",
   },
   {
     name: "DS Cosmeceuticals Pvt. Ltd, Ludhiana",
     year: "2025",
-    image: "/assets/img/SVCP/MOU%20Pics/DS%20Comoceuticals/ds.jpeg",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790444031/sviet_assets/SVCP/MOU%20Pics/DS%20Comoceuticals/ds.jpg",
     type: "Pharma / Cosmetics",
     category: "Pharma",
   },
@@ -158,7 +158,7 @@ const TAB_CARDS: MouCard[] = [
     name: "Koul Pharmaceutical Distributors, Jammu",
     year: "2024",
     image:
-      "/assets/img/SVCP/MOU%20Pics/Gautam%20College%20of%20Pharmacy/WhatsApp%20Image%202025-11-17%20at%204.20.21%20PM.jpeg",
+      "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790444024/sviet_assets/SVCP/MOU%20Pics/Gautam%20College%20of%20Pharmacy/WhatsApp%20Image%202025-11-17%20at%204.20.21%20PM.jpg",
     type: "Pharma Distribution",
     category: "Pharma",
   },
@@ -167,7 +167,7 @@ const TAB_CARDS: MouCard[] = [
     name: "Edupyramids / IIT Bombay SINE",
     year: "2025",
     image:
-      "/assets/img/SVCP/MOU%20Pics/Amicus%20Healthcare/20260116_21111PMByGPSMapCamera.jpg",
+      "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790444045/sviet_assets/SVCP/MOU%20Pics/Amicus%20Healthcare/20260116_21111PMByGPSMapCamera.jpg",
     type: "Research Collaboration",
     category: "Research",
   },
@@ -175,14 +175,14 @@ const TAB_CARDS: MouCard[] = [
     name: "Gautam College of Pharmacy, Hamirpur, HP",
     year: "2025",
     image:
-      "/assets/img/SVCP/MOU%20Pics/Gautam%20College%20of%20Pharmacy/gautam.jpeg",
+      "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790444025/sviet_assets/SVCP/MOU%20Pics/Gautam%20College%20of%20Pharmacy/gautam.jpg",
     type: "Academic Research",
     category: "Research",
   },
   {
     name: "Chandigarh Agritech Pvt. Ltd",
     year: "2026",
-    image: "/assets/img/SVCP/MOU%20Pics/Amicus%20Healthcare/ami.jpg",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790444043/sviet_assets/SVCP/MOU%20Pics/Amicus%20Healthcare/ami.jpg",
     type: "Agri-tech Research",
     category: "Research",
   },
@@ -199,7 +199,7 @@ const TAB_CARDS: MouCard[] = [
     name: "Focus College, Surrey, BC, Canada",
     year: "2023",
     image:
-      "/assets/img/SVCP/MOU%20Pics/DS%20Comoceuticals/WhatsApp%20Image%202025-12-12%20at%201.56.37%20PM.jpeg",
+      "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790444030/sviet_assets/SVCP/MOU%20Pics/DS%20Comoceuticals/WhatsApp%20Image%202025-12-12%20at%201.56.37%20PM.jpg",
     type: "Academic Exchange",
     category: "International",
   },
@@ -207,7 +207,7 @@ const TAB_CARDS: MouCard[] = [
   {
     name: "Career Guidance & Placements, Jammu",
     year: "2023",
-    image: "/assets/img/SVIET/SVIET%20Photos/Coder%20Roots/DSC00975.JPG",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790444023/sviet_assets/SVIET/SVIET%20Photos/Coder%20Roots/DSC00975.jpg",
     type: "Placement Support",
     category: "Placements",
   },
@@ -223,7 +223,7 @@ const TAB_CARDS: MouCard[] = [
     name: "Rise n Shine, Punjab",
     year: "2022",
     image:
-      "/assets/img/SVIET/SVIET%20Photos/Placement/WhatsApp%20Image%202025-05-21%20at%206.34.07%20AM.jpeg",
+      "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443935/sviet_assets/SVIET/SVIET%20Photos/Placement/WhatsApp%20Image%202025-05-21%20at%206.34.07%20AM.jpg",
     type: "Industrial Training / Research",
     category: "Placements",
   },
@@ -238,28 +238,28 @@ const TAB_CARDS: MouCard[] = [
 ];
 
 const PARTNER_LOGOS_ROW_1 = [
-  { name: "Butterfly Labs", src: "/assets/img/mou/butterfly_labs.png" },
-  { name: "Focus College", src: "/assets/img/mou/Focus_College.png" },
-  { name: "Ellocent Lab IT", src: "/assets/img/mou/ellocent_labs_logo.jpg" },
-  { name: "Solitaire Infosys", src: "/assets/img/mou/Solitaire_Infosys.png" },
-  { name: "Anviam Solutions", src: "/assets/img/mou/anviam.png" },
-  { name: "Ominnos Technologies", src: "/assets/img/mou/Ominnos_Technologies.png" },
-  { name: "Codevision.io", src: "/assets/img/mou/Codevision.io.webp" },
-  { name: "MindCode Lab", src: "/assets/img/mou/mindcodelab.jpg" },
-  { name: "Talent O Mind", src: "/assets/img/mou/TalentOMind.png" },
-  { name: "SV Technologies", src: "/assets/img/mou/svtechnoogy.png" },
-  { name: "AGCL Technologies", src: "/assets/img/mou/agcl_technologies_logo.jpg" },
+  { name: "Butterfly Labs", src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443407/sviet_assets/mou/butterfly_labs.png" },
+  { name: "Focus College", src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443406/sviet_assets/mou/Focus_College.png" },
+  { name: "Ellocent Lab IT", src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443406/sviet_assets/mou/ellocent_labs_logo.jpg" },
+  { name: "Solitaire Infosys", src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443403/sviet_assets/mou/Solitaire_Infosys.png" },
+  { name: "Anviam Solutions", src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443407/sviet_assets/mou/anviam.png" },
+  { name: "Ominnos Technologies", src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443404/sviet_assets/mou/Ominnos_Technologies.png" },
+  { name: "Codevision.io", src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443407/sviet_assets/mou/Codevision.io.webp" },
+  { name: "MindCode Lab", src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443404/sviet_assets/mou/mindcodelab.jpg" },
+  { name: "Talent O Mind", src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443403/sviet_assets/mou/TalentOMind.png" },
+  { name: "SV Technologies", src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443403/sviet_assets/mou/svtechnoogy.png" },
+  { name: "AGCL Technologies", src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443407/sviet_assets/mou/agcl_technologies_logo.jpg" },
 ];
 
 const PARTNER_LOGOS_ROW_2 = [
-  { name: "Paras Healthcare", src: "/assets/img/mou/Paras_Healthcare.svg" },
-  { name: "Dharmayu Wellness", src: "/assets/img/mou/Dharmayu_Wellness.jpg" },
-  { name: "IIT Bombay SINE", src: "/assets/img/mou/IIT_Bombay_SINE.png" },
-  { name: "Gautam College of Pharmacy", src: "/assets/img/mou/GautamCollegeofPharmacy.png" },
-  { name: "Krisa Healthcare", src: "/assets/img/mou/krisa-healthcare.webp" },
-  { name: "Ion Healthcare", src: "/assets/img/mou/Ion_Healthcare.png" },
-  { name: "DS Cosmeceuticals", src: "/assets/img/mou/DS_Cosmeceuticals.avif" },
-  { name: "Philadelphia Hospital", src: "/assets/img/mou/Philadelphia_Hospital.png" },
+  { name: "Paras Healthcare", src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443404/sviet_assets/mou/Paras_Healthcare.svg" },
+  { name: "Dharmayu Wellness", src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443407/sviet_assets/mou/Dharmayu_Wellness.jpg" },
+  { name: "IIT Bombay SINE", src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443406/sviet_assets/mou/IIT_Bombay_SINE.png" },
+  { name: "Gautam College of Pharmacy", src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443406/sviet_assets/mou/GautamCollegeofPharmacy.png" },
+  { name: "Krisa Healthcare", src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443404/sviet_assets/mou/krisa-healthcare.webp" },
+  { name: "Ion Healthcare", src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443404/sviet_assets/mou/Ion_Healthcare.png" },
+  { name: "DS Cosmeceuticals", src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443406/sviet_assets/mou/DS_Cosmeceuticals.avif" },
+  { name: "Philadelphia Hospital", src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443403/sviet_assets/mou/Philadelphia_Hospital.png" },
 ];
 
 const TAB_ACCENT: Record<Tab, string> = {

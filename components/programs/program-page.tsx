@@ -84,25 +84,25 @@ const PLACEMENT_POOL: Record<string, PlacementStudent[]> = {
       name: "Prateek Kumar",
       company: "Byju's",
       batch: "2022",
-      image: "/assets/img/stu/Prateek.png",
+      image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443357/sviet_assets/stu/Prateek.png",
     },
     {
       name: "Naveen Jaiswal",
       company: "Entab Infotech",
       batch: "2025",
-      image: "/assets/img/stu/Naveen.png",
+      image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443358/sviet_assets/stu/Naveen.png",
     },
     {
       name: "Kshitij Raj",
       company: "Caelius Consulting",
       batch: "2027",
-      image: "/assets/img/stu/Kshiti.png",
+      image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443364/sviet_assets/stu/Kshiti.png",
     },
     {
       name: "Shikha Singh",
       company: "Byju's",
       batch: "2022",
-      image: "/assets/img/stu/Shikha.png",
+      image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443352/sviet_assets/stu/Shikha.png",
     },
   ],
   mba: [
@@ -110,25 +110,25 @@ const PLACEMENT_POOL: Record<string, PlacementStudent[]> = {
       name: "Utkarsh Kumar",
       company: "Byju's",
       batch: "2022",
-      image: "/assets/img/stu/Utkarsh.png",
+      image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443352/sviet_assets/stu/Utkarsh.png",
     },
     {
       name: "Pallavi Sharma",
       company: "Extra Marks",
       batch: "2021",
-      image: "/assets/img/stu/Pallavi.png",
+      image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443357/sviet_assets/stu/Pallavi.png",
     },
     {
       name: "Priyanshi Sharma",
       company: "Caelius Consulting",
       batch: "2025",
-      image: "/assets/img/stu/Priyanshi.png",
+      image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443351/sviet_assets/stu/Priyanshi.png",
     },
     {
       name: "Anam Rashid",
       company: "Skillkart",
       batch: "2025",
-      image: "/assets/img/stu/Anam.png",
+      image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443360/sviet_assets/stu/Anam.png",
     },
   ],
   mca: [
@@ -136,25 +136,25 @@ const PLACEMENT_POOL: Record<string, PlacementStudent[]> = {
       name: "Parvesh Sharma",
       company: "Byju's",
       batch: "2022",
-      image: "/assets/img/stu/Parvesh.png",
+      image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443358/sviet_assets/stu/Parvesh.png",
     },
     {
       name: "Naveen Jaiswal",
       company: "Entab Infotech",
       batch: "2025",
-      image: "/assets/img/stu/Naveen.png",
+      image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443358/sviet_assets/stu/Naveen.png",
     },
     {
       name: "Taniya Singh",
       company: "Caelius Consulting",
       batch: "2027",
-      image: "/assets/img/stu/Taniya.png",
+      image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443355/sviet_assets/stu/Taniya.png",
     },
     {
       name: "Mantasha",
       company: "Healthcare",
       batch: "2025",
-      image: "/assets/img/stu/Mantasha.png",
+      image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443364/sviet_assets/stu/Mantasha.png",
     },
   ],
   civil: [
@@ -162,25 +162,25 @@ const PLACEMENT_POOL: Record<string, PlacementStudent[]> = {
       name: "Kshitij Raj",
       company: "Caelius Consulting",
       batch: "2027",
-      image: "/assets/img/stu/Kshiti.png",
+      image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443364/sviet_assets/stu/Kshiti.png",
     },
     {
       name: "Prateek Kumar",
       company: "Byju's",
       batch: "2022",
-      image: "/assets/img/stu/Prateek.png",
+      image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443357/sviet_assets/stu/Prateek.png",
     },
     {
       name: "Naveen Jaiswal",
       company: "Entab Infotech",
       batch: "2025",
-      image: "/assets/img/stu/Naveen.png",
+      image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443358/sviet_assets/stu/Naveen.png",
     },
     {
       name: "Parvesh Sharma",
       company: "Byju's",
       batch: "2022",
-      image: "/assets/img/stu/Parvesh.png",
+      image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443358/sviet_assets/stu/Parvesh.png",
     },
   ],
   pharmacy: [
@@ -188,25 +188,25 @@ const PLACEMENT_POOL: Record<string, PlacementStudent[]> = {
       name: "Anam Rashid",
       company: "Ucertify",
       batch: "2025",
-      image: "/assets/img/stu/Anam.png",
+      image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443360/sviet_assets/stu/Anam.png",
     },
     {
       name: "Parveen Jaiswal",
       company: "Entab Infotech",
       batch: "2025",
-      image: "/assets/img/stu/Parveen.png",
+      image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443357/sviet_assets/stu/Parveen.png",
     },
     {
       name: "Mantasha",
       company: "Healthcare",
       batch: "2025",
-      image: "/assets/img/stu/Mantasha.png",
+      image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443364/sviet_assets/stu/Mantasha.png",
     },
     {
       name: "Muntaha Tabassum",
       company: "Healthcare",
       batch: "2025",
-      image: "/assets/img/stu/Muntaha.png",
+      image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443360/sviet_assets/stu/Muntaha.png",
     },
   ],
   default: [
@@ -214,25 +214,25 @@ const PLACEMENT_POOL: Record<string, PlacementStudent[]> = {
       name: "Taniya Singh",
       company: "Caelius Consulting",
       batch: "2027",
-      image: "/assets/img/stu/Taniya.png",
+      image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443355/sviet_assets/stu/Taniya.png",
     },
     {
       name: "Kshitij Raj",
       company: "Caelius Consulting",
       batch: "2027",
-      image: "/assets/img/stu/Kshiti.png",
+      image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443364/sviet_assets/stu/Kshiti.png",
     },
     {
       name: "Mantasha",
       company: "Healthcare",
       batch: "2025",
-      image: "/assets/img/stu/Mantasha.png",
+      image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443364/sviet_assets/stu/Mantasha.png",
     },
     {
       name: "Parveen Jaiswal",
       company: "Entab Infotech",
       batch: "2025",
-      image: "/assets/img/stu/Parveen.png",
+      image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443357/sviet_assets/stu/Parveen.png",
     },
   ],
 };
@@ -284,7 +284,7 @@ const ACTIVITIES_POOL: Record<string, ActivityPool> = {
         title: "Industrial Visit",
         description:
           "Live industry exposure at leading tech & manufacturing plants",
-        image: "/assets/img/section_card/Industrial%20Visit.jpeg",
+        image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443193/sviet_assets/section_card/Industrial%20Visit.jpg",
       },
       {
         title: "ISTE Convention 2025",
@@ -315,12 +315,12 @@ const ACTIVITIES_POOL: Record<string, ActivityPool> = {
       {
         title: "Global Finance Summit",
         description: "Perspectives on global markets, banking, and finance",
-        image: "/assets/img/section_card/GFS.JPG",
+        image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443238/sviet_assets/section_card/GFS.jpg",
       },
       {
         title: "Industry Interaction",
         description: "Live interaction sessions with corporate professionals",
-        image: "/assets/img/section_card/Dev2.jpeg",
+        image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443264/sviet_assets/section_card/Dev2.jpg",
       },
     ],
     featured: {
@@ -336,17 +336,17 @@ const ACTIVITIES_POOL: Record<string, ActivityPool> = {
         title: "Research Centre",
         description:
           "Hands-on sessions at SVIET's advanced research laboratory",
-        image: "/assets/img/section_card/ResearchCenter.jpeg",
+        image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443152/sviet_assets/section_card/ResearchCenter.jpg",
       },
       {
         title: "Laboratory Sessions",
         description: "Practical training in state-of-the-art pharma labs",
-        image: "/assets/img/section_card/Labo.jpeg",
+        image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443183/sviet_assets/section_card/Labo.jpg",
       },
       {
         title: "Industrial Visit",
         description: "Visits to hospitals, clinics, and pharmaceutical plants",
-        image: "/assets/img/section_card/Industrial%20Visit.jpeg",
+        image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443193/sviet_assets/section_card/Industrial%20Visit.jpg",
       },
     ],
     featured: {
@@ -362,7 +362,7 @@ const ACTIVITIES_POOL: Record<string, ActivityPool> = {
         title: "Spontaneous Events",
         description:
           "Surprise challenges that build real-time hospitality skills",
-        image: "/assets/img/section_card/Spont.jpeg",
+        image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443172/sviet_assets/section_card/Spont.jpg",
       },
       {
         title: "Elevate — Leadership Meet",
@@ -372,7 +372,7 @@ const ACTIVITIES_POOL: Record<string, ActivityPool> = {
       {
         title: "Campus Life",
         description: "Cultural fests, food fairs, and lifetime campus memories",
-        image: "/assets/img/section_card/LifetimeMemory.jpeg",
+        image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443178/sviet_assets/section_card/LifetimeMemory.jpg",
       },
     ],
     featured: {
@@ -394,7 +394,7 @@ const ACTIVITIES_POOL: Record<string, ActivityPool> = {
         title: "Industry Interaction",
         description:
           "Legal professionals share real-world courtroom experience",
-        image: "/assets/img/section_card/Dev3.jpeg",
+        image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443266/sviet_assets/section_card/Dev3.jpg",
       },
       {
         title: "TEDx SVIET",
@@ -421,7 +421,7 @@ const ACTIVITIES_POOL: Record<string, ActivityPool> = {
         title: "Industrial Visit",
         description:
           "Live industry exposure at leading plants and organisations",
-        image: "/assets/img/section_card/Industrial%20Visit.jpeg",
+        image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443193/sviet_assets/section_card/Industrial%20Visit.jpg",
       },
       {
         title: "Elevate — Leadership Meet",

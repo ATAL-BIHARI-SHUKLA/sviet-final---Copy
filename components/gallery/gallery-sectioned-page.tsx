@@ -312,7 +312,7 @@ function GalleryHero() {
     <section className="relative isolate overflow-hidden border-b border-[#0b1220] bg-black">
       <div className="absolute inset-0">
         <Image
-          src="/assets/img/college/auditorium.png"
+          src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443513/sviet_assets/college/auditorium.png"
           alt="SVGOI auditorium"
           fill
           priority

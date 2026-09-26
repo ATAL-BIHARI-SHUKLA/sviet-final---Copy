@@ -493,7 +493,7 @@ type PlacementRecordSeed = {
 
 const PLACEMENT_RECORDS_SEED: PlacementRecordSeed[] = [
   // 2027
-  { name: "Taniya Singh", year: 2027, company: "Caelius Consulting", packageValue: 12, packageLabel: "12 LPA", imageSrc: "/assets/img/stu/Taniya.png", isShowcase: true, sortOrder: 0 },
+  { name: "Taniya Singh", year: 2027, company: "Caelius Consulting", packageValue: 12, packageLabel: "12 LPA", imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443355/sviet_assets/stu/Taniya.png", isShowcase: true, sortOrder: 0 },
   { name: "Kshitij Raj", year: 2027, company: "Caelius Consulting", packageValue: 12, packageLabel: "12 LPA" },
   // 2026
   { name: "Himachal Kumar", year: 2026, company: "75 ways Technologies", packageValue: 3.3, packageLabel: "3.3 LPA" },
@@ -529,9 +529,9 @@ const PLACEMENT_RECORDS_SEED: PlacementRecordSeed[] = [
   { name: "Aman Kapri", year: 2025, company: "Skill Intern", packageValue: 3, packageLabel: "3 LPA" },
   { name: "Manisha Singh", year: 2025, company: "Skill Intern", packageValue: 3, packageLabel: "3 LPA" },
   { name: "Atul Pratab Singh", year: 2025, company: "Off Beat", packageValue: 3, packageLabel: "3 LPA" },
-  { name: "Anam Rashid", year: 2025, company: "Skillkart / Ucertify / Dentsu", packageValue: 12, packageLabel: "12 LPA", imageSrc: "/assets/img/stu/Anam.png", isShowcase: true, sortOrder: 2 },
-  { name: "Naveen Jaiswal", year: 2025, company: "Entab Infotech Pvt Ltd", packageValue: 12, packageLabel: "12 LPA", imageSrc: "/assets/img/stu/Naveen.png", isShowcase: true, sortOrder: 4 },
-  { name: "Priyanshi Sharma", year: 2025, company: "Caelius Consulting", packageValue: 12, packageLabel: "12 LPA", imageSrc: "/assets/img/stu/Priyanshi.png", isShowcase: true, sortOrder: 5 },
+  { name: "Anam Rashid", year: 2025, company: "Skillkart / Ucertify / Dentsu", packageValue: 12, packageLabel: "12 LPA", imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443360/sviet_assets/stu/Anam.png", isShowcase: true, sortOrder: 2 },
+  { name: "Naveen Jaiswal", year: 2025, company: "Entab Infotech Pvt Ltd", packageValue: 12, packageLabel: "12 LPA", imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443358/sviet_assets/stu/Naveen.png", isShowcase: true, sortOrder: 4 },
+  { name: "Priyanshi Sharma", year: 2025, company: "Caelius Consulting", packageValue: 12, packageLabel: "12 LPA", imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443351/sviet_assets/stu/Priyanshi.png", isShowcase: true, sortOrder: 5 },
   // 2024
   { name: "Doulat Ram", year: 2024, company: "Ellocent Lab", packageValue: 2.5, packageLabel: "2.5 LPA" },
   { name: "Raushan Kumar", year: 2024, company: "Aspire Fox", packageValue: 3.2, packageLabel: "3.2 LPA" },
@@ -563,7 +563,7 @@ const PLACEMENT_RECORDS_SEED: PlacementRecordSeed[] = [
   { name: "Ritika Mittal", year: 2023, company: "Grazitti Interactive", packageValue: 3.2, packageLabel: "3.2 LPA" },
   { name: "Shrishtee", year: 2023, company: "Grazitti Interactive", packageValue: 3.2, packageLabel: "3.2 LPA" },
   // 2022
-  { name: "Prateek Kumar", year: 2022, company: "Byju's", packageValue: 8.2, packageLabel: "8.2 LPA", imageSrc: "/assets/img/stu/Prateek.png", isShowcase: true, sortOrder: 7 },
+  { name: "Prateek Kumar", year: 2022, company: "Byju's", packageValue: 8.2, packageLabel: "8.2 LPA", imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443357/sviet_assets/stu/Prateek.png", isShowcase: true, sortOrder: 7 },
   { name: "Kumari Anjali", year: 2022, company: "Bebo Technologies", packageValue: 4.3, packageLabel: "4.3 LPA" },
   { name: "Chandam Kumar", year: 2022, company: "Bebo Technologies", packageValue: 4.3, packageLabel: "4.3 LPA" },
   { name: "Deepak Kumar Jha", year: 2022, company: "Wipro", packageValue: 6.5, packageLabel: "6.5 LPA" },
@@ -572,13 +572,13 @@ const PLACEMENT_RECORDS_SEED: PlacementRecordSeed[] = [
   { name: "Kumar Divyashank Gaurav", year: 2022, company: "Nagrarro", packageValue: 4.5, packageLabel: "4.5 LPA" },
   { name: "Akansha Chaudhary", year: 2022, company: "Learing Routes", packageValue: 5.7, packageLabel: "5.70 LPA" },
   // Showcase-only entries (visible in marquee)
-  { name: "Utkarsh Kumar", year: 2022, company: "Byju's", packageValue: 11, packageLabel: "11 LPA", imageSrc: "/assets/img/stu/Utkarsh.png", isShowcase: true, sortOrder: 1 },
-  { name: "Pallavi Sharma", year: 2021, company: "Extra Marks", packageValue: 7.2, packageLabel: "7.2 LPA", imageSrc: "/assets/img/stu/Pallavi.png", isShowcase: true, sortOrder: 3 },
-  { name: "Shikhsa Singh", year: 2022, company: "Byju's", packageValue: 10, packageLabel: "10 LPA", imageSrc: "/assets/img/stu/Shikha.png", isShowcase: true, sortOrder: 6 },
-  { name: "Parvesh Sharma", year: 2022, company: "Byju's", packageValue: 10, packageLabel: "10 LPA", imageSrc: "/assets/img/stu/Parvesh.png", isShowcase: true, sortOrder: 8 },
-  { name: "Fahad Shabir", year: 2026, company: "IQOL Technologies", packageValue: 9.1, packageLabel: "9.10 LPA", imageSrc: "/assets/img/students_placement/recent/Fahad Shabir.png", isShowcase: true, sortOrder: 9 },
-  { name: "Prashant Kumar", year: 2026, company: "Hidani Tech", packageValue: 10, packageLabel: "10 LPA", imageSrc: "/assets/img/students_placement/recent/Prashant Kumar.png", isShowcase: true, sortOrder: 10 },
-  { name: "Priyanshu Kumar", year: 2026, company: "IntelleWings", packageValue: 9, packageLabel: "9 LPA", imageSrc: "/assets/img/students_placement/recent/Priyanshu Kumar.png", isShowcase: true, sortOrder: 11 },
+  { name: "Utkarsh Kumar", year: 2022, company: "Byju's", packageValue: 11, packageLabel: "11 LPA", imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443352/sviet_assets/stu/Utkarsh.png", isShowcase: true, sortOrder: 1 },
+  { name: "Pallavi Sharma", year: 2021, company: "Extra Marks", packageValue: 7.2, packageLabel: "7.2 LPA", imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443357/sviet_assets/stu/Pallavi.png", isShowcase: true, sortOrder: 3 },
+  { name: "Shikhsa Singh", year: 2022, company: "Byju's", packageValue: 10, packageLabel: "10 LPA", imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443352/sviet_assets/stu/Shikha.png", isShowcase: true, sortOrder: 6 },
+  { name: "Parvesh Sharma", year: 2022, company: "Byju's", packageValue: 10, packageLabel: "10 LPA", imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443358/sviet_assets/stu/Parvesh.png", isShowcase: true, sortOrder: 8 },
+  { name: "Fahad Shabir", year: 2026, company: "IQOL Technologies", packageValue: 9.1, packageLabel: "9.10 LPA", imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443547/sviet_assets/students_placement/recent/Fahad%20Shabir.png", isShowcase: true, sortOrder: 9 },
+  { name: "Prashant Kumar", year: 2026, company: "Hidani Tech", packageValue: 10, packageLabel: "10 LPA", imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443547/sviet_assets/students_placement/recent/Prashant%20Kumar.png", isShowcase: true, sortOrder: 10 },
+  { name: "Priyanshu Kumar", year: 2026, company: "IntelleWings", packageValue: 9, packageLabel: "9 LPA", imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443545/sviet_assets/students_placement/recent/Priyanshu%20Kumar.png", isShowcase: true, sortOrder: 11 },
 ];
 
 const PLACEMENT_TRENDS_SEED = [
@@ -600,7 +600,7 @@ const PLACEMENT_BANNER_SEED = {
   company: "Caelius Consulting",
   packageLabel: "19 LPA",
   batchYear: "2026 Batch",
-  imageSrc: "/assets/img/students/11.png",
+  imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443073/sviet_assets/students/11.png",
   imageAlt: "Laxmi and Vaishnavi — 19 LPA placement at Caelius Consulting",
   isActive: true,
 };

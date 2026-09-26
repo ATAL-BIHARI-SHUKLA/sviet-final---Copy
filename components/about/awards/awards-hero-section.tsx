@@ -4,7 +4,7 @@ export function AwardsHeroSection() {
   return (
     <section className="w-full overflow-hidden ">
       <Image
-        src="/assets/img/banner/awardsbanner.jpeg"
+        src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443532/sviet_assets/banner/awardsbanner.jpg"
         alt="Awards and recognitions banner"
         width={2048}
         height={551}

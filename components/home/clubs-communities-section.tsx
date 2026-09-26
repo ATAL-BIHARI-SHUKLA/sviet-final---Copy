@@ -5,31 +5,31 @@ const CLUBS = [
   {
     name: "Google Developer Groups on Campus",
     tagline: "Build for everyone with Google technologies.",
-    logo: "/assets/img/club/GDGC.png",
+    logo: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443517/sviet_assets/club/GDGC.png",
     bg: "bg-white",
   },
   {
     name: "Microsoft Learn Student Ambassadors",
     tagline: "Lead, learn, and connect with Microsoft tools.",
-    logo: "/assets/img/club/mlsa.webp",
+    logo: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443517/sviet_assets/club/mlsa.webp",
     bg: "bg-white",
   },
   {
     name: "GeeksForGeeks Campus Chapter",
     tagline: "Master DSA and competitive programming.",
-    logo: "/assets/img/club/gfg.jpg",
+    logo: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443517/sviet_assets/club/gfg.jpg",
     bg: "bg-white",
   },
   {
     name: "CodeChef Campus Chapter",
     tagline: "Compete, grow, and code at every level.",
-    logo: "/assets/img/club/cc.png",
+    logo: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443522/sviet_assets/club/cc.png",
     bg: "bg-white",
   },
   {
     name: "IEEE Student Branch",
     tagline: "Advancing technology for humanity.",
-    logo: "/assets/img/club/IEEE.jpg",
+    logo: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443521/sviet_assets/club/IEEE.jpg",
     bg: "bg-white",
   },
 ];
@@ -65,7 +65,7 @@ export function ClubsCommunitiesSection() {
           <div className="flex flex-col overflow-hidden rounded-2xl border border-[#e0e7ff] bg-white shadow-sm transition duration-200 hover:-translate-y-0.5 hover:shadow-md">
             <div className="relative h-72 overflow-hidden md:h-80">
               <Image
-                src="/assets/img/college/lab.jpeg"
+                src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443478/sviet_assets/college/lab.jpg"
                 alt="The Uniques — lab"
                 fill
                 sizes="(max-width: 640px) 100vw, 50vw"
@@ -74,7 +74,7 @@ export function ClubsCommunitiesSection() {
               <div className="absolute inset-0 bg-linear-to-t from-black/60 via-black/10 to-transparent" />
               <div className="absolute bottom-4 left-5">
                 <Image
-                  src="/assets/img/uniques_logo.png"
+                  src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790442916/sviet_assets/uniques_logo.png"
                   alt="The Uniques logo"
                   width={120}
                   height={48}
@@ -110,7 +110,7 @@ export function ClubsCommunitiesSection() {
           <div className="flex flex-col overflow-hidden rounded-2xl border border-[#e0e7ff] bg-white shadow-sm transition duration-200 hover:-translate-y-0.5 hover:shadow-md">
             <div className="relative h-72 overflow-hidden md:h-80">
               <Image
-                src="/assets/img/s60.jpg"
+                src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790442922/sviet_assets/s60.jpg"
                 alt="Super60 batch"
                 fill
                 sizes="(max-width: 640px) 100vw, 50vw"
@@ -119,7 +119,7 @@ export function ClubsCommunitiesSection() {
               <div className="absolute inset-0 bg-linear-to-t from-black/60 via-black/10 to-transparent" />
               <div className="absolute bottom-4 left-5">
                 <Image
-                  src="/assets/img/s60.png"
+                  src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790442922/sviet_assets/s60.png"
                   alt="Super60 logo"
                   width={120}
                   height={48}

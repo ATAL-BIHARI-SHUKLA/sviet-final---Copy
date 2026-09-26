@@ -128,7 +128,7 @@ export async function PlacementsPageComponent() {
         <figure className="mt-6 overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-sm">
           <div className="relative h-64 w-full rounded-3xl sm:h-80 lg:h-96">
             <Image
-              src="/assets/img/training_cell.jpeg"
+              src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790442917/sviet_assets/training_cell.jpg"
               alt="Training and Placement Cell showcase"
               fill
               priority
@@ -163,7 +163,7 @@ export async function PlacementsPageComponent() {
           {/* <article className="overflow-hidden rounded-3xl border border-[#DCE7FF] bg-[linear-gradient(180deg,#FFFFFF_0%,#F8FAFF_100%)] shadow-[0_8px_24px_rgba(30,42,120,0.06)]">
             <div className="relative h-64 bg-[#EEF4FF] sm:h-80 lg:h-96">
               <Image
-                src="/assets/img/college/management/shubham-sir..jpg"
+                src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443858/sviet_assets/college/management/shubham-sir..jpg"
                 alt="Mr. Shubham Garg, Director Placements"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -194,7 +194,7 @@ export async function PlacementsPageComponent() {
           <article className="overflow-hidden rounded-3xl border border-[#DCE7FF] bg-[linear-gradient(180deg,#FFFFFF_0%,#F8FAFF_100%)] shadow-[0_8px_24px_rgba(30,42,120,0.06)]">
             <div className="relative h-64 bg-[#EEF4FF] sm:h-80 lg:h-96">
               <Image
-                src="/assets/img/college/management/ankur-sir.jpg"
+                src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443875/sviet_assets/college/management/ankur-sir.jpg"
                 alt="Mr. Ankur Gill, Director Operations"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -272,7 +272,7 @@ export async function PlacementsPageComponent() {
         <figure className="mt-6 overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-sm">
           <div className="relative h-64 w-full rounded-3xl sm:h-80 lg:h-96">
             <Image
-              src="/assets/img/section_card/Industrial Visit.jpeg"
+              src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443193/sviet_assets/section_card/Industrial%20Visit.jpg"
               alt="Students participating in industry exposure and placement activities"
               fill
               className="object-cover object-center"

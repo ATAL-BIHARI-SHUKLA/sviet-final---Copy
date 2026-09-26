@@ -15,21 +15,21 @@ const GOVERNMENT_PARTNERS = [
   {
     name: "ImPunjab",
     subtitle: "Govt. of Punjab",
-    logo: "/assets/img/impunjab.png",
+    logo: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790442937/sviet_assets/impunjab.png",
     bg: "bg-white",
     border: "border-blue-200",
   },
   {
     name: "Invest Punjab",
     subtitle: "Investment Facilitation",
-    logo: "/assets/img/investpunjab.png",
+    logo: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790442931/sviet_assets/investpunjab.png",
     bg: "bg-white",
     border: "border-emerald-200",
   },
   {
     name: "Startup India",
     subtitle: "DPIIT Recognized",
-    logo: "/assets/img/startip_india.png",
+    logo: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790442918/sviet_assets/startip_india.png",
     bg: "bg-white",
     border: "border-orange-200",
   },
@@ -40,43 +40,43 @@ const INITIATIVE_TILES = [
     title: "Startup Work Environment",
     description:
       "Students work on live products in a real startup-style lab — desks, dev tools, and deadlines included.",
-    image: "/assets/img/section_card/Labo.jpeg",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443183/sviet_assets/section_card/Labo.jpg",
   },
   {
     title: "Innovation & Incubation",
     description:
       "On-campus incubation with mentorship in product, marketing, and go-to-market strategy.",
-    image: "/assets/img/section_card/ResearchCenter.jpeg",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443152/sviet_assets/section_card/ResearchCenter.jpg",
   },
   {
     title: "BharatTech Xperience",
     description:
       "An annual tech-entrepreneurship festival where students pitch, hack, and build alongside industry leaders.",
-    image: "/assets/img/section_card/BharatTech.JPG.jpeg",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443321/sviet_assets/section_card/BharatTech.JPG.jpg",
   },
   {
     title: "Global Futures Summit",
     description:
       "Industry & HR leaders gather to shape the future workforce — students get front-row access.",
-    image: "/assets/img/section_card/GFS.JPG",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443238/sviet_assets/section_card/GFS.jpg",
   },
   {
     title: "Corporate & Startup Meets",
     description:
       "Regular roundtables with founders, VCs, and corporate leaders drive real-world exposure.",
-    image: "/assets/img/section_card/GFS2.JPG",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443222/sviet_assets/section_card/GFS2.jpg",
   },
   {
     title: "Training & Skill Labs",
     description:
       "Structured programs in product thinking, lean startup, coding, and communication for aspiring founders.",
-    image: "/assets/img/training_cell.jpeg",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790442917/sviet_assets/training_cell.jpg",
   },
   {
     title: "Stand Up India Initiative",
     description:
       "SVGOI actively supports students under Stand Up India and related government-backed startup schemes.",
-    image: "/assets/img/college/lab.jpeg",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443478/sviet_assets/college/lab.jpg",
   },
 ];
 

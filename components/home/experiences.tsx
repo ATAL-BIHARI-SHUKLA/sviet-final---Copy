@@ -17,8 +17,8 @@ const milestonePlacements = [
     company: "Caelius Consulting",
     studentName: "Laxmi & Vaishnavi",
     position: "19 LPA Placements",
-    studentImage: "/assets/img/students/11.png",
-    companyLogo: "/assets/img/companies/cc.png",
+    studentImage: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443073/sviet_assets/students/11.png",
+    companyLogo: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443461/sviet_assets/companies/cc.png",
   },
   {
     heading: "A Diverse & Thriving Campus",
@@ -34,8 +34,8 @@ const milestonePlacements = [
     company: "Campus Community",
     studentName: "Global Student Body",
     position: "75+ Nationalities | 28 States",
-    studentImage: "/assets/img/students/22.png",
-    companyLogo: "/assets/img/companies/amazon.png",
+    studentImage: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443073/sviet_assets/students/22.png",
+    companyLogo: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443461/sviet_assets/companies/amazon.png",
   },
   {
     heading: "Connecting Talent with Opportunity",
@@ -47,7 +47,7 @@ const milestonePlacements = [
     company: "Industry Network",
     studentName: "Career Readiness",
     position: "Skills aligned with recruiter expectations",
-    studentImage: "/assets/img/students/33.png",
+    studentImage: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443073/sviet_assets/students/33.png",
     companyLogo: "/assets/img/companies/goldman_sachs.png",
   },
 ];

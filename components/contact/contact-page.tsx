@@ -122,7 +122,7 @@ export function ContactPageComponent() {
       {/* SECTION 1: HERO */}
       <section className="relative h-96 overflow-hidden md:h-[500px]">
         <Image
-          src="/assets/img/contact.jpg"
+          src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790442949/sviet_assets/contact.jpg"
           alt="SVGOI campus"
           fill
           className="object-cover"

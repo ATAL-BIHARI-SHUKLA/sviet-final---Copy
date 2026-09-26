@@ -9,34 +9,34 @@ const testimonials = [
     id: 1,
     name: "Neha Sharma",
     title: '"I chose SVGOI because it felt like the right place to grow"',
-    image: "/assets/img/students/stu1.png",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443062/sviet_assets/students/stu1.png",
   },
   {
     id: 2,
     name: "Amarpreet Kaur",
     title:
       '"My student life at SVGOI has been full of growth and memorable moments"',
-    image: "/assets/img/students/stu2.png",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443062/sviet_assets/students/stu2.png",
   },
   {
     id: 3,
     name: "Juhi Lakhani",
     title:
       '"As a Pharma D. student at SVGOI, I found the space to grow creatively"',
-    image: "/assets/img/students/stu3.png",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443062/sviet_assets/students/stu3.png",
   },
   {
     id: 4,
     name: "Akash Tyagi",
     title:
       '"SVGOI strengthened my learning and helped me build real confidence"',
-    image: "/assets/img/students/stu4.png",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443059/sviet_assets/students/stu4.png",
   },
   {
     id: 5,
     name: "Harshit Raj",
     title: '"SVGOI shaped my career path and prepared me for what came next"',
-    image: "/assets/img/students/stu5.png",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443059/sviet_assets/students/stu5.png",
   },
 ];
 

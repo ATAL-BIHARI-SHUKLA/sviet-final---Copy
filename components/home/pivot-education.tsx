@@ -5,13 +5,13 @@ const educationPillars = [
     title: "Flagship Innovation & Tech Events",
     description:
       "Initiatives like Elevate and BharatTechXperience bring together innovation, technology, and collaboration—giving students a platform to build, compete, and showcase their skills.",
-    image: "/assets/img/section_card/BharatTech.JPG.jpeg",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443321/sviet_assets/section_card/BharatTech.JPG.jpg",
   },
   {
     title: "Global & Future-Focused Platforms",
     description:
       "Through programs like the Global Future Summit, students engage with emerging ideas, global perspectives, and forward-thinking discussions shaping tomorrow's industries.",
-    image: "/assets/img/section_card/GFS.JPG",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443238/sviet_assets/section_card/GFS.jpg",
   },
   {
     title: "Insights from Industry Leaders",

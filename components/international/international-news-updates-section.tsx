@@ -5,18 +5,18 @@ const NEWS_ITEMS = [
   {
     title: "Reporting for freshers students",
     description: "Reporting for freshers students will commence from the 10th of July onwards.",
-    imageSrc: "/assets/img/college/management/shubham-sir..jpg",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443858/sviet_assets/college/management/shubham-sir..jpg",
   },
   {
     title: "SVGOI Welcomes Canadian Delegation from Humber College for Enhancing Global Ties",
     description:
       "SVGOI is set to welcome a distinguished delegation from The Humber College Institute of Technology and Advanced Learning, Canada, as part of its visit...",
-    imageSrc: "/assets/img/campus-life/image2.png",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443528/sviet_assets/campus-life/image2.png",
   },
   {
     title: "Inspiring the Next Generation: A Strategic Dialogue with Dr. Tanu Jain IAS",
     description: "Dr. Tanu Jain, physician and former IAS officer, inspired students with practical insights.",
-    imageSrc: "/assets/img/campus-life/image1.png",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443528/sviet_assets/campus-life/image1.png",
   },
 ] as const;
 

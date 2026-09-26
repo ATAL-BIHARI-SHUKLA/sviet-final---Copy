@@ -6,27 +6,27 @@ const CLUBS = [
   {
     name: "Google Developer Groups on Campus",
     tagline: "Build for everyone with Google technologies.",
-    logo: "/assets/img/club/GDGC.png",
+    logo: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443517/sviet_assets/club/GDGC.png",
   },
   {
     name: "Microsoft Learn Student Ambassadors",
     tagline: "Lead, learn, and connect with Microsoft tools.",
-    logo: "/assets/img/club/mlsa.webp",
+    logo: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443517/sviet_assets/club/mlsa.webp",
   },
   {
     name: "GeeksForGeeks Campus Chapter",
     tagline: "Master DSA and competitive programming.",
-    logo: "/assets/img/club/gfg.jpg",
+    logo: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443517/sviet_assets/club/gfg.jpg",
   },
   {
     name: "CodeChef Campus Chapter",
     tagline: "Compete, grow, and code at every level.",
-    logo: "/assets/img/club/cc.png",
+    logo: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443522/sviet_assets/club/cc.png",
   },
   {
     name: "IEEE Student Branch",
     tagline: "Advancing technology for humanity.",
-    logo: "/assets/img/club/IEEE.jpg",
+    logo: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443521/sviet_assets/club/IEEE.jpg",
   },
 ] as const;
 
@@ -35,21 +35,21 @@ const HANGOUTS_CARDS = [
     title: "Fest Evenings & Celebrations ",
     subtitle:
       "Be part of iconic celebrations like Lohri, Garba Night, and annual fests that create unforgettable memories beyond classrooms.",
-    image: "/assets/img/fest.jpg",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790442938/sviet_assets/fest.jpg",
     alt: "Open-air movie night at the auditorium",
   },
   {
     title: "Cultural Nights",
     subtitle:
       "Celebrate with themed nights, DJ sessions, and cultural showcases that bring together students from across departments in a vibrant atmosphere.",
-    image: "/assets/img/show2.jpg",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790442918/sviet_assets/show2.jpg",
     alt: "Stand-up comedy night on stage",
   },
   {
     title: "Star Nights & Live Performances",
     subtitle:
       "Experience the thrill of large-scale performances during flagship events like Spontania and Elevate, where music, dance, and crowd energy take over the campus.",
-    image: "/assets/img/show.jpg",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790442923/sviet_assets/show.jpg",
     alt: "Evening musical night with a live crowd",
   },
 ] as const;
@@ -78,7 +78,7 @@ export function CampusLifeHangoutsSportsClubsSection() {
       <div className="mx-auto w-full max-w-360 px-4 py-12 md:px-6 md:py-16">
         <div className="relative h-72 overflow-hidden rounded-xl md:h-96">
           <Image
-            src="/assets/img/campus-life/audi.png"
+            src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443528/sviet_assets/campus-life/audi.png"
             alt="Campus life quote banner"
             fill
             sizes="100vw"
@@ -212,7 +212,7 @@ export function CampusLifeHangoutsSportsClubsSection() {
             <div className="flex flex-col overflow-hidden rounded-2xl border border-[#e0e7ff] bg-white shadow-sm transition duration-200 hover:-translate-y-0.5 hover:shadow-md">
               <div className="relative h-72 overflow-hidden md:h-80">
                 <Image
-                  src="/assets/img/college/lab.jpeg"
+                  src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443478/sviet_assets/college/lab.jpg"
                   alt="The Uniques — lab"
                   fill
                   sizes="(max-width: 640px) 100vw, 50vw"
@@ -221,7 +221,7 @@ export function CampusLifeHangoutsSportsClubsSection() {
                 <div className="absolute inset-0 bg-linear-to-t from-black/60 via-black/10 to-transparent" />
                 <div className="absolute bottom-4 left-5">
                   <Image
-                    src="/assets/img/uniques_logo.png"
+                    src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790442916/sviet_assets/uniques_logo.png"
                     alt="The Uniques logo"
                     width={120}
                     height={48}
@@ -257,7 +257,7 @@ export function CampusLifeHangoutsSportsClubsSection() {
             <div className="flex flex-col overflow-hidden rounded-2xl border border-[#e0e7ff] bg-white shadow-sm transition duration-200 hover:-translate-y-0.5 hover:shadow-md">
               <div className="relative h-72 overflow-hidden md:h-80">
                 <Image
-                  src="/assets/img/s60.jpg"
+                  src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790442922/sviet_assets/s60.jpg"
                   alt="Super60 batch"
                   fill
                   sizes="(max-width: 640px) 100vw, 50vw"
@@ -266,7 +266,7 @@ export function CampusLifeHangoutsSportsClubsSection() {
                 <div className="absolute inset-0 bg-linear-to-t from-black/60 via-black/10 to-transparent" />
                 <div className="absolute bottom-4 left-5">
                   <Image
-                    src="/assets/img/s60.png"
+                    src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790442922/sviet_assets/s60.png"
                     alt="Super60 logo"
                     width={120}
                     height={48}

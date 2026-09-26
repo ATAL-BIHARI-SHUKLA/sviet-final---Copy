@@ -5,13 +5,13 @@ const ACHIEVERS = [
     name: "ZimFest Winners | Zimbabwe",
     program: "Cultural & Talent Fest",
     description: "Prize winners and cultural performers at ZimFest 2024.",
-    imageSrc: "/assets/img/international/zimfest-01.jpg",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443385/sviet_assets/international/zimfest-01.jpg",
   },
   {
     name: "Afro Masala — Launch",
     program: "Student Entrepreneurship",
     description: "On-campus launch and community engagement moments.",
-    imageSrc: "/assets/img/international/afro-masala-02.jpg",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443401/sviet_assets/international/afro-masala-02.jpg",
   },
   {
     name: "Spontania Community Event",
@@ -25,21 +25,21 @@ const ACHIEVERS = [
     program: "International Research",
     description:
       "International students presenting at Curación 2026 and receiving recognition.",
-    imageSrc: "/assets/img/international/curacion-01.jpg",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443401/sviet_assets/international/curacion-01.jpg",
   },
   {
     name: "Campus Salon — Student Startup",
     program: "Entrepreneurship",
     description:
       "Student-run salon and vocational project showcasing skills and enterprise.",
-    imageSrc: "/assets/img/international/salon-01.jpg",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443398/sviet_assets/international/salon-01.jpg",
   },
   {
     name: "Girls Volleyball Team",
     program: "Sports",
     description:
       "International students participating and competing in volleyball tournaments.",
-    imageSrc: "/assets/img/international/girls-volleyball-01.jpg",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443402/sviet_assets/international/girls-volleyball-01.jpg",
   },
 ] as const;
 

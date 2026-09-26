@@ -99,7 +99,7 @@ export function NewInitiativePage() {
       <section className="w-full pt-2 md:pt-3">
         <div className="w-full overflow-hidden rounded-[15px]">
           <Image
-            src="/assets/img/banner/uniq11.jpg"
+            src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443527/sviet_assets/banner/uniq11.jpg"
             alt="Our Initiatives"
             width={0}
             height={0}
@@ -132,7 +132,7 @@ export function NewInitiativePage() {
 
             <div className="relative h-72 overflow-hidden rounded-2xl md:h-96 lg:h-120">
               <Image
-                src="/assets/img/infrastructure/labs/the_unique.jpg"
+                src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443558/sviet_assets/infrastructure/labs/the_unique.jpg"
                 alt="The Uniques Community"
                 fill
                 className="object-cover"
@@ -248,7 +248,7 @@ export function NewInitiativePage() {
                   </p>
                 </div>
                 <Image
-                  src="/assets/img/infrastructure/labs/lab2.jpg"
+                  src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443558/sviet_assets/infrastructure/labs/lab2.jpg"
                   alt="Learn from Industry Experts"
                   width={400}
                   height={300}
@@ -307,7 +307,7 @@ export function NewInitiativePage() {
             <div className="overflow-hidden border border-[#e4d7c6] bg-white shadow-[0_18px_42px_rgba(16,24,40,0.08)]">
               <div className="relative aspect-4/5 w-full">
                 <Image
-                  src="/assets/img/college/management/ankur-sir.jpg"
+                  src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443875/sviet_assets/college/management/ankur-sir.jpg"
                   alt="Ankur Gill — Director of Operations, Founder UNIQUE ZONE"
                   fill
                   sizes="(max-width: 1024px) 100vw, 360px"
@@ -359,7 +359,7 @@ export function NewInitiativePage() {
             <div className="flex flex-col gap-3 lg:gap-4">
               <div className="group relative h-52 overflow-hidden border border-[#E4DED4] md:h-64">
                 <Image
-                  src="/assets/img/uniques/32.JPG"
+                  src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443047/sviet_assets/uniques/32.jpg"
                   alt="The Uniques community"
                   fill
                   className="object-cover transition duration-500 group-hover:scale-105"
@@ -368,7 +368,7 @@ export function NewInitiativePage() {
               </div>
               <div className="group relative h-52 overflow-hidden border border-[#E4DED4] md:h-64">
                 <Image
-                  src="/assets/img/uniques/IMG_1412.JPG"
+                  src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443049/sviet_assets/uniques/IMG_1412.jpg"
                   alt="The Uniques session"
                   fill
                   className="object-cover transition duration-500 group-hover:scale-105"
@@ -380,7 +380,7 @@ export function NewInitiativePage() {
             {/* Center column — tall */}
             <div className="group relative row-span-2 min-h-105 overflow-hidden border border-[#E4DED4]">
               <Image
-                src="/assets/img/uniques/Screenshot 2025-03-28 001048.png"
+                src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443047/sviet_assets/uniques/Screenshot%202025-03-28%20001048.png"
                 alt="The Uniques event"
                 fill
                 className="object-cover transition duration-500 group-hover:scale-105"
@@ -392,7 +392,7 @@ export function NewInitiativePage() {
             <div className="flex flex-col gap-3 lg:gap-4">
               <div className="group relative h-52 overflow-hidden border border-[#E4DED4] md:h-64">
                 <Image
-                  src="/assets/img/uniques/Screenshot 2025-03-28 001431.png"
+                  src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443046/sviet_assets/uniques/Screenshot%202025-03-28%20001431.png"
                   alt="The Uniques workshop"
                   fill
                   className="object-cover transition duration-500 group-hover:scale-105"
@@ -401,7 +401,7 @@ export function NewInitiativePage() {
               </div>
               <div className="group relative h-52 overflow-hidden border border-[#E4DED4] md:h-64">
                 <Image
-                  src="/assets/img/uniques/Screenshot 2025-03-28 001908.png"
+                  src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443044/sviet_assets/uniques/Screenshot%202025-03-28%20001908.png"
                   alt="The Uniques members"
                   fill
                   className="object-cover transition duration-500 group-hover:scale-105"

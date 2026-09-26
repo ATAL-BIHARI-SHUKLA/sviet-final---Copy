@@ -3,28 +3,28 @@ const OPPORTUNITIES = [
     title: "Strong placement & career support",
     description:
       "Prepare for real careers with dedicated training, mock interviews, and opportunities with 250+ recruiting companies.",
-    imageSrc: "/assets/img/students/image (2).png",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443070/sviet_assets/students/image%20%282%29.png",
     tone: "from-[#f97316] to-[#ea580c]",
   },
   {
     title: "Internships & industry exposure",
     description:
       "Gain hands-on experience through internships, live projects, and strong industry collaborations.",
-    imageSrc: "/assets/img/students/Placement-Mockup-1.png",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443064/sviet_assets/students/Placement-Mockup-1.png",
     tone: "from-[#2563EB] to-[#1d4ed8]",
   },
   {
     title: "Entrepreneurship & startup support",
     description:
       "Launch your ideas with incubation support, mentorship, and access to startup ecosystems on campus.",
-    imageSrc: "/assets/img/students/1.png",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443074/sviet_assets/students/1.png",
     tone: "from-[#0f766e] to-[#0d9488]",
   },
   {
     title: "Skill development & professional growth",
     description:
       "Build communication, technical, and leadership skills through workshops, events, and industry interactions.",
-    imageSrc: "/assets/img/students/moon_mandal.png",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443068/sviet_assets/students/moon_mandal.png",
     tone: "from-[#f59e0b] to-[#d97706]",
   },
 ] as const;

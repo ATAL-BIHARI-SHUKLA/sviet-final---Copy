@@ -76,7 +76,7 @@ export default function OurServicesPage() {
             </div>
             <div className="relative min-h-96 overflow-hidden border border-black/10">
               <Image
-                src="/assets/img/inter/02%20Services/01%20STUDY%20IN%20INDIA%20PORTAL/image.webp"
+                src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790444139/sviet_assets/inter/02%20Services/01%20STUDY%20IN%20INDIA%20PORTAL/image.webp"
                 alt="Study in India Portal"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
@@ -416,7 +416,7 @@ export default function OurServicesPage() {
           <div className="grid items-center gap-8 md:grid-cols-2 md:gap-12">
             <div className="relative min-h-96 overflow-hidden border border-black/10">
               <Image
-                src="/assets/img/inter/02%20Services/06%20Students%20Welfare/0.png"
+                src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790444122/sviet_assets/inter/02%20Services/06%20Students%20Welfare/0.png"
                 alt="Students Welfare support"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"

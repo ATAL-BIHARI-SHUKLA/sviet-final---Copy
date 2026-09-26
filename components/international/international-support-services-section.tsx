@@ -18,7 +18,7 @@ export function InternationalSupportServicesSection() {
           <div className="space-y-4">
             <article className="relative min-h-72 overflow-hidden rounded-2xl">
               <Image
-                src="/assets/img/section_card/Hostels.jpeg"
+                src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443202/sviet_assets/section_card/Hostels.jpg"
                 alt="Hostel and residence"
                 fill
                 sizes="50vw"
@@ -56,7 +56,7 @@ export function InternationalSupportServicesSection() {
             </div>
             <article className="relative min-h-72 overflow-hidden rounded-2xl">
               <Image
-                src="/assets/img/section_card/AcademicSupportInternational.jpeg"
+                src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443351/sviet_assets/section_card/AcademicSupportInternational.jpg"
                 alt="Academic support"
                 fill
                 sizes="50vw"

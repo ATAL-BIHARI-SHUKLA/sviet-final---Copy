@@ -21,7 +21,7 @@ export function AdmissionsHeroSection({
   return (
     <section className="relative overflow-hidden bg-[#0e1230]">
       <Image
-        src="/assets/img/banner/AddmissionBanner.jpeg"
+        src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443533/sviet_assets/banner/AddmissionBanner.jpg"
         alt="Admissions"
         fill
         priority

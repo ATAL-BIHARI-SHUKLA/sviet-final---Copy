@@ -321,7 +321,7 @@ export function ScholarshipSection() {
             </div>
             <div className="w-full overflow-hidden rounded-2xl">
               <Image
-                src="/assets/img/college/scholarship.png"
+                src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443471/sviet_assets/college/scholarship.png"
                 alt="Scholarship eligibility"
                 width={700}
                 height={300}

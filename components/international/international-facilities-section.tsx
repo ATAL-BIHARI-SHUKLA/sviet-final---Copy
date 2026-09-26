@@ -22,7 +22,7 @@ export function InternationalFacilitiesSection() {
         <div className="mt-8 grid gap-4 lg:grid-cols-3">
           <article className="relative min-h-96 overflow-hidden rounded-2xl">
             <Image
-              src="/assets/img/college/auditorium.png"
+              src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443513/sviet_assets/college/auditorium.png"
               alt="Language training"
               fill
               sizes="33vw"
@@ -41,7 +41,7 @@ export function InternationalFacilitiesSection() {
           </article>
           <article className="relative min-h-96 overflow-hidden rounded-2xl">
             <Image
-              src="/assets/img/college/lab.jpeg"
+              src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443478/sviet_assets/college/lab.jpg"
               alt="Specialized labs"
               fill
               sizes="33vw"
@@ -61,7 +61,7 @@ export function InternationalFacilitiesSection() {
           </article>
           <article className="relative min-h-96 overflow-hidden rounded-2xl">
             <Image
-              src="/assets/img/library.jpeg"
+              src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790442932/sviet_assets/library.jpg"
               alt="Digital libraries"
               fill
               sizes="33vw"

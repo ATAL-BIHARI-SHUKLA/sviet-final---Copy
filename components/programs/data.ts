@@ -8,14 +8,14 @@ export const PLACEMENT_OUTCOMES = [
 ] as const;
 
 export const RECRUITERS = [
-  { name: "Amazon", src: "/assets/img/companies/amazon.png" },
+  { name: "Amazon", src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443461/sviet_assets/companies/amazon.png" },
   { name: "TCS", src: "/assets/img/companies/tcs.png" },
   { name: "Infosys", src: "/assets/img/companies/infosys.png" },
-  { name: "Wipro", src: "/assets/img/companies/wipro.png" },
+  { name: "Wipro", src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443449/sviet_assets/companies/wipro.png" },
   { name: "Deloitte", src: "/assets/img/companies/deloitte.png" },
-  { name: "Dabur", src: "/assets/img/companies/dabur.png" },
-  { name: "JIO Digital", src: "/assets/img/companies/jio_digital.png" },
-  { name: "Mamsys", src: "/assets/img/companies/mamsys.png" },
+  { name: "Dabur", src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443457/sviet_assets/companies/dabur.png" },
+  { name: "JIO Digital", src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443455/sviet_assets/companies/jio_digital.png" },
+  { name: "Mamsys", src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443455/sviet_assets/companies/mamsys.png" },
   { name: "Calvin", src: "/assets/img/companies/calvin.png" },
 ] as const;
 

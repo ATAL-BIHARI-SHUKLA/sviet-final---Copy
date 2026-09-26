@@ -52,7 +52,7 @@ export function AdmissionsEnrichingWaysSection() {
 
         <div className="relative overflow-hidden rounded-xl">
           <Image
-            src="/assets/img/infrastructure/buildings/admin.jpg"
+            src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443568/sviet_assets/infrastructure/buildings/admin.jpg"
             alt="Students learning"
             width={420}
             height={500}

@@ -12,21 +12,21 @@ const ACCREDITATIONS = [
     title: "NAAC Accreditation",
     description:
       "Recognized with NAAC B++ Grade (2.94 Score, 2024), reflecting institutional focus on quality learning and continuous improvement.",
-    logoSrc: "/assets/img/NAAC-Logo.jpg",
+    logoSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790442925/sviet_assets/NAAC-Logo.jpg",
     logoAlt: "NAAC accreditation logo",
   },
   {
     title: "Program Quality Assurance",
     description:
       "Program delivery is aligned with applicable national quality frameworks and outcome-based academic practices.",
-    logoSrc: "/assets/img/vl.jpeg",
+    logoSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790442916/sviet_assets/vl.jpg",
     logoAlt: "Program quality assurance logo",
   },
   {
     title: "UGC Recognition",
     description:
       "Institutional operations and academic standards are maintained in line with relevant UGC norms and expectations.",
-    logoSrc: "/assets/img/UGC_India_Logo.png",
+    logoSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790442916/sviet_assets/UGC_India_Logo.png",
     logoAlt: "UGC approval logo",
   },
 ];
@@ -44,14 +44,14 @@ const OTHER_APPROVALS = [
     title: "PCI Recognition",
     description:
       "Pharmacy programs follow standards prescribed for curriculum quality, training, and compliance.",
-    logoSrc: "/assets/img/ap_logs/pci.png",
+    logoSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443533/sviet_assets/ap_logs/pci.png",
     logoAlt: "PCI approval logo",
   },
   {
     title: "NCTE Recognition",
     description:
       "Teacher education pathways are maintained with required academic and regulatory safeguards.",
-    logoSrc: "/assets/img/NCTE.jpg",
+    logoSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790442925/sviet_assets/NCTE.jpg",
     logoAlt: "NCTE approval logo",
   },
   {
@@ -73,39 +73,39 @@ const OTHER_APPROVALS = [
 
 const MEMBERSHIPS = [
   {
-    logoSrc: "/assets/img/affliation/IKGPTU.webp",
+    logoSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443535/sviet_assets/affliation/IKGPTU.webp",
     logoAlt: "IKGPTU affiliation logo",
   },
   {
-    logoSrc: "/assets/img/affliation/MRSPTU.webp",
+    logoSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443535/sviet_assets/affliation/MRSPTU.webp",
     logoAlt: "MRSPTU affiliation logo",
   },
   {
-    logoSrc: "/assets/img/affliation/NCVT.webp",
+    logoSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443535/sviet_assets/affliation/NCVT.webp",
     logoAlt: "NCVT affiliation logo",
   },
   {
-    logoSrc: "/assets/img/affliation/PSBTE.png",
+    logoSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443535/sviet_assets/affliation/PSBTE.png",
     logoAlt: "PSBTE affiliation logo",
   },
   {
-    logoSrc: "/assets/img/affliation/Punjabi_University.avif",
+    logoSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443534/sviet_assets/affliation/Punjabi_University.avif",
     logoAlt: "Punjabi University affiliation logo",
   },
 ];
 
 const AP_LOGO_MARQUEE = [
-  { src: "/assets/img/UGC_India_Logo.png", alt: "UGC logo" },
-  { src: "/assets/img/ap_logs/NAAC.png", alt: "NAAC logo" },
-  { src: "/assets/img/ap_logs/pci.png", alt: "Pharmacy Council of India logo" },
-  { src: "/assets/img/ap_logs/bci.png", alt: "Bar Council of India logo" },
-  { src: "/assets/img/accred/aicte.jpg", alt: "AICTE logo" },
-  { src: "/assets/img/accred/ncte.jpg", alt: "NCTE logo" },
-  { src: "/assets/img/ap_logs/iste.jpg", alt: "ISTE logo" },
-  { src: "/assets/img/vl.jpeg", alt: "virtual labs logo" },
-  { src: "/assets/img/ap_logs/1.png", alt: "Approval logo one" },
-  { src: "/assets/img/ap_logs/4.png", alt: "Approval logo four" },
-  { src: "/assets/img/ap_logs/8.png", alt: "Approval logo eight" },
+  { src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790442916/sviet_assets/UGC_India_Logo.png", alt: "UGC logo" },
+  { src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443533/sviet_assets/ap_logs/NAAC.png", alt: "NAAC logo" },
+  { src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443533/sviet_assets/ap_logs/pci.png", alt: "Pharmacy Council of India logo" },
+  { src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443534/sviet_assets/ap_logs/bci.png", alt: "Bar Council of India logo" },
+  { src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443544/sviet_assets/accred/aicte.jpg", alt: "AICTE logo" },
+  { src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443544/sviet_assets/accred/ncte.jpg", alt: "NCTE logo" },
+  { src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443533/sviet_assets/ap_logs/iste.jpg", alt: "ISTE logo" },
+  { src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790442916/sviet_assets/vl.jpg", alt: "virtual labs logo" },
+  { src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443534/sviet_assets/ap_logs/1.png", alt: "Approval logo one" },
+  { src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443534/sviet_assets/ap_logs/4.png", alt: "Approval logo four" },
+  { src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443534/sviet_assets/ap_logs/8.png", alt: "Approval logo eight" },
 ] as const;
 
 export function AccreditationsPage() {
@@ -186,7 +186,7 @@ export function AccreditationsPage() {
           <div className="flex items-center justify-start lg:justify-end">
             <div className="relative h-24 w-60">
               <Image
-                src="/assets/img/NAAC-Logo.jpg"
+                src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790442925/sviet_assets/NAAC-Logo.jpg"
                 alt="SVGOI accreditation logo"
                 fill
                 unoptimized
@@ -231,7 +231,7 @@ export function AccreditationsPage() {
         />
         <div className="mt-8">
           <CertificateBlock
-            imageSrc="/assets/img/accred/ugc.jpg"
+            imageSrc="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443544/sviet_assets/accred/ugc.jpg"
             imageAlt="University Grants Commission certificate preview"
             title="University Grants Commission (UGC)"
             description="SVGOI continues to operate in alignment with applicable UGC norms and quality expectations for higher education institutions. Official communications and notifications are maintained for transparency and reference."

@@ -13,31 +13,31 @@ const FEST_CARDS: FestCard[] = [
   {
     title: "SVGOI Navratri",
     subtitle: "With traditional Garba nights",
-    image: "/assets/img/campus-life/r1c1.png",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443526/sviet_assets/campus-life/r1c1.png",
     className: "lg:col-span-2 lg:row-span-1",
   },
   {
     title: "Holi",
     subtitle: "Sharing colors, music and food",
-    image: "/assets/img/campus-life/r2c1.png",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443526/sviet_assets/campus-life/r2c1.png",
     className: "lg:row-span-2",
   },
   {
     title: "Pongal",
     subtitle: "Spreading the diversity of the South",
-    image: "/assets/img/campus-life/r2c3.png",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443523/sviet_assets/campus-life/r2c3.png",
     className: "lg:row-span-2",
   },
   {
     title: "Christmas",
     subtitle: "Sharing the joys of the season",
-    image: "/assets/img/campus-life/image2.png",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443528/sviet_assets/campus-life/image2.png",
     className: "lg:row-span-1",
   },
   {
     title: "Chandigarh fashion week",
     subtitle: "Annual technology festival and leading events",
-    image: "/assets/img/campus-life/image3.png",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443526/sviet_assets/campus-life/image3.png",
     className: "lg:col-span-2 lg:row-span-1",
   },
 ];
@@ -183,7 +183,7 @@ export function CampusLifeFestsConvocationSection() {
 
             <div className="mx-auto h-44 w-44 rounded-xl p-3 md:h-52 md:w-52">
               <Image
-                src="/assets/img/svietofficial_qr.png"
+                src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790442921/sviet_assets/svietofficial_qr.png"
                 alt="Instagram post 1"
                 width={100}
                 height={100}

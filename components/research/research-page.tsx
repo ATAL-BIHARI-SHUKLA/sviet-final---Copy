@@ -666,7 +666,7 @@ export function ResearchPageComponent() {
       {/* Hero Section */}
       <section className="relative overflow-hidden pt-16 pb-16 sm:pt-24 sm:pb-24 lg:pb-40 lg:pt-40">
         <Image
-          src="/assets/img/research.jpg"
+          src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790442923/sviet_assets/research.jpg"
           alt="Research at SVGOI"
           fill
           className="object-cover"

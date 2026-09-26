@@ -5,7 +5,7 @@ const VALUE_CARDS = [
   {
     title: "Industry-integrated learning",
     tone: "image",
-    image: "/assets/img/college/auditorium.png",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443513/sviet_assets/college/auditorium.png",
   },
   {
     title: "Internship opportunities",

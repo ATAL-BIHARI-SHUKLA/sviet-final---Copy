@@ -24,7 +24,7 @@ export default function InternationalPage() {
             aria-label="International campus glimpse video"
           >
             <source
-              src="/assets/img/inter/INTERNATIONAL%20GLIMPSE%203%20MIN.mp4"
+              src="https://res.cloudinary.com/qbxjwpwp/video/upload/v1790443442/sviet_assets/inter/INTERNATIONAL%20GLIMPSE%203%20MIN.mp4"
               type="video/mp4"
             />
           </video>

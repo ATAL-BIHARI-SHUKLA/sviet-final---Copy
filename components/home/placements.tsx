@@ -1,14 +1,14 @@
 import Image from "next/image";
 
 const logos = [
-  { name: "Amazon", src: "/assets/img/companies/amazon.png" },
+  { name: "Amazon", src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443461/sviet_assets/companies/amazon.png" },
   { name: "TCS", src: "/assets/img/companies/tcs.png" },
   { name: "Infosys", src: "/assets/img/companies/infosys.png" },
-  { name: "Wipro", src: "/assets/img/companies/wipro.png" },
+  { name: "Wipro", src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443449/sviet_assets/companies/wipro.png" },
   { name: "Deloitte", src: "/assets/img/companies/deloitte.png" },
-  { name: "Dabur", src: "/assets/img/companies/dabur.png" },
-  { name: "JIO Digital", src: "/assets/img/companies/jio_digital.png" },
-  { name: "Mamsys", src: "/assets/img/companies/mamsys.png" },
+  { name: "Dabur", src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443457/sviet_assets/companies/dabur.png" },
+  { name: "JIO Digital", src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443455/sviet_assets/companies/jio_digital.png" },
+  { name: "Mamsys", src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443455/sviet_assets/companies/mamsys.png" },
   { name: "Calvin", src: "/assets/img/companies/calvin.png" },
 ];
 
@@ -16,7 +16,7 @@ export function PlacementsSection() {
   return (
     <section className="bg-[#ffffff] px-4 py-10 md:px-6 md:py-16">
       <div className="mx-auto grid max-w-7xl gap-10">
-       <Image src={'/assets/img/college/banner_95.png'} height={100} width={1300} alt={'banner'}/>
+       <Image src={'https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443496/sviet_assets/college/banner_95.png'} height={100} width={1300} alt={'banner'}/>
 
         <div className="grid gap-6 text-center md:grid-cols-3">
           <article className="rounded-xl bg-white p-6 transition duration-200">

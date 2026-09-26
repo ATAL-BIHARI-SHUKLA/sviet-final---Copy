@@ -39,37 +39,37 @@ const NAV_ITEMS = [
 // strip as one set without any per-slide styling.
 const RANKING_BADGES = [
   {
-    src: "/assets/img/college/1st.png",
+    src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443514/sviet_assets/college/1st.png",
     width: 500,
     height: 500,
     alt: "Ranked 1st Best Institution in North India for execution of industry & academia curriculum at WEBCON 2025",
   },
   {
-    src: "/assets/img/college/4th.png",
+    src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443497/sviet_assets/college/4th.png",
     width: 500,
     height: 500,
     alt: "Ranked 4th among the top Engineering Colleges of Excellence in Punjab",
   },
   {
-    src: "/assets/img/college/8th.png",
+    src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443498/sviet_assets/college/8th.png",
     width: 500,
     height: 500,
     alt: "Ranked 8th among the outstanding Engineering Colleges of Excellence in India",
   },
   {
-    src: "/assets/img/ranking/5th.png",
+    src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443369/sviet_assets/ranking/5th.png",
     width: 502,
     height: 497,
     alt: "Ranked 5th in Punjab in the CSR Engineering College Survey 2026",
   },
   {
-    src: "/assets/img/ranking/12th.png",
+    src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443370/sviet_assets/ranking/12th.png",
     width: 492,
     height: 507,
     alt: "Ranked 12th group rank in Punjab in the CSR Engineering College Survey 2026",
   },
   {
-    src: "/assets/img/ranking/48th.png",
+    src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443371/sviet_assets/ranking/48th.png",
     width: 506,
     height: 493,
     alt: "Ranked 48th among the top engineering colleges in India by Higher Education Review",
@@ -271,7 +271,7 @@ const ABOUT_PANEL_FEATURE = {
   description:
     "Explore academics, campus life, and the student experience in one focused view.",
   href: "/admissions",
-  imageSrc: "/assets/img/nav1.jpeg",
+  imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790442925/sviet_assets/nav1.jpg",
   imageAlt: "Student spotlight",
 };
 
@@ -281,7 +281,7 @@ const PROGRAM_PANEL_FEATURE = {
   description:
     "Browse departments, compare active programs, and jump straight into the degree that fits.",
   href: "/program-finder",
-  imageSrc: "/assets/img/nav2.jpeg",
+  imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790442926/sviet_assets/nav2.jpg",
   imageAlt: "Campus building",
 };
 
@@ -1345,7 +1345,7 @@ export function SiteFooter() {
             <section>
               <div className="flex items-center gap-3">
                 <Image
-                  src="/assets/img/sviet_white.png"
+                  src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790442916/sviet_assets/sviet_white.png"
                   alt="SVGOI logo"
                   width={120}
                   height={40}

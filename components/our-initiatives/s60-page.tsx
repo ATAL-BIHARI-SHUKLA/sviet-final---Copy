@@ -7,7 +7,7 @@ export function S60Page() {
       <section className="w-full">
         <div className="w-full overflow-hidden">
           <Image
-            src="/assets/img/banner/s60.jpeg"
+            src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443529/sviet_assets/banner/s60.jpg"
             alt="S60 Banner"
             width={0}
             height={0}
@@ -163,7 +163,7 @@ export function S60Page() {
             <div className="flex flex-col gap-3 lg:gap-4">
               <div className="group relative h-52 overflow-hidden border border-[#E4DED4] md:h-64">
                 <Image
-                  src="/assets/img/s60/P_ncagda.jpg"
+                  src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443366/sviet_assets/s60/P_ncagda.jpg"
                   alt="Super 60 batch"
                   fill
                   className="object-cover transition duration-500 group-hover:scale-105"
@@ -172,7 +172,7 @@ export function S60Page() {
               </div>
               <div className="group relative h-52 overflow-hidden border border-[#E4DED4] md:h-64">
                 <Image
-                  src="/assets/img/s60/blog_1765605754312.jpg"
+                  src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443366/sviet_assets/s60/blog_1765605754312.jpg"
                   alt="Super 60 session"
                   fill
                   className="object-cover transition duration-500 group-hover:scale-105"
@@ -183,7 +183,7 @@ export function S60Page() {
 
             <div className="group relative row-span-2 min-h-105 overflow-hidden border border-[#E4DED4]">
               <Image
-                src="/assets/img/s60/Third-ChX5EUkj.jpg"
+                src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443359/sviet_assets/s60/Third-ChX5EUkj.jpg"
                 alt="Super 60 community"
                 fill
                 className="object-cover transition duration-500 group-hover:scale-105"
@@ -194,7 +194,7 @@ export function S60Page() {
             <div className="flex flex-col gap-3 lg:gap-4">
               <div className="group relative h-52 overflow-hidden border border-[#E4DED4] md:h-64">
                 <Image
-                  src="/assets/img/s60/batch_8.0_h3ycn5.jpg"
+                  src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443366/sviet_assets/s60/batch_8.0_h3ycn5.jpg"
                   alt="Super 60 workshop"
                   fill
                   className="object-cover transition duration-500 group-hover:scale-105"
@@ -203,7 +203,7 @@ export function S60Page() {
               </div>
               <div className="group relative h-52 overflow-hidden border border-[#E4DED4] md:h-64">
                 <Image
-                  src="/assets/img/s60/one-DakvQVQ8.jpg"
+                  src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443366/sviet_assets/s60/one-DakvQVQ8.jpg"
                   alt="Super 60 members"
                   fill
                   className="object-cover transition duration-500 group-hover:scale-105"
@@ -233,7 +233,7 @@ export function S60Page() {
             <div className="grid gap-0 border border-[#e4d7c6] bg-white shadow-[0_18px_42px_rgba(16,24,40,0.08)] lg:grid-cols-[200px_1fr]">
               <div className="relative min-h-64 overflow-hidden lg:min-h-full">
                 <Image
-                  src="/assets/img/college/management/vishal-sir.jpg"
+                  src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443857/sviet_assets/college/management/vishal-sir.jpg"
                   alt="Vishal Garg — Founder, Super 60"
                   fill
                   sizes="(max-width: 1024px) 100vw, 200px"
@@ -262,7 +262,7 @@ export function S60Page() {
             <div className="grid gap-0 border border-[#e4d7c6] bg-white shadow-[0_18px_42px_rgba(16,24,40,0.08)] lg:grid-cols-[200px_1fr]">
               <div className="relative min-h-64 overflow-hidden lg:min-h-full">
                 <Image
-                  src="/assets/img/college/management/ankur-sir.jpg"
+                  src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443875/sviet_assets/college/management/ankur-sir.jpg"
                   alt="Ankur Gill — Director of Operations, Founder UNIQUE ZONE"
                   fill
                   sizes="(max-width: 1024px) 100vw, 200px"

@@ -37,7 +37,7 @@ const LEADERSHIP_DESK: Leader[] = [
     socialLinks: [
       { label: "Facebook", href: "https://www.facebook.com/ashok.garg.566" },
     ],
-    imageSrc: "/assets/img/college/management/ashok-sir.jpg",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443864/sviet_assets/college/management/ashok-sir.jpg",
     imageAlt: "Mr. Ashok Garg",
   },
   {
@@ -61,7 +61,7 @@ const LEADERSHIP_DESK: Leader[] = [
         href: "https://www.facebook.com/vishal.garg.7921975",
       },
     ],
-    imageSrc: "/assets/img/college/management/vishal-sir.jpg",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443857/sviet_assets/college/management/vishal-sir.jpg",
     imageAlt: "Mr. Vishal Garg",
   },
   // {
@@ -80,7 +80,7 @@ const LEADERSHIP_DESK: Leader[] = [
   //       href: "https://www.linkedin.com/in/ankur-gupta-14278730/",
   //     },
   //   ],
-  //   imageSrc: "/assets/img/college/management/ankurgupta.jpg",
+  //   imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443877/sviet_assets/college/management/ankurgupta.jpg",
   //   imageAlt: "Mr. Ankur Gupta",
   // },
   // {
@@ -124,7 +124,7 @@ const LEADERSHIP_DESK: Leader[] = [
   //       href: "https://www.facebook.com/profile.php?id=100052235821482",
   //     },
   //   ],
-  //   imageSrc: "/assets/img/college/management/shubham-sir..jpg",
+  //   imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443858/sviet_assets/college/management/shubham-sir..jpg",
   //   imageAlt: "Mr. Shubham Garg",
   // },
   {
@@ -145,7 +145,7 @@ const LEADERSHIP_DESK: Leader[] = [
       },
       { label: "Facebook", href: "https://www.facebook.com/ankurgillofficial" },
     ],
-    imageSrc: "/assets/img/college/management/ankur-sir.jpg",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443875/sviet_assets/college/management/ankur-sir.jpg",
     imageAlt: "Mr. Ankur Gill",
   },
 ];
@@ -187,7 +187,7 @@ export function LeadershipPage() {
         <div className="relative mt-20 left-1/2 w-screen -translate-x-1/2 overflow-hidden">
           <div className="relative aspect-5/2 w-full">
             <Image
-              src="/assets/img/banner/leadership.jpeg"
+              src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443529/sviet_assets/banner/leadership.jpg"
               alt="SVGOI leadership banner"
               fill
               priority

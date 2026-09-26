@@ -115,7 +115,7 @@ export function PlacementSecondaryBanner({ featuredPlacements }: SecondaryBanner
           <div className="relative flex h-56 items-end justify-center overflow-visible md:h-64">
             <div className="pointer-events-none absolute bottom-0 left-1/2 h-24 w-40 -translate-x-1/2 rounded-full bg-[#fea700]/20 blur-3xl md:h-28 md:w-52" />
             <Image
-              src="/assets/img/students/taks.png"
+              src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443059/sviet_assets/students/taks.png"
               alt="Top placement highlight"
               width={560}
               height={560}

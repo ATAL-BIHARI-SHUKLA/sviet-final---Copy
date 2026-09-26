@@ -58,7 +58,7 @@ const FACILITY_ITEMS: FacilityItem[] = [
       "Mentoring-friendly spaces",
       "Community engagement zones",
     ],
-    imageSrc: "/assets/img/college/1st.png",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443514/sviet_assets/college/1st.png",
     imageAlt: "Student interaction areas across SVGOI campus",
   },
   {
@@ -71,7 +71,7 @@ const FACILITY_ITEMS: FacilityItem[] = [
       "Event-ready pockets",
       "Ventilated common spaces",
     ],
-    imageSrc: "/assets/img/campus-life/image2.png",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443528/sviet_assets/campus-life/image2.png",
     imageAlt: "Open learning courtyards for student collaboration",
   },
   {
@@ -84,7 +84,7 @@ const FACILITY_ITEMS: FacilityItem[] = [
       "Flexible teaching setup",
       "High-capacity halls",
     ],
-    imageSrc: "/assets/img/campus-life/audi.png",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443528/sviet_assets/campus-life/audi.png",
     imageAlt: "Classrooms and lecture halls for structured learning",
   },
   {
@@ -97,7 +97,7 @@ const FACILITY_ITEMS: FacilityItem[] = [
       "Reading spaces",
       "Digital learning support",
     ],
-    imageSrc: "/assets/img/campus-life/image1.png",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443528/sviet_assets/campus-life/image1.png",
     imageAlt: "Library and study resources for focused academic work",
   },
   {
@@ -110,7 +110,7 @@ const FACILITY_ITEMS: FacilityItem[] = [
       "Faculty-guided sessions",
       "Outcome-led practicals",
     ],
-    imageSrc: "/assets/img/college/4th.png",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443497/sviet_assets/college/4th.png",
     imageAlt: "Program-specific technical laboratories at SVGOI",
   },
   {
@@ -123,7 +123,7 @@ const FACILITY_ITEMS: FacilityItem[] = [
       "Project mentorship",
       "Innovation-led activities",
     ],
-    imageSrc: "/assets/img/college/8th.png",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443498/sviet_assets/college/8th.png",
     imageAlt: "Research centres for experimentation and applied learning",
   },
   {
@@ -136,7 +136,7 @@ const FACILITY_ITEMS: FacilityItem[] = [
       "Interdisciplinary projects",
       "Startup-oriented thinking",
     ],
-    imageSrc: "/assets/img/college/global_recognition.png",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443483/sviet_assets/college/global_recognition.png",
     imageAlt: "Innovation labs for student projects and prototyping",
   },
   {
@@ -149,7 +149,7 @@ const FACILITY_ITEMS: FacilityItem[] = [
       "Student sports engagement",
       "Wellness ecosystem",
     ],
-    imageSrc: "/assets/img/campus-life/r1c2.png",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443526/sviet_assets/campus-life/r1c2.png",
     imageAlt: "Campus playgrounds supporting sports and fitness",
   },
   {
@@ -162,7 +162,7 @@ const FACILITY_ITEMS: FacilityItem[] = [
       "Structured coaching support",
       "Active campus culture",
     ],
-    imageSrc: "/assets/img/campus-life/r2c3.png",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443523/sviet_assets/campus-life/r2c3.png",
     imageAlt: "Sports facilities promoting teamwork and well-being",
   },
   {
@@ -175,7 +175,7 @@ const FACILITY_ITEMS: FacilityItem[] = [
       "Sustainable operations",
       "Long-term resilience",
     ],
-    imageSrc: "/assets/img/college/banner_95.png",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443496/sviet_assets/college/banner_95.png",
     imageAlt: "Solar power systems supporting sustainable campus operations",
   },
   {
@@ -188,7 +188,7 @@ const FACILITY_ITEMS: FacilityItem[] = [
       "Conservation planning",
       "Campus water stewardship",
     ],
-    imageSrc: "/assets/img/campus-life/image4.png",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443526/sviet_assets/campus-life/image4.png",
     imageAlt: "Rain water harvesting infrastructure for water conservation",
   },
   {
@@ -201,7 +201,7 @@ const FACILITY_ITEMS: FacilityItem[] = [
       "Recycling support",
       "Cleaner campus operations",
     ],
-    imageSrc: "/assets/img/campus-life/r3c1.png",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443523/sviet_assets/campus-life/r3c1.png",
     imageAlt: "Waste management systems with campus segregation practices",
   },
   {
@@ -214,7 +214,7 @@ const FACILITY_ITEMS: FacilityItem[] = [
       "Transit point planning",
       "Safer movement corridors",
     ],
-    imageSrc: "/assets/img/campus-life/r3c2.png",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443523/sviet_assets/campus-life/r3c2.png",
     imageAlt: "Green mobility support infrastructure within campus",
   },
 ];
@@ -224,42 +224,42 @@ const SUSTAINABILITY_ITEMS = [
     title: "Renewable Energy Generation",
     description:
       "Distributed solar systems support academic blocks and utilities, reducing dependency on conventional energy.",
-    imageSrc: "/assets/img/college/scholarship.png",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443471/sviet_assets/college/scholarship.png",
     imageAlt: "Renewable energy generation systems at SVGOI",
   },
   {
     title: "Waste Water Treatment",
     description:
       "Treatment and reuse systems are designed to optimize water use across landscaping and non-potable needs.",
-    imageSrc: "/assets/img/campus-life/image3.png",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443526/sviet_assets/campus-life/image3.png",
     imageAlt: "Waste water treatment setup on the campus",
   },
   {
     title: "Tree Plantation",
     description:
       "Green belt planning and periodic plantation drives improve campus microclimate and ecological balance.",
-    imageSrc: "/assets/img/college/1st.png",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443514/sviet_assets/college/1st.png",
     imageAlt: "Tree plantation initiatives in the SVGOI campus",
   },
   {
     title: "Rain Water Harvesting",
     description:
       "Catchment and storage systems support groundwater recharge and long-term water conservation goals.",
-    imageSrc: "/assets/img/campus-life/image4.png",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443526/sviet_assets/campus-life/image4.png",
     imageAlt: "Rain water harvesting systems at SVGOI",
   },
   {
     title: "Waste Recycling",
     description:
       "Segregation and recycling practices help reduce landfill impact and build responsible campus habits.",
-    imageSrc: "/assets/img/campus-life/r2c1.png",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443526/sviet_assets/campus-life/r2c1.png",
     imageAlt: "Waste recycling facilities on campus",
   },
   {
     title: "Mobility Support Infrastructure",
     description:
       "Pedestrian-first pathways and organized transit points improve accessibility and safer campus movement.",
-    imageSrc: "/assets/img/campus-life/r1c1.png",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443526/sviet_assets/campus-life/r1c1.png",
     imageAlt: "Mobility support infrastructure for students and staff",
   },
 ];

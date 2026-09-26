@@ -105,7 +105,7 @@ export function AdmissionsHowToApplySection() {
 
         <div className="relative flex items-center justify-center bg-[#f5f7fb]">
           <Image
-            src="/assets/img/banner/processform.png"
+            src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443529/sviet_assets/banner/processform.png"
             alt="SVGOI admission process steps"
             width={900}
             height={1200}

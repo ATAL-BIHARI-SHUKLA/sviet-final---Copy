@@ -16,7 +16,7 @@ export function CampusLifeMemoriesSection() {
         <div className="mt-10 grid gap-4 md:grid-cols-2">
           <div className="relative overflow-hidden rounded-xl">
             <Image
-              src="/assets/img/campus-life/r1c1.png"
+              src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443526/sviet_assets/campus-life/r1c1.png"
               alt="Students enjoying campus dining"
               width={1200}
               height={760}
@@ -25,7 +25,7 @@ export function CampusLifeMemoriesSection() {
           </div>
           <div className="relative overflow-hidden rounded-xl">
             <Image
-              src="/assets/img/section_card/LifetimeMemory.jpeg"
+              src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443178/sviet_assets/section_card/LifetimeMemory.jpg"
               alt="Campus activities and sports"
               width={1200}
               height={760}

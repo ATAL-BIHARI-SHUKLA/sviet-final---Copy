@@ -3,22 +3,22 @@ import Image from "next/image";
 const FRESHERS_CARDS = [
   {
     title: "Concerts & Live Shows",
-    image: "/assets/img/show3.jpg",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790442918/sviet_assets/show3.jpg",
     alt: "Freshers concert stage",
   },
   {
     title: "Exposure",
-    image: "/assets/img/campus-life/image2.png",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443528/sviet_assets/campus-life/image2.png",
     alt: "Freshers games and activities",
   },
   {
     title: "Talent showcases & competitions",
-    image: "/assets/img/campus-life/image3.png",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443526/sviet_assets/campus-life/image3.png",
     alt: "Talent showcase at freshers festival",
   },
   {
     title: "Orientation activities",
-    image: "/assets/img/campus-life/image4.png",
+    image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443526/sviet_assets/campus-life/image4.png",
     alt: "Freshers orientation activities",
   },
 ] as const;

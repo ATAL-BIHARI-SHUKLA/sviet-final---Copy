@@ -17,7 +17,7 @@ type HeroSlide = {
 };
 
 export function HeroSection({
-  imageSrc = "/assets/img/banner/sviet-tag.jpeg",
+  imageSrc = "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443527/sviet_assets/banner/sviet-tag.jpg",
   imageAlt = "SVGOI Banner",
 }: HeroSectionProps) {
   const VIDEO_SLIDE_INDEX = 2;
@@ -26,7 +26,7 @@ export function HeroSection({
   const heroSlides: HeroSlide[] = [
     { imageSrc, imageAlt },
     {
-      imageSrc: "/assets/img/banner/banner_home_place2.jpeg",
+      imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443531/sviet_assets/banner/banner_home_place2.jpg",
       imageAlt: "SVGOI Campus Highlights",
     },
   ];

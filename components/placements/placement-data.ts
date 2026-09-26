@@ -502,7 +502,7 @@ const TOP_PLACEMENT_CARD_SOURCE = [
     company: "Caelius Consulating",
     packageValue: 12,
     packageLabel: "12 LPA",
-    imageSrc: "/assets/img/stu/Taniya.png",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443355/sviet_assets/stu/Taniya.png",
   },
   {
     name: "Utkarsh Kumar",
@@ -510,7 +510,7 @@ const TOP_PLACEMENT_CARD_SOURCE = [
     company: "Byju's",
     packageValue: 11,
     packageLabel: "11 LPA",
-    imageSrc: "/assets/img/stu/Utkarsh.png",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443352/sviet_assets/stu/Utkarsh.png",
   },
   {
     name: "Anam Rashid",
@@ -518,7 +518,7 @@ const TOP_PLACEMENT_CARD_SOURCE = [
     company: "Placed in Skillkart , Ucertify , Placed in Dentsu!",
     packageValue: 12,
     packageLabel: "12 LPA",
-    imageSrc: "/assets/img/stu/Anam.png",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443360/sviet_assets/stu/Anam.png",
   },
   {
     name: "Pallavi Sharma",
@@ -526,7 +526,7 @@ const TOP_PLACEMENT_CARD_SOURCE = [
     company: "Extra Marks",
     packageValue: 7.2,
     packageLabel: "7.2 LPA",
-    imageSrc: "/assets/img/stu/Pallavi.png",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443357/sviet_assets/stu/Pallavi.png",
   },
   {
     name: "Naveen Jaiswal",
@@ -534,7 +534,7 @@ const TOP_PLACEMENT_CARD_SOURCE = [
     company: "Placed in Entab Infotech PVt Ltd",
     packageValue: 12,
     packageLabel: "12 LPA",
-    imageSrc: "/assets/img/stu/Naveen.png",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443358/sviet_assets/stu/Naveen.png",
   },
 
   {
@@ -543,7 +543,7 @@ const TOP_PLACEMENT_CARD_SOURCE = [
     company: "Placed in Caelius Consulting",
     packageValue: 12,
     packageLabel: "12 LPA",
-    imageSrc: "/assets/img/stu/Priyanshi.png",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443351/sviet_assets/stu/Priyanshi.png",
   },
 
   {
@@ -552,7 +552,7 @@ const TOP_PLACEMENT_CARD_SOURCE = [
     company: "Byju's",
     packageValue: 10,
     packageLabel: "10 LPA",
-    imageSrc: "/assets/img/stu/Shikha.png",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443352/sviet_assets/stu/Shikha.png",
   },
   {
     name: "Prateek Kumar",
@@ -560,7 +560,7 @@ const TOP_PLACEMENT_CARD_SOURCE = [
     company: "Byju's",
     packageValue: 8.2,
     packageLabel: "8.2 LPA",
-    imageSrc: "/assets/img/stu/Prateek.png",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443357/sviet_assets/stu/Prateek.png",
   },
   {
     name: "Parvesh Sharma",
@@ -568,7 +568,7 @@ const TOP_PLACEMENT_CARD_SOURCE = [
     company: "Byju's",
     packageValue: 10,
     packageLabel: "10 LPA",
-    imageSrc: "/assets/img/stu/Parvesh.png",
+    imageSrc: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443358/sviet_assets/stu/Parvesh.png",
   },
 ] as const;
 

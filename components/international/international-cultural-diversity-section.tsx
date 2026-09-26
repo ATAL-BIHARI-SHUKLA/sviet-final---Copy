@@ -7,7 +7,7 @@ export function InternationalCulturalDiversitySection() {
       <div className="mx-auto max-w-7xl px-4 md:px-6">
         <article className="overflow-hidden rounded-2xl">
           <Image
-            src="/assets/img/banner/interplay.jpeg"
+            src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443529/sviet_assets/banner/interplay.jpg"
             alt="Cultural diversity"
             width={1600}
             height={900}

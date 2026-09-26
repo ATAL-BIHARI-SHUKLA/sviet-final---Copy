@@ -29,9 +29,9 @@ const CATEGORY_LABELS: Record<EventCategory, string> = {
 };
 
 const CATEGORY_FALLBACK_IMAGES: Record<EventCategory, string> = {
-  tech: "/assets/img/section_card/BharatTech.JPG.jpeg",
-  summit: "/assets/img/section_card/GFS.JPG",
-  cultural: "/assets/img/section_card/Spont.jpeg",
+  tech: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443321/sviet_assets/section_card/BharatTech.JPG.jpg",
+  summit: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443238/sviet_assets/section_card/GFS.jpg",
+  cultural: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443172/sviet_assets/section_card/Spont.jpg",
   sports: "/assets/img/section_card/Sportsmania.jpeg",
 };
 

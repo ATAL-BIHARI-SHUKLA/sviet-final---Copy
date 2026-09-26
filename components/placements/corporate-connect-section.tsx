@@ -6,32 +6,32 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const SLIDES = [
   {
-    src: "/assets/img/corporate%20connect/corporate_connect.jpg",
+    src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443416/sviet_assets/corporate%20connect/corporate_connect.jpg",
     caption: "Pune Chapter kickoff — Würth IT corporate visit",
     location: "Pune, Maharashtra",
   },
   {
-    src: "/assets/img/corporate%20connect/corporate_connect1.jpg",
+    src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443416/sviet_assets/corporate%20connect/corporate_connect1.jpg",
     caption: "24/7 Software meet — building talent pipelines",
     location: "Pune, Maharashtra",
   },
   {
-    src: "/assets/img/corporate%20connect/corp2.jpg",
+    src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443446/sviet_assets/corporate%20connect/corp2.jpg",
     caption: "SVGOI directors with industry leaders",
     location: "Pan-India Corporate Drive",
   },
   {
-    src: "/assets/img/corporate%20connect/cc-3.jpg",
+    src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443449/sviet_assets/corporate%20connect/cc-3.jpg",
     caption: "Corporate engagement — expanding recruiter network",
     location: "Pan-India Corporate Drive",
   },
   {
-    src: "/assets/img/corporate%20connect/cc-4.jpg",
+    src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443449/sviet_assets/corporate%20connect/cc-4.jpg",
     caption: "Director-level partnership discussions",
     location: "Pan-India Corporate Drive",
   },
   {
-    src: "/assets/img/corporate%20connect/cc-5.jpg",
+    src: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443449/sviet_assets/corporate%20connect/cc-5.jpg",
     caption: "Fostering meaningful collaborations with corporates",
     location: "Pan-India Corporate Drive",
   },

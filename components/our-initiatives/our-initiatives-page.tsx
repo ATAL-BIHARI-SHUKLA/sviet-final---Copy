@@ -364,7 +364,7 @@ export function OurInitiativesPage() {
                   </div>
                   <div className="relative min-h-65 border-t border-[#e4d7c6] lg:border-l lg:border-t-0">
                     <Image
-                      src="/assets/img/banner/uniq11.jpg"
+                      src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443527/sviet_assets/banner/uniq11.jpg"
                       alt="The Uniques"
                       fill
                       sizes="(max-width: 1024px) 100vw, 45vw"
@@ -436,7 +436,7 @@ export function OurInitiativesPage() {
                   </div>
                   <div className="relative min-h-65 border-t border-[#e4d7c6] lg:border-l lg:border-t-0">
                     <Image
-                      src="/assets/img/banner/s60.jpeg"
+                      src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443529/sviet_assets/banner/s60.jpg"
                       alt="Super 60"
                       fill
                       sizes="(max-width: 1024px) 100vw, 45vw"
@@ -583,7 +583,7 @@ export function OurInitiativesPage() {
             <div className="overflow-hidden border border-[#e4d7c6] bg-white shadow-[0_18px_42px_rgba(16,24,40,0.08)]">
               <div className="relative aspect-4/5 w-full">
                 <Image
-                  src="/assets/img/college/management/ankur-sir.jpg"
+                  src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443875/sviet_assets/college/management/ankur-sir.jpg"
                   alt="Ankur Gill — Director of Operations, Founder UNIQUE ZONE"
                   fill
                   sizes="(max-width: 1024px) 100vw, 360px"

@@ -62,10 +62,10 @@ const STATIC_EVENTS: CurriculumEvent[] = [
       title: "Dev Fest",
       description:
         "A power-packed tech fest bringing together developers, enthusiasts and community builders for learning, innovation, workshops and networking focused on AI, Web, Cloud and emerging tech.",
-      image: "/assets/img/section_card/Dev1.jpeg",
+      image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443267/sviet_assets/section_card/Dev1.jpg",
     },
-    stats: [{ image: "/assets/img/section_card/Dev2.jpeg", label: "November 8, 2025" }],
-    videos: [{ image: "/assets/img/section_card/Dev3.jpeg", label: "SVGOI Campus" }],
+    stats: [{ image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443264/sviet_assets/section_card/Dev2.jpg", label: "November 8, 2025" }],
+    videos: [{ image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443266/sviet_assets/section_card/Dev3.jpg", label: "SVGOI Campus" }],
   },
   {
     id: 5,
@@ -88,10 +88,10 @@ const STATIC_EVENTS: CurriculumEvent[] = [
       title: "Spontania 2025",
       description:
         "The flagship cultural extravaganza of SVGOI with a vibrant three-day celebration of art, culture, and talent featuring dance, music, theater and cultural showcases.",
-      image: "/assets/img/section_card/Spont.jpeg",
+      image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443172/sviet_assets/section_card/Spont.jpg",
     },
-    stats: [{ image: "/assets/img/section_card/Spont2.jpeg", label: "April 15-17, 2025" }],
-    videos: [{ image: "/assets/img/section_card/Spont3.jpeg", label: "600+ Students" }],
+    stats: [{ image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443164/sviet_assets/section_card/Spont2.jpg", label: "April 15-17, 2025" }],
+    videos: [{ image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443174/sviet_assets/section_card/Spont3.jpg", label: "600+ Students" }],
   },
   {
     id: 7,
@@ -101,10 +101,10 @@ const STATIC_EVENTS: CurriculumEvent[] = [
       title: "Global Futures Summit 2.0",
       description:
         "Industry & HR Perspectives event bringing together thought leaders to discuss emerging trends, career pathways, and shaping the future workforce.",
-      image: "/assets/img/section_card/GFS.JPG",
+      image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443238/sviet_assets/section_card/GFS.jpg",
     },
-    stats: [{ image: "/assets/img/section_card/GFS2.JPG", label: "8th March 2025" }],
-    videos: [{ image: "/assets/img/section_card/GFS3.JPG", label: "SVGOI Auditorium" }],
+    stats: [{ image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443222/sviet_assets/section_card/GFS2.jpg", label: "8th March 2025" }],
+    videos: [{ image: "https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443217/sviet_assets/section_card/GFS3.jpg", label: "SVGOI Auditorium" }],
   },
 ];
 

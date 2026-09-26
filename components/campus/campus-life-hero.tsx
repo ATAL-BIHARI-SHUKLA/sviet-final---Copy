@@ -5,7 +5,7 @@ export function CampusLifeHeroSection() {
     <section className="w-full pt-2 md:pt-3">
       <div className="relative h-[510px] w-full overflow-hidden rounded-[15px] md:h-[600px]">
         <Image
-          src="/assets/img/college/auditorium.png"
+          src="https://res.cloudinary.com/qbxjwpwp/image/upload/v1790443513/sviet_assets/college/auditorium.png"
           alt="Campus Auditorium"
           fill
           className="object-cover"
