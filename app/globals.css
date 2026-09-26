@@ -1,0 +1,276 @@
+@import "swiper/css";
+@import "swiper/css/pagination";
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: #f6f6f6;
+  --color-foreground: #111111;
+  --font-sans: var(--font-sans);
+  --font-display: var(--font-display);
+  --z-9999: 9999;
+}
+
+body {
+  font-family: var(--font-sans), sans-serif;
+  margin: 0;
+  background: #f6f6f6;
+}
+
+.our-initiatives-hero-grid {
+  background-image:
+    linear-gradient(rgba(16, 24, 40, 0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(16, 24, 40, 0.045) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+.our-initiatives-founder-grid {
+  background-image:
+    linear-gradient(rgba(16, 24, 40, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(16, 24, 40, 0.03) 1px, transparent 1px);
+  background-size: 36px 36px;
+}
+
+.our-initiatives-cta-glow {
+  background:
+    radial-gradient(circle at 20% 50%, rgba(247, 148, 29, 0.16) 0%, transparent 42%),
+    radial-gradient(circle at 80% 50%, rgba(0, 48, 135, 0.12) 0%, transparent 42%);
+}
+
+/* Global sharp-corner override: remove rounded corners across the site. */
+:root {
+  --radius: 0px;
+}
+
+*,
+*::before,
+*::after {
+  border-radius: 0 !important;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display), sans-serif;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.site-header {
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 60;
+}
+
+.site-header-home {
+  position: fixed;
+  top: 0;
+}
+
+.site-header-default {
+  position: sticky;
+  top: 0;
+}
+
+.site-header .utility-bar,
+.site-header .main-navbar {
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease,
+    opacity 0.3s ease,
+    transform 0.3s ease;
+  will-change: transform, opacity;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+}
+
+.site-header .utility-bar {
+  max-height: 56px;
+  overflow: hidden;
+  transition:
+    max-height 0.32s ease,
+    padding-top 0.32s ease,
+    padding-bottom 0.32s ease,
+    border-color 0.3s ease,
+    background-color 0.3s ease,
+    color 0.3s ease,
+    opacity 0.32s ease,
+    transform 0.32s ease;
+}
+
+.site-header.utility-hidden .utility-bar {
+  max-height: 0;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-100%);
+  padding-top: 0;
+  padding-bottom: 0;
+  border-bottom-width: 0;
+}
+
+.site-header.navbar-transparent .utility-bar {
+  background-color: transparent;
+  border-color: rgba(255, 255, 255, 0.25);
+  color: #ffffff;
+}
+
+.site-header.navbar-transparent .main-navbar {
+  background-color: transparent;
+  border-color: rgba(255, 255, 255, 0.25);
+  color: #ffffff;
+}
+
+.site-header.site-header-leadership.navbar-transparent .utility-bar {
+  background-color: transparent;
+  border-color: rgba(0, 0, 0, 0.1);
+  color: #000000;
+}
+
+.site-header.site-header-leadership.navbar-transparent .main-navbar {
+  background-color: transparent;
+  border-color: rgba(0, 0, 0, 0.1);
+  color: #000000;
+}
+
+.site-header.navbar-scrolled .utility-bar {
+  background-color: #ffffff;
+  border-color: rgba(0, 0, 0, 0.1);
+  color: #000000;
+}
+
+.site-header.navbar-scrolled .main-navbar {
+  background-color: #ffffff;
+  border-color: rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  color: #000000;
+}
+
+.corporate-marquee {
+  position: relative;
+  overflow: hidden;
+}
+
+.corporate-marquee-shell {
+  position: relative;
+  overflow: hidden;
+}
+
+.corporate-marquee-shell::before,
+.corporate-marquee-shell::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 44px;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.corporate-marquee-shell::before {
+  left: 0;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.98) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.corporate-marquee-shell::after {
+  right: 0;
+  background: linear-gradient(270deg, rgba(255, 255, 255, 0.98) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.corporate-marquee-track {
+  display: flex;
+  width: max-content;
+  animation: corporate-marquee-scroll 26s linear infinite;
+}
+
+.corporate-marquee.vertical {
+  height: 100%;
+  overflow: hidden;
+}
+
+.corporate-marquee-track.vertical {
+  flex-direction: column;
+  width: 100%;
+  height: max-content;
+  animation: corporate-marquee-scroll-y 20s linear infinite;
+}
+
+.corporate-marquee-shell.vertical::before,
+.corporate-marquee-shell.vertical::after {
+  left: 0;
+  right: 0;
+  width: auto;
+  height: 34px;
+}
+
+.corporate-marquee-shell.vertical::before {
+  top: 0;
+  bottom: auto;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.98) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.corporate-marquee-shell.vertical::after {
+  top: auto;
+  bottom: 0;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.98) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.floating-apply-now-tab {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes corporate-marquee-scroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes corporate-marquee-scroll-y {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(calc(-50% - 0px));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .corporate-marquee-track {
+    animation: none;
+  }
+}

@@ -1,0 +1,640 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum UserRole {
+  APPLICANT
+  COUNSELOR
+  ADMIN
+  SUPER_ADMIN
+}
+
+enum UserStatus {
+  ACTIVE
+  INVITED
+  SUSPENDED
+}
+
+enum LeadSource {
+  APPLY_NOW
+  SCHOLARSHIP_CHECK
+  PROGRAM_FINDER
+  CONTACT_ENQUIRY
+  EVENT_REGISTRATION
+  CAMPUS_VISIT
+  PHONE
+  REFERRAL
+  WALK_IN
+  SOCIAL
+  WEBSITE
+  EVENT
+  CAREER_APPLICATION
+}
+
+enum LeadStatus {
+  NEW
+  ASSIGNED
+  CONTACTED
+  NURTURING
+  QUALIFIED
+  CONVERTED
+  DISQUALIFIED
+  LOST
+}
+
+enum ApplicationStatus {
+  DRAFT
+  IN_PROGRESS
+  SUBMITTED
+  UNDER_REVIEW
+  DOCS_PENDING
+  INTERVIEW_SCHEDULED
+  DECISION_PENDING
+  ACCEPTED
+  REJECTED
+  WAITLISTED
+  WITHDRAWN
+}
+
+enum ApplicationStepCode {
+  PERSONAL_INFO
+  ACADEMICS
+  PROGRAM_CHOICE
+  DOCUMENTS
+  ESSAYS
+  REVIEW_SUBMIT
+}
+
+enum DocumentType {
+  TRANSCRIPT
+  ID_PROOF
+  PHOTO
+  ENTRANCE_SCORE
+  RECOMMENDATION
+  ESSAY
+  OTHER
+}
+
+enum DocumentStatus {
+  PENDING
+  VERIFIED
+  REJECTED
+}
+
+enum ActivityActorType {
+  USER
+  SYSTEM
+}
+
+enum ActivityEntityType {
+  USER
+  LEAD
+  APPLICATION
+  DOCUMENT
+}
+
+enum EnrollmentStatus {
+  ACTIVE
+  DEFERRED
+  COMPLETED
+  WITHDRAWN
+}
+
+enum ContentStatus {
+  DRAFT
+  PUBLISHED
+  ARCHIVED
+}
+
+enum CourseLevel {
+  UG
+  PG
+  DIPLOMA
+  VOCATIONAL
+  PROFESSIONAL
+  CERTIFICATE
+}
+
+enum AnnouncementLevel {
+  INFO
+  SUCCESS
+  WARNING
+  CRITICAL
+}
+
+model User {
+  id                      String                     @id @default(uuid())
+  email                   String                     @unique
+  phone                   String?
+  passwordHash            String?
+  firstName               String
+  lastName                String
+  role                    UserRole
+  status                  UserStatus                 @default(ACTIVE)
+  lastLoginAt             DateTime?
+  createdAt               DateTime                   @default(now())
+  updatedAt               DateTime                   @updatedAt
+  leadsOwned              Lead[]                     @relation("LeadOwner")
+  applicationsAsApplicant Application[]              @relation("ApplicationApplicant")
+  applicationsAssigned    Application[]              @relation("ApplicationCounselor")
+  applicantDocuments      Document[]                 @relation("DocumentApplicant")
+  uploadedDocuments       Document[]                 @relation("DocumentUploadedBy")
+  verifiedDocuments       Document[]                 @relation("DocumentVerifiedBy")
+  leadNotes               LeadNote[]                 @relation("LeadNoteAuthor")
+  contactReplies          ContactEnquiry[]           @relation("ContactEnquiryRepliedBy")
+  sessions                AuthSession[]
+  statusChanges           ApplicationStatusHistory[] @relation("StatusChangedBy")
+  activityLogs            ActivityLog[]              @relation("ActivityActor")
+
+  @@index([role, status])
+  @@index([createdAt])
+}
+
+model AuthSession {
+  id        String   @id @default(uuid())
+  token     String   @unique
+  userId    String
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, expiresAt])
+}
+
+model Department {
+  id              String             @id @default(uuid())
+  slug            String             @unique
+  name            String
+  description     String?
+  sortOrder       Int                @default(0)
+  isActive        Boolean            @default(true)
+  createdAt       DateTime           @default(now())
+  updatedAt       DateTime           @updatedAt
+  programs        Program[]
+  specializations Specialization[]
+
+  @@index([sortOrder, isActive])
+}
+
+model Specialization {
+  id           String                @id @default(uuid())
+  slug         String                @unique
+  name         String
+  description  String?
+  departmentId String?
+  isActive     Boolean               @default(true)
+  createdAt    DateTime              @default(now())
+  updatedAt    DateTime              @updatedAt
+  department   Department?           @relation(fields: [departmentId], references: [id], onDelete: SetNull)
+  programs     ProgramSpecialization[]
+
+  @@index([departmentId, isActive])
+}
+
+model Program {
+  id                   String                  @id @default(uuid())
+  slug                 String                  @unique
+  title                String
+  shortDescription     String?
+  departmentId         String?
+  level                CourseLevel
+  mode                 String?
+  fullDescription      String?
+  highlights           Json?                   @db.JsonB
+  eligibility          String?
+  curriculum           Json?                   @db.JsonB
+  outcomes             Json?                   @db.JsonB
+  facilities           Json?                   @db.JsonB
+  faqs                 Json?                   @db.JsonB
+  seoTitle             String?
+  seoDescription       String?
+  metadata             Json?                   @db.JsonB
+  isFeatured           Boolean                 @default(false)
+  durationMonths       Int
+  tuitionCents         Int?
+  isActive             Boolean                 @default(true)
+  createdAt            DateTime                @default(now())
+  updatedAt            DateTime                @updatedAt
+  department           Department?             @relation(fields: [departmentId], references: [id], onDelete: SetNull)
+  specializations      ProgramSpecialization[]
+  leads                Lead[]
+  applicants           Applicant[]
+  intakes              Intake[]
+  applications         Application[]
+  scholarshipInquiries ScholarshipInquiry[]
+
+  @@index([departmentId, level, isActive])
+  @@index([slug, isActive])
+}
+
+model ProgramSpecialization {
+  programId        String
+  specializationId String
+  isPrimary        Boolean        @default(true)
+  sortOrder        Int            @default(0)
+  createdAt        DateTime       @default(now())
+  program          Program        @relation(fields: [programId], references: [id], onDelete: Cascade)
+  specialization   Specialization @relation(fields: [specializationId], references: [id], onDelete: Cascade)
+
+  @@id([programId, specializationId])
+  @@index([specializationId, isPrimary])
+}
+
+model Intake {
+  id                  String        @id @default(uuid())
+  programId           String
+  termCode            String
+  startsOn            DateTime
+  endsOn              DateTime
+  applicationDeadline DateTime
+  isOpen              Boolean       @default(true)
+  createdAt           DateTime      @default(now())
+  updatedAt           DateTime      @updatedAt
+  program             Program       @relation(fields: [programId], references: [id], onDelete: Restrict)
+  applications        Application[]
+
+  @@unique([programId, termCode])
+  @@index([isOpen, applicationDeadline])
+}
+
+model Lead {
+  id                String      @id @default(uuid())
+  firstName         String
+  lastName          String
+  email             String
+  phone             String?
+  source            LeadSource
+  status            LeadStatus  @default(NEW)
+  intendedProgramId String?
+  ownerCounselorId  String?
+  notes             LeadNote[]
+  aiScore           Int?
+  scholarship          ScholarshipInquiry?
+  programFinder        ProgramFinderSubmission?
+  contactEnquiry       ContactEnquiry?
+  careerApplication    CareerApplication?
+  nextFollowUpAt    DateTime?
+  convertedAt       DateTime?
+  createdAt         DateTime    @default(now())
+  updatedAt         DateTime    @updatedAt
+  intendedProgram   Program?    @relation(fields: [intendedProgramId], references: [id], onDelete: SetNull)
+  ownerCounselor    User?       @relation("LeadOwner", fields: [ownerCounselorId], references: [id], onDelete: SetNull)
+  applicant         Applicant?
+  applications      Application[]
+
+  @@index([email])
+  @@index([status, ownerCounselorId, updatedAt])
+  @@index([intendedProgramId, status])
+}
+
+model Applicant {
+  id                String            @id @default(uuid())
+  leadId            String            @unique
+  programId         String
+  applicationStatus ApplicationStatus @default(DRAFT)
+  submittedAt       DateTime?
+  reviewedAt        DateTime?
+  reviewerNotes     String?
+  createdAt         DateTime          @default(now())
+  updatedAt         DateTime          @updatedAt
+  lead              Lead              @relation(fields: [leadId], references: [id], onDelete: Cascade)
+  program           Program           @relation(fields: [programId], references: [id], onDelete: Restrict)
+  enrollment        Enrollment?
+
+  @@index([programId, applicationStatus])
+}
+
+model Application {
+  id                  String                     @id @default(uuid())
+  applicationNo       BigInt                     @unique @default(autoincrement())
+  applicantUserId     String
+  leadId              String?
+  programId           String
+  intakeId            String
+  assignedCounselorId String?
+  status              ApplicationStatus          @default(DRAFT)
+  submittedAt         DateTime?
+  decidedAt           DateTime?
+  version             Int                        @default(1)
+  createdAt           DateTime                   @default(now())
+  updatedAt           DateTime                   @updatedAt
+  applicant           User                       @relation("ApplicationApplicant", fields: [applicantUserId], references: [id], onDelete: Restrict)
+  lead                Lead?                      @relation(fields: [leadId], references: [id], onDelete: SetNull)
+  program             Program                    @relation(fields: [programId], references: [id], onDelete: Restrict)
+  intake              Intake                     @relation(fields: [intakeId], references: [id], onDelete: Restrict)
+  assignedCounselor   User?                      @relation("ApplicationCounselor", fields: [assignedCounselorId], references: [id], onDelete: SetNull)
+  formData            ApplicationFormData?
+  stepProgress        ApplicationStepProgress[]
+  documents           Document[]
+  statusHistory       ApplicationStatusHistory[]
+
+  @@unique([applicantUserId, intakeId])
+  @@index([status, updatedAt])
+  @@index([assignedCounselorId, status, updatedAt])
+  @@index([programId, intakeId, status])
+}
+
+model ApplicationFormData {
+  applicationId String               @id
+  schemaVersion Int                  @default(1)
+  lastSavedStep ApplicationStepCode?
+  stepsData     Json                 @db.JsonB
+  createdAt     DateTime             @default(now())
+  updatedAt     DateTime             @updatedAt
+  application   Application          @relation(fields: [applicationId], references: [id], onDelete: Cascade)
+
+  @@index([stepsData], type: Gin)
+}
+
+model ApplicationStepProgress {
+  id            String              @id @default(uuid())
+  applicationId String
+  stepCode      ApplicationStepCode
+  isCompleted   Boolean             @default(false)
+  completedAt   DateTime?
+  updatedAt     DateTime            @updatedAt
+  application   Application         @relation(fields: [applicationId], references: [id], onDelete: Cascade)
+
+  @@unique([applicationId, stepCode])
+  @@index([applicationId, isCompleted])
+}
+
+model Document {
+  id               String         @id @default(uuid())
+  applicationId    String
+  applicantUserId  String
+  type             DocumentType
+  status           DocumentStatus @default(PENDING)
+  storageKey       String         @unique
+  originalFileName String
+  mimeType         String
+  sizeBytes        Int
+  sha256           String
+  uploadedByUserId String?
+  verifiedByUserId String?
+  verifiedAt       DateTime?
+  rejectionReason  String?
+  createdAt        DateTime       @default(now())
+  updatedAt        DateTime       @updatedAt
+  application      Application    @relation(fields: [applicationId], references: [id], onDelete: Cascade)
+  applicant        User           @relation("DocumentApplicant", fields: [applicantUserId], references: [id], onDelete: Restrict)
+  uploadedBy       User?          @relation("DocumentUploadedBy", fields: [uploadedByUserId], references: [id], onDelete: SetNull)
+  verifiedBy       User?          @relation("DocumentVerifiedBy", fields: [verifiedByUserId], references: [id], onDelete: SetNull)
+
+  @@index([applicationId, type, status])
+  @@index([applicantUserId, createdAt])
+}
+
+model ApplicationStatusHistory {
+  id              String            @id @default(uuid())
+  applicationId   String
+  fromStatus      ApplicationStatus?
+  toStatus        ApplicationStatus
+  changedByUserId String?
+  reason          String?
+  metadata        Json?             @db.JsonB
+  changedAt       DateTime          @default(now())
+  application     Application       @relation(fields: [applicationId], references: [id], onDelete: Cascade)
+  changedBy       User?             @relation("StatusChangedBy", fields: [changedByUserId], references: [id], onDelete: SetNull)
+
+  @@index([applicationId, changedAt])
+  @@index([toStatus, changedAt])
+}
+
+model ActivityLog {
+  id         BigInt           @id @default(autoincrement())
+  occurredAt DateTime         @default(now())
+  actorType  ActivityActorType
+  actorUserId String?
+  entityType ActivityEntityType
+  entityId   String
+  action     String
+  metadata   Json?            @db.JsonB
+  ipAddress  String?
+  userAgent  String?
+  actor      User?            @relation("ActivityActor", fields: [actorUserId], references: [id], onDelete: SetNull)
+
+  @@index([entityType, entityId, occurredAt])
+  @@index([actorUserId, occurredAt])
+  @@index([occurredAt])
+}
+
+model Enrollment {
+  id                 String           @id @default(uuid())
+  applicantId        String           @unique
+  status             EnrollmentStatus @default(ACTIVE)
+  startTerm          String
+  expectedGradTerm   String?
+  createdAt          DateTime         @default(now())
+  updatedAt          DateTime         @updatedAt
+  applicant          Applicant        @relation(fields: [applicantId], references: [id], onDelete: Cascade)
+}
+
+model Event {
+  id              String              @id @default(uuid())
+  slug            String              @unique
+  title           String
+  description     String
+  image           String
+  venue           String?
+  images          String[]
+  driveGalleryUrl String?
+  startDate       DateTime
+  endDate         DateTime?
+  category        String
+  isFeatured      Boolean             @default(false)
+  createdAt       DateTime            @default(now())
+  updatedAt       DateTime            @updatedAt
+  registrations   EventRegistration[]
+  speakers        EventSpeaker[]
+
+  @@index([startDate])
+  @@index([endDate])
+  @@index([category])
+  @@index([isFeatured, startDate])
+  @@index([slug])
+}
+
+model EventSpeaker {
+  id           String   @id @default(uuid())
+  eventId      String
+  name         String
+  photo        String?
+  bio          String?
+  linkedin     String?
+  twitter      String?
+  company      String?
+  designation  String?
+  displayOrder Int      @default(0)
+  createdAt    DateTime @default(now())
+  event        Event    @relation(fields: [eventId], references: [id], onDelete: Cascade)
+
+  @@index([eventId, displayOrder])
+}
+
+model EventRegistration {
+  id        String   @id @default(uuid())
+  eventId   String
+  fullName  String
+  email     String
+  phone     String?
+  createdAt DateTime @default(now())
+  event     Event    @relation(fields: [eventId], references: [id], onDelete: Cascade)
+
+  @@unique([eventId, email])
+}
+
+model BlogPost {
+  id          String        @id @default(uuid())
+  slug        String        @unique
+  title       String
+  excerpt     String
+  content     String
+  authorName  String
+  status      ContentStatus @default(DRAFT)
+  publishedAt DateTime?
+  createdAt   DateTime      @default(now())
+  updatedAt   DateTime      @updatedAt
+
+  @@index([status, publishedAt])
+}
+
+model Announcement {
+  id          String            @id @default(uuid())
+  title       String
+  body        String
+  level       AnnouncementLevel @default(INFO)
+  pinned      Boolean           @default(false)
+  publishFrom DateTime          @default(now())
+  publishTo   DateTime?
+  createdAt   DateTime          @default(now())
+  updatedAt   DateTime          @updatedAt
+
+  @@index([pinned, publishFrom])
+}
+
+model LeadNote {
+  id        String   @id @default(uuid())
+  leadId    String
+  authorId  String?
+  body      String
+  createdAt DateTime @default(now())
+  lead      Lead     @relation(fields: [leadId], references: [id], onDelete: Cascade)
+  author    User?    @relation("LeadNoteAuthor", fields: [authorId], references: [id], onDelete: SetNull)
+
+  @@index([leadId, createdAt])
+}
+
+model ScholarshipInquiry {
+  id                String   @id @default(uuid())
+  leadId            String   @unique
+  programId         String?
+  familyIncomeLPA   Float
+  academicScore     Float
+  category          String
+  eligibilityResult Json?    @db.JsonB
+  aiScore           Int?
+  createdAt         DateTime @default(now())
+  lead              Lead     @relation(fields: [leadId], references: [id], onDelete: Cascade)
+  program           Program? @relation(fields: [programId], references: [id], onDelete: SetNull)
+}
+
+model ProgramFinderSubmission {
+  id                  String   @id @default(uuid())
+  leadId              String   @unique
+  interests           String[]
+  careers             String[]
+  academicPreference  String?
+  preferredMode       String?
+  budgetRange         String?
+  recommendedPrograms Json?    @db.JsonB
+  createdAt           DateTime @default(now())
+  lead                Lead     @relation(fields: [leadId], references: [id], onDelete: Cascade)
+}
+
+model ContactEnquiry {
+  id          String    @id @default(uuid())
+  leadId      String    @unique
+  subject     String
+  message     String
+  repliedAt   DateTime?
+  repliedById String?
+  createdAt   DateTime  @default(now())
+  lead        Lead      @relation(fields: [leadId], references: [id], onDelete: Cascade)
+  repliedBy   User?     @relation("ContactEnquiryRepliedBy", fields: [repliedById], references: [id], onDelete: SetNull)
+}
+
+model PlacementRecord {
+  id           String   @id @default(uuid())
+  name         String
+  year         Int
+  company      String
+  packageValue Float
+  packageLabel String
+  imageSrc     String?
+  imageAlt     String?
+  isShowcase   Boolean  @default(false)
+  sortOrder    Int      @default(0)
+  isActive     Boolean  @default(true)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  @@index([isActive, year, packageValue])
+  @@index([isShowcase, sortOrder])
+}
+
+model PlacementTrendYear {
+  id                String   @id @default(uuid())
+  year              String   @unique
+  companiesVisited  Int
+  highestPackageLpa Float
+  averagePackageLpa Float
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+}
+
+model PlacementHighlightBanner {
+  id           String   @id @default(uuid())
+  badgeText    String
+  studentName  String
+  company      String
+  packageLabel String
+  batchYear    String
+  imageSrc     String
+  imageAlt     String
+  isActive     Boolean  @default(true)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+}
+
+model PlacementKeyStat {
+  id        String   @id @default(uuid())
+  value     String
+  label     String
+  sortOrder Int      @default(0)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([sortOrder])
+}
+
+model CareerApplication {
+  id              String   @id @default(uuid())
+  leadId          String   @unique
+  position        String
+  qualifications  String
+  yearsExperience Int
+  coverLetter     String?
+  resumeFileId    String?
+  resumeUrl       String?
+  resumeFileName  String?
+  createdAt       DateTime @default(now())
+  lead            Lead     @relation(fields: [leadId], references: [id], onDelete: Cascade)
+
+  @@index([createdAt])
+}

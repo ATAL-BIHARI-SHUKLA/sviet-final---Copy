@@ -1,0 +1,10 @@
+# Large local media archive is not part of the Vercel deployment.
+
+sviet-media.zip
+
+# Local-only files
+
+.env\*
+.vercel
+node_modules
+.next
