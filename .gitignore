@@ -55,8 +55,9 @@ sviet-*.json
 *-service-account*.json
 
 # assets
-assets/
-/public/assets/
+# Ignoring videos folder for now to send assets in two halves
+/public/assets/img/
+# /public/assets/videos/
 
 # zip files
 *.zip
